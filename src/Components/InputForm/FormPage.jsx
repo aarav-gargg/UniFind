@@ -5,48 +5,91 @@ import MenuItem from '@mui/material/MenuItem';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import TextField from '@mui/material/TextField';
+
 
 function FormPage() {
-  const [gender, setgender] = React.useState('');
+  const [course, setcourse] = React.useState('');
 
-  const handleChange = (event) => {
-    setAge(event.target.value);
+  const handlecourse = (event) => {
+    setcourse(event.target.value);
   };
+
+  const [quota, setQuota] = React.useState('');
+
+  const handleQuota = (event) => {
+    setQuota(event.target.value);
+  };
+
+  const [gender, setGender] = React.useState('');
+
+  const handleGender = (event) => {
+    setGender(event.target.value);
+  };
+
   return (
     <>
-    <div className='container'>
-      <div className="content">
-        <h1>
-        Get personalized college predictions tailored to you!!!
-        </h1>
+      <div className='container'>
+        <div className="content">
+          <h1>
+            Get personalized college predictions tailored to you!!!
+          </h1>
+          <p>Unlock Your Future with Our College Predictor! Discover your dream college effortlessly with our state-of-the-art AI-powered tool. Just enter your details, and let our smart algorithm match you with the best colleges based on your preferences and scores. Say goodbye to uncertainty and hello to a brighter future—your perfect college is just a click away.</p>
+        </div>
       </div>
-    </div>
-    <div className="form">
-    <select name="country"><option value="B.tech" selected>B.E./B.tech</option></select>
-    <input type="number" placeholder='Enter your JEE RANK'/>
-    <select name="country"><option value="gen" selected>General</option> <option value="obc">OBC</option>
-    <option value="sc">SC</option>  <option value="st">ST</option> <option value="ews">Economically weaker section</option>
-    <option value="pwd">PWD</option>
-    </select>
-    <FormControl sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-helper-label">Gender</InputLabel>
+      <div className="circle">
+      <div className="form">
+        <h2>Predict your College now</h2>
+        <div className='course'>
+          <InputLabel >Select your Course</InputLabel>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+            value={course}
+            label="Age"
+            onChange={handlecourse}
+            className='courseSel'
+          >
+            <MenuItem value={"be"}>B.E./B.tech</MenuItem>
+          </Select>
+        </div>
+        <span>Enter your JEE mains score/rank</span>
+        <TextField fullWidth label="Rank" id="fullWidth" type='number' className='rank' />
+        <span>Category</span>
+        <Select
+          labelId="demo-simple-select-filled-label"
+          id="demo-simple-select-filled"
+          value={quota}
+          onChange={handleQuota}
+          className='quota'
+        >
+          <MenuItem value="Gen">
+            <em>General</em>
+          </MenuItem>
+          <MenuItem value={"OBC"}>OBC</MenuItem>
+          <MenuItem value={"ST"}>ST</MenuItem>
+          <MenuItem value={"SC"}>SC</MenuItem>
+          <MenuItem value={"EWS"}>Economically weaker section</MenuItem>
+          <MenuItem value={"PWD"}>PWD</MenuItem>
+        </Select>
+        <span>Gender</span>
         <Select
           labelId="demo-simple-select-helper-label"
           id="demo-simple-select-helper"
           value={gender}
           label="Age"
-          onChange={handleChange}
+          onChange={handleGender}
+          className='gender'
         >
           <MenuItem value={"male"}>Male</MenuItem>
           <MenuItem value={"Female"}>Female</MenuItem>
           <MenuItem value={"o"}>Others</MenuItem>
         </Select>
-      </FormControl>
-
-    </div>
+      </div>
+      </div>
     </>
-    
+
   )
 }
 
-export default FormPage
+export default FormPage;
