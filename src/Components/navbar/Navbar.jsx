@@ -9,8 +9,10 @@ function Navbar() {
     <>
     <header>
         <nav class="navigation max-width2 m-auto">
-            <div class="left">Unifind
-                <ul>
+            <div class="right">Unifind
+            </div>
+            <div className="left">
+            <ul>
                     <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/Contact">Contact</Link></li>
                     <li><Link to="/Articles">Articles</Link></li>
