@@ -1,6 +1,6 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
-import Navbar from './Components/navbar/Navbar';
+// import Navbar from './Components/navbar/Navbar';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import FormPage from './Components/InputForm/FormPage';
 import Layout from './Layout';
@@ -8,6 +8,7 @@ import Layout from './Layout';
 import Contact from './Components/contact/Contact';
 import Home from './Components/home/Home';
 import Articles from './Components/articles/Articles';
+import College from './Components/collegePreview/College';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      {/* <College/> */}
     </>
   );
 }

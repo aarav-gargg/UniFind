@@ -1,6 +1,7 @@
 import * as React from 'react';
 import "./navbar.css"
 import { Link } from 'react-router-dom';
+import { Paper } from '@mui/material';
 
 
 
@@ -8,8 +9,8 @@ function Navbar() {
   return (
     <>
     <header>
-        <nav class="navigation max-width2 m-auto">
-            <div class="right">Unifind
+        <nav className="navigation ">
+            <div className="right">Unifind
             </div>
             <div className="left">
             <ul>
