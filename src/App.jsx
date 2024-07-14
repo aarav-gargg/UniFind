@@ -8,7 +8,7 @@ import Layout from './Layout';
 import Contact from './Components/contact/Contact';
 import Home from './Components/home/Home';
 import Articles from './Components/articles/Articles';
-// import College from './Components/collegePreview/College';
+import College from './Components/collegePreview/College';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,8 +25,8 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
-      <RouterProvider router={router} />
-      {/* <College/> */}
+      {/* <RouterProvider router={router} /> */}
+       <College/>
     </>
   );
 }
