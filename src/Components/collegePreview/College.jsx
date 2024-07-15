@@ -13,6 +13,7 @@ const Item = styled('div')(({ theme }) => ({
 
 function College() {
   return (
+    <>
     <div className='container1'>
       <Grid container spacing={4}>
         <Grid item xs={12} sx={{ textAlign: 'center', marginBottom: '20px' }}>
@@ -127,7 +128,7 @@ function College() {
           <Item>Review</Item>
         </Grid>
       </Grid>
-    </div>
+    </div></>
   );
 }
 

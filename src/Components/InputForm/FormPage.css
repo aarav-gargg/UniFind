@@ -53,6 +53,7 @@
   flex-direction: column;
   margin: 4vh 15vw;
   font-family: "Space Grotesk", sans-serif;
+  color: rgb(0, 0, 0);
 }
 .form .course{
   margin:2vh 0;
@@ -83,38 +84,8 @@
   margin-bottom:2vh;
   margin-top: 1vh;
 }
-
-/* .circle{
-  width:70vw;
-  margin: auto;
-  margin-top: 3vh;
-  background: #e0dddd;
+.course{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  flex-direction: column;
 }
-
-.circle::before{
-  content: "";
-   background: rgba(0,0,0,0.6);
-  border-radius: 50%;
-  filter: blur(18px);
-  width: 100%;
-  height: 60px;
-  z-index: -1;
-  position: absolute;
-  top:-40px;
-}
-
-.circle::after{
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  background: rgba(0,0,0,0.6);
-  bottom: -40px;
-  z-index: -1;
-  filter: blur(10px);
-} */
 

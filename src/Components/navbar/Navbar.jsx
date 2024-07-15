@@ -1,7 +1,8 @@
 import * as React from 'react';
 import "./navbar.css"
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Paper } from '@mui/material';
+import { Style } from '@mui/icons-material';
 
 
 
@@ -14,9 +15,9 @@ function Navbar() {
             </div>
             <div className="left">
             <ul>
-                    <li><Link to="/Home">Home</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
-                    <li><Link to="/Articles">Articles</Link></li>
+                    <li><NavLink activeClassName="active" to="/Home">Home</NavLink></li>
+                    <li><NavLink activeClassName="active" to="/Contact">Contact</NavLink></li>
+                    <li><NavLink activeClassName="active" to="/Articles">Articles</NavLink></li>
                 </ul>
             </div>
         </nav>

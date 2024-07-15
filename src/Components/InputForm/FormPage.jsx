@@ -86,7 +86,7 @@ function FormPage() {
       <div className="form">
         <h2>Predict your College now</h2>
         <div className='course'>
-          <InputLabel >Select your Course</InputLabel>
+          <span >Select your Course</span>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
@@ -130,7 +130,7 @@ function FormPage() {
           <MenuItem value={"Female"}>Female</MenuItem>
           <MenuItem value={"o"}>Others</MenuItem>
         </Select>
-        <InputLabel id="demo-multiple-name-label">Domicile State</InputLabel>
+        <span>Domicile State</span>
         <Select
           labelId="demo-multiple-name-label"
           id="demo-multiple-name"
