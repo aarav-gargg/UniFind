@@ -68,7 +68,7 @@ function College() {
       </Grid>
 
       <div className="dashboard">
-        <div className="card">
+        <div className="card primary">
           <img src="more.svg" className="more" alt="More" />
           <h2>Refunds</h2>
           <h3>This month</h3>
@@ -80,20 +80,20 @@ function College() {
           <h3>This month</h3>
           <var>50k<abbr>USD</abbr></var>
         </div>
-        <div className="card">
+        <div className="card primary">
           <img src="more.svg" className="more" alt="More" />
           <h2>Profit</h2>
           <h3>This month</h3>
           <var>11k<abbr>USD</abbr></var>
         </div>
-        <div className="card">
+        <div className="card primary">
           <h2>Progress</h2>
           <div className="card-progress">
             <progress value="50" max="100"></progress>
             <var>16k<abbr>TASKS</abbr></var>
           </div>
         </div>
-        <div className="card">
+        <div className="card primary">
           <h2>Products</h2>
           <div className="card-icon">
             <img src="cog.svg" alt="Cog" />
@@ -104,7 +104,7 @@ function College() {
             <img src="chevron.svg" alt="Chevron" />
           </div>
         </div>
-        <div className="card">
+        <div className="card primary">
           <h2>Reviews</h2>
           <div className="card-icon">
             <img src="heart.svg" alt="Heart" />

@@ -18,6 +18,7 @@ const router = createBrowserRouter(
       <Route path='Contact' element={<Contact/>} />
       <Route path='Articles' element={<Articles/>}/>
       {/* <Route path='Login' element={<Login />} /> */}
+      <Route path='college' element={<College/>}/>
     </Route>
   )
 );
@@ -25,8 +26,8 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
-      {/* <RouterProvider router={router} /> */}
-       <College/>
+      <RouterProvider router={router} />
+       {/* <College/> */}
     </>
   );
 }
