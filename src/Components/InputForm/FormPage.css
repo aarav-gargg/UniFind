@@ -49,8 +49,11 @@
 }
 
 .form {
+  
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 4vh 15vw;
   font-family: "Space Grotesk", sans-serif;
   color: rgb(0, 0, 0);
@@ -89,3 +92,6 @@
   flex-direction: column;
 }
 
+.button71{
+  color: rgb(109, 128, 212);
+}

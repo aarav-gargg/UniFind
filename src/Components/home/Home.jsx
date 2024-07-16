@@ -1,20 +1,22 @@
-import React from 'react'
-import { useState , useEffect } from 'react';
+// import React from 'react'
+// import { useState , useEffect } from 'react';
+import Carousel from "./Carousel"
 import "./Home.css"
-import Navbar from '../navbar/Navbar';
+// import "./script"
+// import Navbar from '../navbar/Navbar';
 
 const Home = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  // const [scrollPosition, setScrollPosition] = useState(0);
 
-  const handleScroll = () => setScrollPosition(window.scrollY);
+  // const handleScroll = () => setScrollPosition(window.scrollY);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll, { passive: true });
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
   return (
     <>
     <div className="page parallax-1-page">
@@ -59,6 +61,8 @@ const Home = () => {
         the range, and in some variations also altitude to a target.
       </p>
     </section>
+    <Carousel/>
+
   </div>
     </>
   )

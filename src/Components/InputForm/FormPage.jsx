@@ -9,6 +9,7 @@ import Select from '@mui/material/Select';
 import TextField from '@mui/material/TextField';
 // import Chip from '@mui/material/Chip';
 import OutlinedInput from '@mui/material/OutlinedInput';
+import { Button } from '@mui/material';
 
 function getStyles(name, personName, theme) {
   return {
@@ -122,7 +123,7 @@ function FormPage() {
           labelId="demo-simple-select-helper-label"
           id="demo-simple-select-helper"
           value={gender}
-          label="Age"
+          label="Gender"
           onChange={handleGender}
           className='gender'
         >
@@ -150,6 +151,8 @@ function FormPage() {
             </MenuItem>
           ))}
         </Select>
+        <Button variant='contained' sx={{backgroundColor:' rgb(109, 128, 212)' , width:'30%'
+        }}>Submit</Button>
       </div>
       </div>
     </>

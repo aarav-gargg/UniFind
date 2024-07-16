@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
 // import Navbar from './Components/navbar/Navbar';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
@@ -26,8 +26,8 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
-      {/* <RouterProvider router={router} /> */}
-      <College/>
+      <RouterProvider router={router} />
+      {/* <Home/> */}
     </>
   );
 }
