@@ -8,7 +8,7 @@ const Item = styled('div')(({ theme }) => ({
   textAlign: 'center',
   boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
   backgroundColor:'whitesmoke',
-  color:'#d3b1c4'
+  color:'black'
 }));
 
 function College() {
@@ -20,34 +20,26 @@ function College() {
           <Typography variant="h2" className='heading1'>College Name</Typography>
         </Grid>
 
-        <Grid item xs={12}>
-          <Item>
+        <Grid item xs={12} className='image'>
             <img src='http://res.cloudinary.com/ds23bhkcd/image/upload/v1713597990/bqk2xmrvw2erp6ly60sv.jpg'
               alt="College"
               style={{ objectFit: 'cover', borderRadius: '10px', height: '40vh', width: '100%' }} />
-          </Item>
         </Grid>
 
         <Grid item xs={12}>
-          <Item>
             <Typography variant="body1" className='description'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vero tenetur, dolore exercitationem magni accusamus adipisci aliquam molestiae. Obcaecati magnam ipsam voluptatem facere corporis vel eligendi eius nobis omnis ratione iure id, quasi recusandae aliquid quae animi maiores numquam quam accusamus! Voluptatum neque soluta nisi officiis, facere alias vel illum.
             </Typography>
-          </Item>
         </Grid>
 
         <Grid item xs={6}>
-          <Item>
             <Typography variant="h6" className='fee'>330k/year</Typography>
-          </Item>
         </Grid>
 
         <Grid item xs={6}>
-          <Item>
             <Typography variant="body1" className='additional-info'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nemo ratione. Esse dolor ratione doloremque repellat ab iusto quaerat maxime.
             </Typography>
-          </Item>
         </Grid>
 
         <Grid item xs={12}>
