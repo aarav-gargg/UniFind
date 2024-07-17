@@ -15,9 +15,9 @@ function Navbar() {
             </div>
             <div className="left">
             <ul>
-                    <li><NavLink activeClassName="active" to="/Home">Home</NavLink></li>
-                    <li><NavLink activeClassName="active" to="/Contact">Contact</NavLink></li>
-                    <li><NavLink activeClassName="active" to="/Articles">Articles</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/Home">Home</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/Articles">Articles</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/CollegePredictor">College Predictor</NavLink></li>
                 </ul>
             </div>
         </nav>
