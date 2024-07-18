@@ -9,10 +9,12 @@ import Layout from './Layout';
 import Home from './Components/home/Home';
 import Articles from './Components/articles/Articles';
 import College from './Components/collegePreview/College';
+import CollegeDisplay from './Components/InputForm/CollegeDisplay';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
+      <Route path='' element={<Home/>}/>
       <Route path='Home' element={<Home />} />
       <Route path='CollegePredictor' element={<FormPage />} />
       <Route path='Articles' element={<Articles />} />
@@ -26,6 +28,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      {/* <CollegeDisplay/> */}
     </>
   );
 }

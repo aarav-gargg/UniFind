@@ -95,3 +95,8 @@
 .button71{
   color: rgb(109, 128, 212);
 }
+ 
+.collegeDisplay{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+}

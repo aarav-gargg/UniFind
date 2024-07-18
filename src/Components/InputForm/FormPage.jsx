@@ -10,6 +10,7 @@ import TextField from '@mui/material/TextField';
 // import Chip from '@mui/material/Chip';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import { Button } from '@mui/material';
+import CollegeDisplay from './CollegeDisplay';
 
 function getStyles(name, personName, theme) {
   return {
@@ -155,6 +156,15 @@ function FormPage() {
         }}>Submit</Button>
       </div>
       </div>
+      <div className='collegeDisplay'>
+        <CollegeDisplay/>
+        <CollegeDisplay/>
+        <CollegeDisplay/>
+        <CollegeDisplay/>
+      </div>
+      
+        
+
     </>
 
   )

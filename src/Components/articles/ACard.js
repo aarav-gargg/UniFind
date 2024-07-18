@@ -45,4 +45,4 @@ prevDom.onclick = function(){
     // runNextAuto = setTimeout(() => {
     //     next.click();
     // }, timeAutoNext)
-}
+//}//
