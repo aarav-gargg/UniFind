@@ -49,14 +49,18 @@
 }
 
 .form {
-  
+  padding:4vh;
+  border-radius: 3vh;
+  font-weight: bolder;
+  background-color: #ffdab9;
+  /* color: #fff; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 4vh 15vw;
   font-family: "Space Grotesk", sans-serif;
-  color: rgb(0, 0, 0);
+  
 }
 .form .course{
   margin:2vh 0;

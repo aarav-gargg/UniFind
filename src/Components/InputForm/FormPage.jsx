@@ -76,7 +76,7 @@ function FormPage() {
 
   return (
     <>
-      <div className='container'>
+      <div className='container' data-aos="fade-down"  data-aos-duration="1000">
         <div className="content">
           <h1>
             Get personalized college predictions tailored to you!!!
@@ -85,7 +85,7 @@ function FormPage() {
         </div>
       </div>
       <div className="circle">
-      <div className="form">
+      <div className="form" data-aos="fade-down"  data-aos-duration="1000">
         <h2>Predict your College now</h2>
         <div className='course'>
           <span >Select your Course</span>
@@ -101,7 +101,7 @@ function FormPage() {
           </Select>
         </div>
         <span>Enter your JEE mains score/rank</span>
-        <TextField fullWidth label="Rank" id="fullWidth" type='number' className='rank' />
+        <TextField fullWidth label="Rank" id="fullWidth" type='number' className='rank' variant='filled' />
         <span>Category</span>
         <Select
           labelId="demo-simple-select-filled-label"

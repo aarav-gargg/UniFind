@@ -97,6 +97,6 @@ header {
     font-weight: bold;
 }
 .active{
-    background-color: #9c9ad0;
+    border-bottom:4px solid #04003e ;
 }
 /* Ensuring the nav is slightly uplifted */

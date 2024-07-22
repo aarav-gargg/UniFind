@@ -16,14 +16,19 @@ function College() {
     <>
     <div className='container1'>
       <Grid container spacing={4}>
-        <Grid item xs={12} sx={{ textAlign: 'center', marginBottom: '20px' }}>
+        {/* <Grid item xs={12} sx={{ textAlign: 'center', marginBottom: '20px' }}>
           <Typography variant="h2" className='heading1'>College Name</Typography>
-        </Grid>
+        </Grid> */}
 
         <Grid item xs={12} className='image'>
-            <img src='http://res.cloudinary.com/ds23bhkcd/image/upload/v1713597990/bqk2xmrvw2erp6ly60sv.jpg'
-              alt="College"
-              style={{ objectFit: 'cover', borderRadius: '10px', height: '40vh', width: '100%' }} />
+        <div className='container' data-aos="fade-down"  data-aos-duration="1000">
+        <div className="content">
+          <h1>
+            Get personalized college predictions tailored to you!!!
+          </h1>
+          <p>Unlock Your Future with Our College Predictor! Discover your dream college effortlessly with our state-of-the-art AI-powered tool. Just enter your details, and let our smart algorithm match you with the best colleges based on your preferences and scores. Say goodbye to uncertainty and hello to a brighter future—your perfect college is just a click away.</p>
+        </div>
+      </div>
         </Grid>
 
         <Grid item xs={12}>

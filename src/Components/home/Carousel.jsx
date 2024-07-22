@@ -21,6 +21,7 @@ const Carousel = () => {
           key={index}
           className={`card1 ${activeCard === index ? 'active1' : ''}`}
           onClick={() => handleCardClick(index)}
+          data-aos="flip-left" data-aos-duration="1000"
         >
           <img className="background" src={item.src} alt={item.title} />
           <div className="card1-content">
