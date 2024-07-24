@@ -1,10 +1,9 @@
-UniFind is a web application designed to help university students find relevant information about their courses, professors, and campus resources. This repository contains the source code for UniFind.
+UniFind
+UniFind is a college predictor tool designed to help students in India predict their college admissions based on their JEE Main or JEE Advanced rank. This tool aims to provide accurate and helpful insights to students during their admission process.
 
 Features
-Course Information: Browse through detailed information about various courses offered by the university, including syllabus, prerequisites, and reviews from other students.
 
-Professor Ratings: View ratings and reviews for professors based on criteria such as teaching style, helpfulness, and clarity.
-
-Campus Resources: Explore a directory of campus resources such as libraries, labs, student organizations, and more.
-
-User Interaction: Users can contribute by adding reviews, updating course information, and rating professors.
+1. Predicts college admissions based on JEE Main or JEE Advanced ranks.
+2. Provides detailed information about potential colleges.
+3. User-friendly and intuitive interface.
+4. Regular updates with the latest data and algorithms.
