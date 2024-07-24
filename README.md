@@ -6,4 +6,4 @@ Features
 1. Predicts college admissions based on JEE Main or JEE Advanced ranks.
 2. Provides detailed information about potential colleges.
 3. User-friendly and intuitive interface.
-4. Regular updates with the latest data and algorithms.
+4. Regular updates with the latest data and algorithms
