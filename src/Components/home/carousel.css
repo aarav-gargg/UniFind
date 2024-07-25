@@ -1,0 +1,120 @@
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .container2 {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    width: 100vw;
+    max-width: fit-content;
+    margin: auto;
+    height: 30vh;
+    display: flex;
+    gap: 10px;
+
+    /* margin-inline: 50px; */
+  }
+  
+  .card1 {
+    min-width: 18vw;
+    height: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+  
+    display: flex;
+    /* align-items: flex-end; */
+    /* flex-grow: 1; */
+    cursor: pointer;
+    position: relative;
+    /* transition: flex-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1); */
+  
+    --transition-timing: 0.35s;
+  }
+  /* .card1.active {
+    flex-grow: 100;
+  } */
+  .card1:hover {
+    flex-grow: 7;
+  }
+  
+  .card1 > .background {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.6);
+    z-index: -1;
+    transition: var(--transition-timing) ease;
+  }
+  .card1:hover > .background {
+    filter: brightness(1.2);
+  }
+  
+  .card1 > .card1-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    overflow: hidden;
+    transition: var(--transition-timing);
+    z-index: 10;
+  }
+  .card1:hover > .card1-content {
+    inset: 20px;
+    top: auto;
+  }
+  
+  .card1-content > * {
+    transition: var(--transition-timing);
+  }
+  
+  .card1-content > .profile-image {
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .card1:hover .profile-image {
+    border: 1px solid rgb(110, 252, 205);
+  }
+  .profile-image > svg {
+    stroke: #fefefe;
+  }
+  .card1:hover .profile-image > svg {
+    stroke: rgb(110, 252, 205);
+  }
+  
+  .card1-content > .title {
+    white-space: pre;
+    margin-left: 10px;
+    translate: 0 100%;
+    opacity: 0;
+  }
+  .card1:hover .title {
+    opacity: 1;
+    translate: 0 0;
+  }
+  
+  .card1 > .backdrop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    z-index: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+  }
+  
