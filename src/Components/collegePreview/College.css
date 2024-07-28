@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color-bg: linear-gradient(60deg, #b9fff5d1, #ffffff, #bffeff);
+  --color-text: #000000;
+  --gradient: linear-gradient(45deg, #919090, #acacac, #ffffff);
+  --hover-scale: 1.05;
+  --transition-duration: 0.3s;
+}
+
+.container101 {
+  height: 62vh;
+  background: url("/projectPic.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.container101::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-text);
+}
+
+.headingTop {
+  font-size: 3.1rem;
+  color: #ffffff;
+}
+
+.container1 {
+  width: 80vw;
+  max-width: 80vw;
+  margin: auto;
+  max-height: fit-content;
+}
+
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.dashboard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 180px);
+  gap: 3vw;
+  margin: 5vh 0;
+}
+
+@media (min-width: 620px) {
+  .dashboard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--color-bg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform var(--transition-duration) ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(var(--hover-scale));
+}
+
+.card .more {
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  font-size: 16px;
+}
+
+.card h3 {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 16px;
+}
+
+.card var {
+  font-style: normal;
+  font-size: 38px;
+}
+
+.card var abbr {
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.card.primary {
+  background: var(--gradient);
+}
+
+.card-icon,
+.card-progress {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+
+.card-icon {
+  gap: 12px;
+  align-items: center;
+}
+
+.card-icon img:last-child {
+  margin-left: auto;
+}
+
+.card-progress {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card progress {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  height: 8px;
+}
+
+.card progress::-webkit-progress-bar {
+  background: rgb(255 255 255 / 6%);
+  border-radius: 10px;
+}
+
+.card progress::-webkit-progress-value {
+  background: var(--gradient);
+  border-radius: 10px;
+}
+
+.description {
+  border: 2px solid black;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fee,
+.additional-info {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-heading {
+  padding: 16px;
+}
