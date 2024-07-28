@@ -12,6 +12,7 @@ import Articles from './Components/articles/Articles';
 import College from './Components/collegePreview/College';
 import { useEffect } from 'react';
 import CollegeDisplay from './Components/InputForm/CollegeDisplay';
+import Team from './Components/Team/Team';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,7 +21,7 @@ const router = createBrowserRouter(
       <Route path='Home' element={<Home />} />
       <Route path='CollegePredictor' element={<FormPage />} />
       <Route path='Articles' element={<Articles />} />
-      {/* <Route path='Login' element={<Login />} /> */}
+      <Route path='OurTeam' element={<Team/>} />
       <Route path ='college' element={<College />} />
     </Route>
   )
@@ -35,6 +36,7 @@ function App() {
       <RouterProvider router={router} />
       {/* <CollegeDisplay/> */}
       {/* <College/> */}
+      {/* <Team></Team> */}
     </>
   );
 }
