@@ -7,8 +7,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 339472,
-      "Closing\nRank": 355689
+      "openingRank": 339472,
+      "closingRank": 355689
     },
     {
       "RoundNo": 2,
@@ -18,8 +18,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 119939,
-      "Closing\nRank": 143154
+      "openingRank": 119939,
+      "closingRank": 143154
     },
     {
       "RoundNo": 2,
@@ -29,8 +29,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 576077,
-      "Closing\nRank": 685981
+      "openingRank": 576077,
+      "closingRank": 685981
     },
     {
       "RoundNo": 2,
@@ -40,8 +40,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 163224,
-      "Closing\nRank": 163224
+      "openingRank": 163224,
+      "closingRank": 163224
     },
     {
       "RoundNo": 2,
@@ -51,8 +51,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 57060,
-      "Closing\nRank": 68109
+      "openingRank": 57060,
+      "closingRank": 68109
     },
     {
       "RoundNo": 2,
@@ -62,8 +62,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 278325,
-      "Closing\nRank": 288424
+      "openingRank": 278325,
+      "closingRank": 288424
     },
     {
       "RoundNo": 2,
@@ -73,8 +73,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 713144,
-      "Closing\nRank": 713144
+      "openingRank": 713144,
+      "closingRank": 713144
     },
     {
       "RoundNo": 2,
@@ -84,8 +84,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 356435,
-      "Closing\nRank": 358780
+      "openingRank": 356435,
+      "closingRank": 358780
     },
     {
       "RoundNo": 2,
@@ -95,8 +95,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 135741,
-      "Closing\nRank": 150081
+      "openingRank": 135741,
+      "closingRank": 150081
     },
     {
       "RoundNo": 2,
@@ -106,8 +106,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 600735,
-      "Closing\nRank": 759434
+      "openingRank": 600735,
+      "closingRank": 759434
     },
     {
       "RoundNo": 2,
@@ -117,8 +117,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 66014,
-      "Closing\nRank": 70604
+      "openingRank": 66014,
+      "closingRank": 70604
     },
     {
       "RoundNo": 2,
@@ -128,8 +128,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 303323,
-      "Closing\nRank": 303323
+      "openingRank": 303323,
+      "closingRank": 303323
     },
     {
       "RoundNo": 2,
@@ -139,8 +139,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 280128,
-      "Closing\nRank": 328034
+      "openingRank": 280128,
+      "closingRank": 328034
     },
     {
       "RoundNo": 2,
@@ -150,8 +150,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 175732,
-      "Closing\nRank": 258897
+      "openingRank": 175732,
+      "closingRank": 258897
     },
     {
       "RoundNo": 2,
@@ -161,8 +161,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 76180,
-      "Closing\nRank": 87850
+      "openingRank": 76180,
+      "closingRank": 87850
     },
     {
       "RoundNo": 2,
@@ -172,8 +172,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 328937,
-      "Closing\nRank": 328937
+      "openingRank": 328937,
+      "closingRank": 328937
     },
     {
       "RoundNo": 2,
@@ -183,8 +183,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 521367,
-      "Closing\nRank": 521367
+      "openingRank": 521367,
+      "closingRank": 521367
     },
     {
       "RoundNo": 2,
@@ -194,8 +194,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 221825,
-      "Closing\nRank": 1238683
+      "openingRank": 221825,
+      "closingRank": 1238683
     },
     {
       "RoundNo": 2,
@@ -205,8 +205,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 156077,
-      "Closing\nRank": 217899
+      "openingRank": 156077,
+      "closingRank": 217899
     },
     {
       "RoundNo": 2,
@@ -216,8 +216,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 101849,
-      "Closing\nRank": 101849
+      "openingRank": 101849,
+      "closingRank": 101849
     },
     {
       "RoundNo": 2,
@@ -227,8 +227,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 75345,
-      "Closing\nRank": 81577
+      "openingRank": 75345,
+      "closingRank": 81577
     },
     {
       "RoundNo": 2,
@@ -238,8 +238,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 374181,
-      "Closing\nRank": 381555
+      "openingRank": 374181,
+      "closingRank": 381555
     },
     {
       "RoundNo": 2,
@@ -249,8 +249,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 377875,
-      "Closing\nRank": 477370
+      "openingRank": 377875,
+      "closingRank": 477370
     },
     {
       "RoundNo": 2,
@@ -260,8 +260,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 143577,
-      "Closing\nRank": 165444
+      "openingRank": 143577,
+      "closingRank": 165444
     },
     {
       "RoundNo": 2,
@@ -271,8 +271,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 702987,
-      "Closing\nRank": 962743
+      "openingRank": 702987,
+      "closingRank": 962743
     },
     {
       "RoundNo": 2,
@@ -282,8 +282,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 76244,
-      "Closing\nRank": 76244
+      "openingRank": 76244,
+      "closingRank": 76244
     },
     {
       "RoundNo": 2,
@@ -293,8 +293,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 69057,
-      "Closing\nRank": 73960
+      "openingRank": 69057,
+      "closingRank": 73960
     },
     {
       "RoundNo": 2,
@@ -304,8 +304,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 309173,
-      "Closing\nRank": 320967
+      "openingRank": 309173,
+      "closingRank": 320967
     },
     {
       "RoundNo": 2,
@@ -315,8 +315,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "AI",
       "Category": "NOKM",
-      "Opening\nRank": 158319,
-      "Closing\nRank": 158319
+      "openingRank": 158319,
+      "closingRank": 158319
     },
     {
       "RoundNo": 2,
@@ -326,8 +326,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 256841,
-      "Closing\nRank": 355859
+      "openingRank": 256841,
+      "closingRank": 355859
     },
     {
       "RoundNo": 2,
@@ -337,8 +337,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 102447,
-      "Closing\nRank": 137197
+      "openingRank": 102447,
+      "closingRank": 137197
     },
     {
       "RoundNo": 2,
@@ -348,8 +348,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 519133,
-      "Closing\nRank": 698525
+      "openingRank": 519133,
+      "closingRank": 698525
     },
     {
       "RoundNo": 2,
@@ -359,8 +359,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 67501,
-      "Closing\nRank": 67501
+      "openingRank": 67501,
+      "closingRank": 67501
     },
     {
       "RoundNo": 2,
@@ -370,8 +370,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 45917,
-      "Closing\nRank": 66378
+      "openingRank": 45917,
+      "closingRank": 66378
     },
     {
       "RoundNo": 2,
@@ -381,8 +381,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 286577,
-      "Closing\nRank": 300091
+      "openingRank": 286577,
+      "closingRank": 300091
     },
     {
       "RoundNo": 2,
@@ -392,8 +392,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 1220065,
-      "Closing\nRank": 1220065
+      "openingRank": 1220065,
+      "closingRank": 1220065
     },
     {
       "RoundNo": 2,
@@ -403,8 +403,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 273010,
-      "Closing\nRank": 404684
+      "openingRank": 273010,
+      "closingRank": 404684
     },
     {
       "RoundNo": 2,
@@ -414,8 +414,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 86064,
-      "Closing\nRank": 145765
+      "openingRank": 86064,
+      "closingRank": 145765
     },
     {
       "RoundNo": 2,
@@ -425,8 +425,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 548134,
-      "Closing\nRank": 824932
+      "openingRank": 548134,
+      "closingRank": 824932
     },
     {
       "RoundNo": 2,
@@ -436,8 +436,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 74573,
-      "Closing\nRank": 74573
+      "openingRank": 74573,
+      "closingRank": 74573
     },
     {
       "RoundNo": 2,
@@ -447,8 +447,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 66424,
-      "Closing\nRank": 71316
+      "openingRank": 66424,
+      "closingRank": 71316
     },
     {
       "RoundNo": 2,
@@ -458,8 +458,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 235030,
-      "Closing\nRank": 304897
+      "openingRank": 235030,
+      "closingRank": 304897
     },
     {
       "RoundNo": 2,
@@ -469,8 +469,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 260499,
-      "Closing\nRank": 574511
+      "openingRank": 260499,
+      "closingRank": 574511
     },
     {
       "RoundNo": 2,
@@ -480,8 +480,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 170700,
-      "Closing\nRank": 247683
+      "openingRank": 170700,
+      "closingRank": 247683
     },
     {
       "RoundNo": 2,
@@ -491,8 +491,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 86111,
-      "Closing\nRank": 93077
+      "openingRank": 86111,
+      "closingRank": 93077
     },
     {
       "RoundNo": 2,
@@ -502,8 +502,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 436733,
-      "Closing\nRank": 436733
+      "openingRank": 436733,
+      "closingRank": 436733
     },
     {
       "RoundNo": 2,
@@ -513,8 +513,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 228969,
-      "Closing\nRank": 1124697
+      "openingRank": 228969,
+      "closingRank": 1124697
     },
     {
       "RoundNo": 2,
@@ -524,8 +524,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 167222,
-      "Closing\nRank": 210671
+      "openingRank": 167222,
+      "closingRank": 210671
     },
     {
       "RoundNo": 2,
@@ -535,8 +535,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 84976,
-      "Closing\nRank": 84976
+      "openingRank": 84976,
+      "closingRank": 84976
     },
     {
       "RoundNo": 2,
@@ -546,8 +546,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 71899,
-      "Closing\nRank": 84932
+      "openingRank": 71899,
+      "closingRank": 84932
     },
     {
       "RoundNo": 2,
@@ -557,8 +557,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 341467,
-      "Closing\nRank": 400503
+      "openingRank": 341467,
+      "closingRank": 400503
     },
     {
       "RoundNo": 2,
@@ -568,8 +568,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 439900,
-      "Closing\nRank": 462181
+      "openingRank": 439900,
+      "closingRank": 462181
     },
     {
       "RoundNo": 2,
@@ -579,8 +579,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 132103,
-      "Closing\nRank": 155650
+      "openingRank": 132103,
+      "closingRank": 155650
     },
     {
       "RoundNo": 2,
@@ -590,8 +590,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 738755,
-      "Closing\nRank": 851166
+      "openingRank": 738755,
+      "closingRank": 851166
     },
     {
       "RoundNo": 2,
@@ -601,8 +601,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 77970,
-      "Closing\nRank": 77970
+      "openingRank": 77970,
+      "closingRank": 77970
     },
     {
       "RoundNo": 2,
@@ -612,8 +612,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 67950,
-      "Closing\nRank": 74644
+      "openingRank": 67950,
+      "closingRank": 74644
     },
     {
       "RoundNo": 2,
@@ -623,8 +623,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 315727,
-      "Closing\nRank": 319457
+      "openingRank": 315727,
+      "closingRank": 319457
     },
     {
       "RoundNo": 2,
@@ -634,8 +634,8 @@
       "Program": "Instrumentation & Control Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 358962,
-      "Closing\nRank": 358962
+      "openingRank": 358962,
+      "closingRank": 358962
     },
     {
       "RoundNo": 2,
@@ -645,8 +645,8 @@
       "Program": "Instrumentation & Control Engineering\n(Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 179547,
-      "Closing\nRank": 275325
+      "openingRank": 179547,
+      "closingRank": 275325
     },
     {
       "RoundNo": 2,
@@ -656,8 +656,8 @@
       "Program": "Instrumentation & Control Engineering\n(Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 95751,
-      "Closing\nRank": 99028
+      "openingRank": 95751,
+      "closingRank": 99028
     },
     {
       "RoundNo": 2,
@@ -667,8 +667,8 @@
       "Program": "Instrumentation & Control Engineering\n(Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 426835,
-      "Closing\nRank": 426835
+      "openingRank": 426835,
+      "closingRank": 426835
     },
     {
       "RoundNo": 2,
@@ -678,8 +678,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 799348,
-      "Closing\nRank": 799348
+      "openingRank": 799348,
+      "closingRank": 799348
     },
     {
       "RoundNo": 2,
@@ -689,8 +689,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 311724,
-      "Closing\nRank": 429579
+      "openingRank": 311724,
+      "closingRank": 429579
     },
     {
       "RoundNo": 2,
@@ -700,8 +700,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 118802,
-      "Closing\nRank": 135000
+      "openingRank": 118802,
+      "closingRank": 135000
     },
     {
       "RoundNo": 2,
@@ -711,8 +711,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "AI",
       "Category": "NOJN",
-      "Opening\nRank": 459525,
-      "Closing\nRank": 738539
+      "openingRank": 459525,
+      "closingRank": 738539
     },
     {
       "RoundNo": 2,
@@ -722,8 +722,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 591304,
-      "Closing\nRank": 723363
+      "openingRank": 591304,
+      "closingRank": 723363
     },
     {
       "RoundNo": 2,
@@ -733,8 +733,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 171756,
-      "Closing\nRank": 422142
+      "openingRank": 171756,
+      "closingRank": 422142
     },
     {
       "RoundNo": 2,
@@ -744,8 +744,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 105177,
-      "Closing\nRank": 127600
+      "openingRank": 105177,
+      "closingRank": 127600
     },
     {
       "RoundNo": 2,
@@ -755,8 +755,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 443763,
-      "Closing\nRank": 453397
+      "openingRank": 443763,
+      "closingRank": 453397
     },
     {
       "RoundNo": 2,
@@ -766,8 +766,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 321458,
-      "Closing\nRank": 448118
+      "openingRank": 321458,
+      "closingRank": 448118
     },
     {
       "RoundNo": 2,
@@ -777,8 +777,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 693590,
-      "Closing\nRank": 693590
+      "openingRank": 693590,
+      "closingRank": 693590
     },
     {
       "RoundNo": 2,
@@ -788,8 +788,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 50758,
-      "Closing\nRank": 130537
+      "openingRank": 50758,
+      "closingRank": 130537
     },
     {
       "RoundNo": 2,
@@ -799,8 +799,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 468204,
-      "Closing\nRank": 468204
+      "openingRank": 468204,
+      "closingRank": 468204
     },
     {
       "RoundNo": "",
@@ -810,8 +810,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -821,8 +821,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 192994,
-      "Closing\nRank": 448145
+      "openingRank": 192994,
+      "closingRank": 448145
     },
     {
       "RoundNo": 2,
@@ -832,8 +832,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 103796,
-      "Closing\nRank": 133326
+      "openingRank": 103796,
+      "closingRank": 133326
     },
     {
       "RoundNo": 2,
@@ -843,8 +843,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 460661,
-      "Closing\nRank": 460661
+      "openingRank": 460661,
+      "closingRank": 460661
     },
     {
       "RoundNo": 2,
@@ -854,8 +854,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 474396,
-      "Closing\nRank": 1163323
+      "openingRank": 474396,
+      "closingRank": 1163323
     },
     {
       "RoundNo": 2,
@@ -865,8 +865,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 289904,
-      "Closing\nRank": 422869
+      "openingRank": 289904,
+      "closingRank": 422869
     },
     {
       "RoundNo": 2,
@@ -876,8 +876,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 750389,
-      "Closing\nRank": 750389
+      "openingRank": 750389,
+      "closingRank": 750389
     },
     {
       "RoundNo": 2,
@@ -887,8 +887,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 132774,
-      "Closing\nRank": 135384
+      "openingRank": 132774,
+      "closingRank": 135384
     },
     {
       "RoundNo": 2,
@@ -898,8 +898,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 44404,
-      "Closing\nRank": 127178
+      "openingRank": 44404,
+      "closingRank": 127178
     },
     {
       "RoundNo": 2,
@@ -909,8 +909,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 386806,
-      "Closing\nRank": 498148
+      "openingRank": 386806,
+      "closingRank": 498148
     },
     {
       "RoundNo": 2,
@@ -920,8 +920,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 326020,
-      "Closing\nRank": 445926
+      "openingRank": 326020,
+      "closingRank": 445926
     },
     {
       "RoundNo": 2,
@@ -931,8 +931,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1029506,
-      "Closing\nRank": 1029506
+      "openingRank": 1029506,
+      "closingRank": 1029506
     },
     {
       "RoundNo": 2,
@@ -942,8 +942,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 165629,
-      "Closing\nRank": 165629
+      "openingRank": 165629,
+      "closingRank": 165629
     },
     {
       "RoundNo": 2,
@@ -953,8 +953,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 118529,
-      "Closing\nRank": 131794
+      "openingRank": 118529,
+      "closingRank": 131794
     },
     {
       "RoundNo": 2,
@@ -964,8 +964,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 509153,
-      "Closing\nRank": 529875
+      "openingRank": 509153,
+      "closingRank": 529875
     },
     {
       "RoundNo": 2,
@@ -975,8 +975,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 445840,
-      "Closing\nRank": 568430
+      "openingRank": 445840,
+      "closingRank": 568430
     },
     {
       "RoundNo": 2,
@@ -986,8 +986,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 206867,
-      "Closing\nRank": 282596
+      "openingRank": 206867,
+      "closingRank": 282596
     },
     {
       "RoundNo": 2,
@@ -997,8 +997,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1066066,
-      "Closing\nRank": 1066066
+      "openingRank": 1066066,
+      "closingRank": 1066066
     },
     {
       "RoundNo": 2,
@@ -1008,8 +1008,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 120380,
-      "Closing\nRank": 120380
+      "openingRank": 120380,
+      "closingRank": 120380
     },
     {
       "RoundNo": 2,
@@ -1019,8 +1019,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 95869,
-      "Closing\nRank": 110997
+      "openingRank": 95869,
+      "closingRank": 110997
     },
     {
       "RoundNo": 2,
@@ -1030,8 +1030,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 424307,
-      "Closing\nRank": 431047
+      "openingRank": 424307,
+      "closingRank": 431047
     },
     {
       "RoundNo": 2,
@@ -1041,8 +1041,8 @@
       "Program": "Artificial Intelligence & Data Science (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 406377,
-      "Closing\nRank": 549448
+      "openingRank": 406377,
+      "closingRank": 549448
     },
     {
       "RoundNo": 2,
@@ -1052,8 +1052,8 @@
       "Program": "Artificial Intelligence & Data Science (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 227720,
-      "Closing\nRank": 292131
+      "openingRank": 227720,
+      "closingRank": 292131
     },
     {
       "RoundNo": 2,
@@ -1063,8 +1063,8 @@
       "Program": "Artificial Intelligence & Data Science (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 111271,
-      "Closing\nRank": 113909
+      "openingRank": 111271,
+      "closingRank": 113909
     },
     {
       "RoundNo": 2,
@@ -1074,8 +1074,8 @@
       "Program": "Artificial Intelligence & Data Science(Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 399981,
-      "Closing\nRank": 399981
+      "openingRank": 399981,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1085,8 +1085,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 331330,
-      "Closing\nRank": 399981
+      "openingRank": 331330,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1096,8 +1096,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 184059,
-      "Closing\nRank": 399981
+      "openingRank": 184059,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1107,8 +1107,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 116011,
-      "Closing\nRank": 399981
+      "openingRank": 116011,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1118,8 +1118,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 80078,
-      "Closing\nRank": 399981
+      "openingRank": 80078,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1129,8 +1129,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 374100,
-      "Closing\nRank": 399981
+      "openingRank": 374100,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1140,8 +1140,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 752405,
-      "Closing\nRank": 399981
+      "openingRank": 752405,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1151,8 +1151,8 @@
       "Program": "Artificial Intelligence & Machine Learning (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 523440,
-      "Closing\nRank": 399981
+      "openingRank": 523440,
+      "closingRank": 399981
     },
     {
       "RoundNo": 2,
@@ -1162,8 +1162,8 @@
       "Program": "Artificial Intelligence & Machine Learning\n(Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 263658,
-      "Closing\nRank": 399981
+      "openingRank": 263658,
+      "closingRank": 399981
     },
     {
       "RoundNo": "",
@@ -1173,8 +1173,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -1184,8 +1184,8 @@
       "Program": "Artificial Intelligence & Machine Learning (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 109889,
-      "Closing\nRank": 112466
+      "openingRank": 109889,
+      "closingRank": 112466
     },
     {
       "RoundNo": 2,
@@ -1195,8 +1195,8 @@
       "Program": "Artificial Intelligence & Machine Learning (Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 447983,
-      "Closing\nRank": 447983
+      "openingRank": 447983,
+      "closingRank": 447983
     },
     {
       "RoundNo": 2,
@@ -1206,8 +1206,8 @@
       "Program": "B. Tech. (Computer Science)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 1016276,
-      "Closing\nRank": 1016276
+      "openingRank": 1016276,
+      "closingRank": 1016276
     },
     {
       "RoundNo": 2,
@@ -1217,8 +1217,8 @@
       "Program": "B. Tech. (Computer Science)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 165881,
-      "Closing\nRank": 236385
+      "openingRank": 165881,
+      "closingRank": 236385
     },
     {
       "RoundNo": 2,
@@ -1228,8 +1228,8 @@
       "Program": "B. Tech. (Computer Science)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1019748,
-      "Closing\nRank": 1176184
+      "openingRank": 1019748,
+      "closingRank": 1176184
     },
     {
       "RoundNo": 2,
@@ -1239,8 +1239,8 @@
       "Program": "B. Tech. (Computer Science)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 82804,
-      "Closing\nRank": 98987
+      "openingRank": 82804,
+      "closingRank": 98987
     },
     {
       "RoundNo": 2,
@@ -1250,8 +1250,8 @@
       "Program": "B. Tech. (Computer Science)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 370375,
-      "Closing\nRank": 370375
+      "openingRank": 370375,
+      "closingRank": 370375
     },
     {
       "RoundNo": 2,
@@ -1261,8 +1261,8 @@
       "Program": "Civil Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 309915,
-      "Closing\nRank": 367874
+      "openingRank": 309915,
+      "closingRank": 367874
     },
     {
       "RoundNo": "",
@@ -1272,8 +1272,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -1283,8 +1283,8 @@
       "Program": "Civil Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 125957,
-      "Closing\nRank": 135695
+      "openingRank": 125957,
+      "closingRank": 135695
     },
     {
       "RoundNo": 2,
@@ -1294,8 +1294,8 @@
       "Program": "Civil Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 508997,
-      "Closing\nRank": 508997
+      "openingRank": 508997,
+      "closingRank": 508997
     },
     {
       "RoundNo": 2,
@@ -1305,8 +1305,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 612744,
-      "Closing\nRank": 756685
+      "openingRank": 612744,
+      "closingRank": 756685
     },
     {
       "RoundNo": 2,
@@ -1316,8 +1316,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 146775,
-      "Closing\nRank": 204972
+      "openingRank": 146775,
+      "closingRank": 204972
     },
     {
       "RoundNo": 2,
@@ -1327,8 +1327,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 690574,
-      "Closing\nRank": 1233120
+      "openingRank": 690574,
+      "closingRank": 1233120
     },
     {
       "RoundNo": 2,
@@ -1338,8 +1338,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 101225,
-      "Closing\nRank": 101225
+      "openingRank": 101225,
+      "closingRank": 101225
     },
     {
       "RoundNo": 2,
@@ -1349,8 +1349,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 76503,
-      "Closing\nRank": 90866
+      "openingRank": 76503,
+      "closingRank": 90866
     },
     {
       "RoundNo": 2,
@@ -1360,8 +1360,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 323207,
-      "Closing\nRank": 359245
+      "openingRank": 323207,
+      "closingRank": 359245
     },
     {
       "RoundNo": 2,
@@ -1371,8 +1371,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 762104,
-      "Closing\nRank": 1140507
+      "openingRank": 762104,
+      "closingRank": 1140507
     },
     {
       "RoundNo": 2,
@@ -1382,8 +1382,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 202639,
-      "Closing\nRank": 218125
+      "openingRank": 202639,
+      "closingRank": 218125
     },
     {
       "RoundNo": 2,
@@ -1393,8 +1393,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 986888,
-      "Closing\nRank": 1005664
+      "openingRank": 986888,
+      "closingRank": 1005664
     },
     {
       "RoundNo": 2,
@@ -1404,8 +1404,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 88588,
-      "Closing\nRank": 92778
+      "openingRank": 88588,
+      "closingRank": 92778
     },
     {
       "RoundNo": 2,
@@ -1415,8 +1415,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 366937,
-      "Closing\nRank": 366937
+      "openingRank": 366937,
+      "closingRank": 366937
     },
     {
       "RoundNo": 2,
@@ -1426,8 +1426,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 266640,
-      "Closing\nRank": 940843
+      "openingRank": 266640,
+      "closingRank": 940843
     },
     {
       "RoundNo": 2,
@@ -1437,8 +1437,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 192071,
-      "Closing\nRank": 227221
+      "openingRank": 192071,
+      "closingRank": 227221
     },
     {
       "RoundNo": 2,
@@ -1448,8 +1448,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1247939,
-      "Closing\nRank": 1247939
+      "openingRank": 1247939,
+      "closingRank": 1247939
     },
     {
       "RoundNo": 2,
@@ -1459,8 +1459,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 81098,
-      "Closing\nRank": 94378
+      "openingRank": 81098,
+      "closingRank": 94378
     },
     {
       "RoundNo": "",
@@ -1470,8 +1470,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -1481,8 +1481,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 367113,
-      "Closing\nRank": 367113
+      "openingRank": 367113,
+      "closingRank": 367113
     },
     {
       "RoundNo": 2,
@@ -1492,8 +1492,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 621067,
-      "Closing\nRank": 1229762
+      "openingRank": 621067,
+      "closingRank": 1229762
     },
     {
       "RoundNo": 2,
@@ -1503,8 +1503,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 204969,
-      "Closing\nRank": 300863
+      "openingRank": 204969,
+      "closingRank": 300863
     },
     {
       "RoundNo": 2,
@@ -1514,8 +1514,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1296342,
-      "Closing\nRank": 1296342
+      "openingRank": 1296342,
+      "closingRank": 1296342
     },
     {
       "RoundNo": 2,
@@ -1525,8 +1525,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 97159,
-      "Closing\nRank": 114378
+      "openingRank": 97159,
+      "closingRank": 114378
     },
     {
       "RoundNo": 2,
@@ -1536,8 +1536,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 387412,
-      "Closing\nRank": 387412
+      "openingRank": 387412,
+      "closingRank": 387412
     },
     {
       "RoundNo": 2,
@@ -1547,8 +1547,8 @@
       "Program": "Electronics & Communication Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 660933,
-      "Closing\nRank": 772897
+      "openingRank": 660933,
+      "closingRank": 772897
     },
     {
       "RoundNo": 2,
@@ -1558,8 +1558,8 @@
       "Program": "Electronics & Communication\nEngineering (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 293076,
-      "Closing\nRank": 313852
+      "openingRank": 293076,
+      "closingRank": 313852
     },
     {
       "RoundNo": "",
@@ -1569,8 +1569,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -1580,8 +1580,8 @@
       "Program": "Electronics & Communication Engineering (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 114655,
-      "Closing\nRank": 117873
+      "openingRank": 114655,
+      "closingRank": 117873
     },
     {
       "RoundNo": 2,
@@ -1591,8 +1591,8 @@
       "Program": "Electronics & Communication Engineering (Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 449106,
-      "Closing\nRank": 449106
+      "openingRank": 449106,
+      "closingRank": 449106
     },
     {
       "RoundNo": 2,
@@ -1602,8 +1602,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 325138,
-      "Closing\nRank": 562672
+      "openingRank": 325138,
+      "closingRank": 562672
     },
     {
       "RoundNo": 2,
@@ -1613,8 +1613,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 202163,
-      "Closing\nRank": 272503
+      "openingRank": 202163,
+      "closingRank": 272503
     },
     {
       "RoundNo": 2,
@@ -1624,8 +1624,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1259258,
-      "Closing\nRank": 1259258
+      "openingRank": 1259258,
+      "closingRank": 1259258
     },
     {
       "RoundNo": 2,
@@ -1635,8 +1635,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 113367,
-      "Closing\nRank": 113367
+      "openingRank": 113367,
+      "closingRank": 113367
     },
     {
       "RoundNo": 2,
@@ -1646,8 +1646,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 94416,
-      "Closing\nRank": 105565
+      "openingRank": 94416,
+      "closingRank": 105565
     },
     {
       "RoundNo": 2,
@@ -1657,8 +1657,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 374373,
-      "Closing\nRank": 419626
+      "openingRank": 374373,
+      "closingRank": 419626
     },
     {
       "RoundNo": 2,
@@ -1668,8 +1668,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 552358,
-      "Closing\nRank": 578238
+      "openingRank": 552358,
+      "closingRank": 578238
     },
     {
       "RoundNo": 2,
@@ -1679,8 +1679,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 242383,
-      "Closing\nRank": 287914
+      "openingRank": 242383,
+      "closingRank": 287914
     },
     {
       "RoundNo": 2,
@@ -1690,8 +1690,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 105829,
-      "Closing\nRank": 108138
+      "openingRank": 105829,
+      "closingRank": 108138
     },
     {
       "RoundNo": 2,
@@ -1701,8 +1701,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 423334,
-      "Closing\nRank": 423334
+      "openingRank": 423334,
+      "closingRank": 423334
     },
     {
       "RoundNo": 2,
@@ -1712,8 +1712,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 1030838,
-      "Closing\nRank": 1030838
+      "openingRank": 1030838,
+      "closingRank": 1030838
     },
     {
       "RoundNo": 2,
@@ -1723,8 +1723,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 301771,
-      "Closing\nRank": 350609
+      "openingRank": 301771,
+      "closingRank": 350609
     },
     {
       "RoundNo": 2,
@@ -1734,8 +1734,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 118587,
-      "Closing\nRank": 125778
+      "openingRank": 118587,
+      "closingRank": 125778
     },
     {
       "RoundNo": 2,
@@ -1745,8 +1745,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 360434,
-      "Closing\nRank": 360434
+      "openingRank": 360434,
+      "closingRank": 360434
     },
     {
       "RoundNo": 2,
@@ -1756,8 +1756,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 281723,
-      "Closing\nRank": 455219
+      "openingRank": 281723,
+      "closingRank": 455219
     },
     {
       "RoundNo": 2,
@@ -1767,8 +1767,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 154312,
-      "Closing\nRank": 154312
+      "openingRank": 154312,
+      "closingRank": 154312
     },
     {
       "RoundNo": 2,
@@ -1778,8 +1778,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 86394,
-      "Closing\nRank": 137956
+      "openingRank": 86394,
+      "closingRank": 137956
     },
     {
       "RoundNo": 2,
@@ -1789,8 +1789,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 427461,
-      "Closing\nRank": 533576
+      "openingRank": 427461,
+      "closingRank": 533576
     },
     {
       "RoundNo": 2,
@@ -1800,8 +1800,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 372650,
-      "Closing\nRank": 458549
+      "openingRank": 372650,
+      "closingRank": 458549
     },
     {
       "RoundNo": 2,
@@ -1811,8 +1811,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 132343,
-      "Closing\nRank": 135992
+      "openingRank": 132343,
+      "closingRank": 135992
     },
     {
       "RoundNo": 2,
@@ -1822,8 +1822,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 563431,
-      "Closing\nRank": 563431
+      "openingRank": 563431,
+      "closingRank": 563431
     },
     {
       "RoundNo": 2,
@@ -1833,8 +1833,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "AI",
       "Category": "NOSM",
-      "Opening\nRank": 200804,
-      "Closing\nRank": 528779
+      "openingRank": 200804,
+      "closingRank": 528779
     },
     {
       "RoundNo": 2,
@@ -1844,8 +1844,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 479180,
-      "Closing\nRank": 479180
+      "openingRank": 479180,
+      "closingRank": 479180
     },
     {
       "RoundNo": 2,
@@ -1855,8 +1855,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 135922,
-      "Closing\nRank": 179243
+      "openingRank": 135922,
+      "closingRank": 179243
     },
     {
       "RoundNo": 2,
@@ -1866,8 +1866,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 702256,
-      "Closing\nRank": 827932
+      "openingRank": 702256,
+      "closingRank": 827932
     },
     {
       "RoundNo": 2,
@@ -1877,8 +1877,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 68253,
-      "Closing\nRank": 76697
+      "openingRank": 68253,
+      "closingRank": 76697
     },
     {
       "RoundNo": 2,
@@ -1888,8 +1888,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 321378,
-      "Closing\nRank": 321378
+      "openingRank": 321378,
+      "closingRank": 321378
     },
     {
       "RoundNo": 2,
@@ -1899,8 +1899,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "AI",
       "Category": "NOSM",
-      "Opening\nRank": 541138,
-      "Closing\nRank": 714676
+      "openingRank": 541138,
+      "closingRank": 714676
     },
     {
       "RoundNo": 2,
@@ -1910,8 +1910,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 513477,
-      "Closing\nRank": 513477
+      "openingRank": 513477,
+      "closingRank": 513477
     },
     {
       "RoundNo": 2,
@@ -1921,8 +1921,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 181215,
-      "Closing\nRank": 190659
+      "openingRank": 181215,
+      "closingRank": 190659
     },
     {
       "RoundNo": 2,
@@ -1932,8 +1932,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 840393,
-      "Closing\nRank": 893657
+      "openingRank": 840393,
+      "closingRank": 893657
     },
     {
       "RoundNo": 2,
@@ -1943,8 +1943,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 81161,
-      "Closing\nRank": 81419
+      "openingRank": 81161,
+      "closingRank": 81419
     },
     {
       "RoundNo": 2,
@@ -1954,8 +1954,8 @@
       "Program": "CSE- AIML",
       "Quota": "AI",
       "Category": "NOSM",
-      "Opening\nRank": 256113,
-      "Closing\nRank": 600839
+      "openingRank": 256113,
+      "closingRank": 600839
     },
     {
       "RoundNo": 2,
@@ -1965,8 +1965,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 471789,
-      "Closing\nRank": 471789
+      "openingRank": 471789,
+      "closingRank": 471789
     },
     {
       "RoundNo": 2,
@@ -1976,8 +1976,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 151896,
-      "Closing\nRank": 178314
+      "openingRank": 151896,
+      "closingRank": 178314
     },
     {
       "RoundNo": 2,
@@ -1987,8 +1987,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 871535,
-      "Closing\nRank": 1075326
+      "openingRank": 871535,
+      "closingRank": 1075326
     },
     {
       "RoundNo": 2,
@@ -1998,8 +1998,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 80940,
-      "Closing\nRank": 84389
+      "openingRank": 80940,
+      "closingRank": 84389
     },
     {
       "RoundNo": 2,
@@ -2009,8 +2009,8 @@
       "Program": "CSE- DS",
       "Quota": "AI",
       "Category": "NOSM",
-      "Opening\nRank": 450853,
-      "Closing\nRank": 998123
+      "openingRank": 450853,
+      "closingRank": 998123
     },
     {
       "RoundNo": 2,
@@ -2020,8 +2020,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 794670,
-      "Closing\nRank": 794670
+      "openingRank": 794670,
+      "closingRank": 794670
     },
     {
       "RoundNo": 2,
@@ -2031,8 +2031,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 179373,
-      "Closing\nRank": 198870
+      "openingRank": 179373,
+      "closingRank": 198870
     },
     {
       "RoundNo": 2,
@@ -2042,8 +2042,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 921597,
-      "Closing\nRank": 1023620
+      "openingRank": 921597,
+      "closingRank": 1023620
     },
     {
       "RoundNo": 2,
@@ -2053,8 +2053,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 83098,
-      "Closing\nRank": 92001
+      "openingRank": 83098,
+      "closingRank": 92001
     },
     {
       "RoundNo": 2,
@@ -2064,8 +2064,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "AI",
       "Category": "NOSM",
-      "Opening\nRank": 1100643,
-      "Closing\nRank": 1100643
+      "openingRank": 1100643,
+      "closingRank": 1100643
     },
     {
       "RoundNo": 2,
@@ -2075,8 +2075,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 490494,
-      "Closing\nRank": 490494
+      "openingRank": 490494,
+      "closingRank": 490494
     },
     {
       "RoundNo": 2,
@@ -2086,8 +2086,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 224410,
-      "Closing\nRank": 297139
+      "openingRank": 224410,
+      "closingRank": 297139
     },
     {
       "RoundNo": 2,
@@ -2097,8 +2097,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 99937,
-      "Closing\nRank": 107399
+      "openingRank": 99937,
+      "closingRank": 107399
     },
     {
       "RoundNo": 2,
@@ -2108,8 +2108,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 407518,
-      "Closing\nRank": 407518
+      "openingRank": 407518,
+      "closingRank": 407518
     },
     {
       "RoundNo": 2,
@@ -2119,8 +2119,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "AI",
       "Category": "NOSM",
-      "Opening\nRank": 193204,
-      "Closing\nRank": 1367170
+      "openingRank": 193204,
+      "closingRank": 1367170
     },
     {
       "RoundNo": 2,
@@ -2130,8 +2130,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 1194534,
-      "Closing\nRank": 1194534
+      "openingRank": 1194534,
+      "closingRank": 1194534
     },
     {
       "RoundNo": 2,
@@ -2141,8 +2141,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 190752,
-      "Closing\nRank": 221857
+      "openingRank": 190752,
+      "closingRank": 221857
     },
     {
       "RoundNo": 2,
@@ -2152,8 +2152,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 785508,
-      "Closing\nRank": 1121363
+      "openingRank": 785508,
+      "closingRank": 1121363
     },
     {
       "RoundNo": 2,
@@ -2163,8 +2163,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 79320,
-      "Closing\nRank": 94584
+      "openingRank": 79320,
+      "closingRank": 94584
     },
     {
       "RoundNo": 2,
@@ -2174,8 +2174,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 324891,
-      "Closing\nRank": 324891
+      "openingRank": 324891,
+      "closingRank": 324891
     },
     {
       "RoundNo": 2,
@@ -2185,8 +2185,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "AI",
       "Category": "NOSM",
-      "Opening\nRank": 393665,
-      "Closing\nRank": 1288498
+      "openingRank": 393665,
+      "closingRank": 1288498
     },
     {
       "RoundNo": 2,
@@ -2196,8 +2196,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 321067,
-      "Closing\nRank": 321067
+      "openingRank": 321067,
+      "closingRank": 321067
     },
     {
       "RoundNo": 2,
@@ -2207,8 +2207,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 199938,
-      "Closing\nRank": 231233
+      "openingRank": 199938,
+      "closingRank": 231233
     },
     {
       "RoundNo": 2,
@@ -2218,8 +2218,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 94615,
-      "Closing\nRank": 96110
+      "openingRank": 94615,
+      "closingRank": 96110
     },
     {
       "RoundNo": 2,
@@ -2229,8 +2229,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 538978,
-      "Closing\nRank": 754938
+      "openingRank": 538978,
+      "closingRank": 754938
     },
     {
       "RoundNo": 2,
@@ -2240,8 +2240,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 152394,
-      "Closing\nRank": 251349
+      "openingRank": 152394,
+      "closingRank": 251349
     },
     {
       "RoundNo": 2,
@@ -2251,8 +2251,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 990605,
-      "Closing\nRank": 1233206
+      "openingRank": 990605,
+      "closingRank": 1233206
     },
     {
       "RoundNo": 2,
@@ -2262,8 +2262,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 129865,
-      "Closing\nRank": 129865
+      "openingRank": 129865,
+      "closingRank": 129865
     },
     {
       "RoundNo": 2,
@@ -2273,8 +2273,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 80851,
-      "Closing\nRank": 100386
+      "openingRank": 80851,
+      "closingRank": 100386
     },
     {
       "RoundNo": 2,
@@ -2284,8 +2284,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 339312,
-      "Closing\nRank": 347520
+      "openingRank": 339312,
+      "closingRank": 347520
     },
     {
       "RoundNo": 2,
@@ -2295,8 +2295,8 @@
       "Program": "CSE (Data Science)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 890762,
-      "Closing\nRank": 1031210
+      "openingRank": 890762,
+      "closingRank": 1031210
     },
     {
       "RoundNo": 2,
@@ -2306,8 +2306,8 @@
       "Program": "CSE (Data Science)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 230744,
-      "Closing\nRank": 278671
+      "openingRank": 230744,
+      "closingRank": 278671
     },
     {
       "RoundNo": 2,
@@ -2317,8 +2317,8 @@
       "Program": "CSE (Data Science)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1145088,
-      "Closing\nRank": 1145088
+      "openingRank": 1145088,
+      "closingRank": 1145088
     },
     {
       "RoundNo": 2,
@@ -2328,8 +2328,8 @@
       "Program": "CSE (Data Science)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 85610,
-      "Closing\nRank": 105455
+      "openingRank": 85610,
+      "closingRank": 105455
     },
     {
       "RoundNo": 2,
@@ -2339,8 +2339,8 @@
       "Program": "CSE (Data Science)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 311609,
-      "Closing\nRank": 311609
+      "openingRank": 311609,
+      "closingRank": 311609
     },
     {
       "RoundNo": 2,
@@ -2350,8 +2350,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 194755,
-      "Closing\nRank": 261450
+      "openingRank": 194755,
+      "closingRank": 261450
     },
     {
       "RoundNo": 2,
@@ -2361,8 +2361,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 90675,
-      "Closing\nRank": 101124
+      "openingRank": 90675,
+      "closingRank": 101124
     },
     {
       "RoundNo": 2,
@@ -2372,8 +2372,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 356893,
-      "Closing\nRank": 356893
+      "openingRank": 356893,
+      "closingRank": 356893
     },
     {
       "RoundNo": 2,
@@ -2383,8 +2383,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 562049,
-      "Closing\nRank": 762351
+      "openingRank": 562049,
+      "closingRank": 762351
     },
     {
       "RoundNo": 2,
@@ -2394,8 +2394,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 263833,
-      "Closing\nRank": 319845
+      "openingRank": 263833,
+      "closingRank": 319845
     },
     {
       "RoundNo": 2,
@@ -2405,8 +2405,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 111609,
-      "Closing\nRank": 118815
+      "openingRank": 111609,
+      "closingRank": 118815
     },
     {
       "RoundNo": 2,
@@ -2416,8 +2416,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 420768,
-      "Closing\nRank": 420768
+      "openingRank": 420768,
+      "closingRank": 420768
     },
     {
       "RoundNo": 2,
@@ -2427,8 +2427,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 362703,
-      "Closing\nRank": 514574
+      "openingRank": 362703,
+      "closingRank": 514574
     },
     {
       "RoundNo": 2,
@@ -2438,8 +2438,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 251345,
-      "Closing\nRank": 290284
+      "openingRank": 251345,
+      "closingRank": 290284
     },
     {
       "RoundNo": 2,
@@ -2449,8 +2449,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 103182,
-      "Closing\nRank": 110886
+      "openingRank": 103182,
+      "closingRank": 110886
     },
     {
       "RoundNo": 2,
@@ -2460,8 +2460,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 426240,
-      "Closing\nRank": 426240
+      "openingRank": 426240,
+      "closingRank": 426240
     },
     {
       "RoundNo": 2,
@@ -2471,8 +2471,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 355481,
-      "Closing\nRank": 441800
+      "openingRank": 355481,
+      "closingRank": 441800
     },
     {
       "RoundNo": 2,
@@ -2482,8 +2482,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 115097,
-      "Closing\nRank": 134418
+      "openingRank": 115097,
+      "closingRank": 134418
     },
     {
       "RoundNo": 2,
@@ -2493,8 +2493,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 576791,
-      "Closing\nRank": 576791
+      "openingRank": 576791,
+      "closingRank": 576791
     },
     {
       "RoundNo": 2,
@@ -2504,8 +2504,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 262465,
-      "Closing\nRank": 424459
+      "openingRank": 262465,
+      "closingRank": 424459
     },
     {
       "RoundNo": 2,
@@ -2515,8 +2515,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 129205,
-      "Closing\nRank": 135502
+      "openingRank": 129205,
+      "closingRank": 135502
     },
     {
       "RoundNo": 2,
@@ -2526,8 +2526,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 585538,
-      "Closing\nRank": 585538
+      "openingRank": 585538,
+      "closingRank": 585538
     },
     {
       "RoundNo": 2,
@@ -2537,8 +2537,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 773229,
-      "Closing\nRank": 1019782
+      "openingRank": 773229,
+      "closingRank": 1019782
     },
     {
       "RoundNo": 2,
@@ -2548,8 +2548,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 251377,
-      "Closing\nRank": 339214
+      "openingRank": 251377,
+      "closingRank": 339214
     },
     {
       "RoundNo": 2,
@@ -2559,8 +2559,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 135835,
-      "Closing\nRank": 135835
+      "openingRank": 135835,
+      "closingRank": 135835
     },
     {
       "RoundNo": 2,
@@ -2570,8 +2570,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 115564,
-      "Closing\nRank": 125171
+      "openingRank": 115564,
+      "closingRank": 125171
     },
     {
       "RoundNo": 2,
@@ -2581,8 +2581,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 458578,
-      "Closing\nRank": 497980
+      "openingRank": 458578,
+      "closingRank": 497980
     },
     {
       "RoundNo": 2,
@@ -2592,8 +2592,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 339263,
-      "Closing\nRank": 376398
+      "openingRank": 339263,
+      "closingRank": 376398
     },
     {
       "RoundNo": 2,
@@ -2603,8 +2603,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 126875,
-      "Closing\nRank": 129771
+      "openingRank": 126875,
+      "closingRank": 129771
     },
     {
       "RoundNo": 2,
@@ -2614,8 +2614,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 561189,
-      "Closing\nRank": 561189
+      "openingRank": 561189,
+      "closingRank": 561189
     },
     {
       "RoundNo": 2,
@@ -2625,8 +2625,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 318046,
-      "Closing\nRank": 406453
+      "openingRank": 318046,
+      "closingRank": 406453
     },
     {
       "RoundNo": 2,
@@ -2636,8 +2636,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 119143,
-      "Closing\nRank": 129828
+      "openingRank": 119143,
+      "closingRank": 129828
     },
     {
       "RoundNo": 2,
@@ -2647,8 +2647,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 473402,
-      "Closing\nRank": 473402
+      "openingRank": 473402,
+      "closingRank": 473402
     },
     {
       "RoundNo": 2,
@@ -2658,8 +2658,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 1301868,
-      "Closing\nRank": 1301868
+      "openingRank": 1301868,
+      "closingRank": 1301868
     },
     {
       "RoundNo": 2,
@@ -2669,8 +2669,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 282696,
-      "Closing\nRank": 407448
+      "openingRank": 282696,
+      "closingRank": 407448
     },
     {
       "RoundNo": 2,
@@ -2680,8 +2680,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 129853,
-      "Closing\nRank": 130479
+      "openingRank": 129853,
+      "closingRank": 130479
     },
     {
       "RoundNo": 2,
@@ -2691,8 +2691,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 510094,
-      "Closing\nRank": 510094
+      "openingRank": 510094,
+      "closingRank": 510094
     },
     {
       "RoundNo": 2,
@@ -2702,8 +2702,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 363060,
-      "Closing\nRank": 438709
+      "openingRank": 363060,
+      "closingRank": 438709
     },
     {
       "RoundNo": 2,
@@ -2713,8 +2713,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 131043,
-      "Closing\nRank": 134904
+      "openingRank": 131043,
+      "closingRank": 134904
     },
     {
       "RoundNo": 2,
@@ -2724,8 +2724,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 574263,
-      "Closing\nRank": 574263
+      "openingRank": 574263,
+      "closingRank": 574263
     },
     {
       "RoundNo": 2,
@@ -2735,8 +2735,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 859407,
-      "Closing\nRank": 859407
+      "openingRank": 859407,
+      "closingRank": 859407
     },
     {
       "RoundNo": 2,
@@ -2746,8 +2746,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 343756,
-      "Closing\nRank": 431538
+      "openingRank": 343756,
+      "closingRank": 431538
     },
     {
       "RoundNo": 2,
@@ -2757,8 +2757,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 129826,
-      "Closing\nRank": 135536
+      "openingRank": 129826,
+      "closingRank": 135536
     },
     {
       "RoundNo": 2,
@@ -2768,8 +2768,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 563840,
-      "Closing\nRank": 563840
+      "openingRank": 563840,
+      "closingRank": 563840
     },
     {
       "RoundNo": 2,
@@ -2779,8 +2779,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 210343,
-      "Closing\nRank": 472947
+      "openingRank": 210343,
+      "closingRank": 472947
     },
     {
       "RoundNo": 2,
@@ -2790,8 +2790,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 138740,
-      "Closing\nRank": 140333
+      "openingRank": 138740,
+      "closingRank": 140333
     },
     {
       "RoundNo": 2,
@@ -2801,8 +2801,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 579685,
-      "Closing\nRank": 581050
+      "openingRank": 579685,
+      "closingRank": 581050
     },
     {
       "RoundNo": 2,
@@ -2812,8 +2812,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 388876,
-      "Closing\nRank": 471670
+      "openingRank": 388876,
+      "closingRank": 471670
     },
     {
       "RoundNo": 2,
@@ -2823,8 +2823,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 137825,
-      "Closing\nRank": 140725
+      "openingRank": 137825,
+      "closingRank": 140725
     },
     {
       "RoundNo": 2,
@@ -2834,8 +2834,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 520696,
-      "Closing\nRank": 520696
+      "openingRank": 520696,
+      "closingRank": 520696
     },
     {
       "RoundNo": "",
@@ -2845,8 +2845,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -2856,8 +2856,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 213941,
-      "Closing\nRank": 443046
+      "openingRank": 213941,
+      "closingRank": 443046
     },
     {
       "RoundNo": 2,
@@ -2867,8 +2867,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 586789,
-      "Closing\nRank": 586789
+      "openingRank": 586789,
+      "closingRank": 586789
     },
     {
       "RoundNo": 2,
@@ -2878,8 +2878,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 166757,
-      "Closing\nRank": 166757
+      "openingRank": 166757,
+      "closingRank": 166757
     },
     {
       "RoundNo": 2,
@@ -2889,8 +2889,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 113091,
-      "Closing\nRank": 137979
+      "openingRank": 113091,
+      "closingRank": 137979
     },
     {
       "RoundNo": 2,
@@ -2900,8 +2900,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 417701,
-      "Closing\nRank": 550071
+      "openingRank": 417701,
+      "closingRank": 550071
     },
     {
       "RoundNo": 2,
@@ -2911,8 +2911,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 310866,
-      "Closing\nRank": 461368
+      "openingRank": 310866,
+      "closingRank": 461368
     },
     {
       "RoundNo": 2,
@@ -2922,8 +2922,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 123501,
-      "Closing\nRank": 138445
+      "openingRank": 123501,
+      "closingRank": 138445
     },
     {
       "RoundNo": 2,
@@ -2933,8 +2933,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 568938,
-      "Closing\nRank": 568938
+      "openingRank": 568938,
+      "closingRank": 568938
     },
     {
       "RoundNo": 2,
@@ -2944,8 +2944,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 110308,
-      "Closing\nRank": 162066
+      "openingRank": 110308,
+      "closingRank": 162066
     },
     {
       "RoundNo": 2,
@@ -2955,8 +2955,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 47950,
-      "Closing\nRank": 76986
+      "openingRank": 47950,
+      "closingRank": 76986
     },
     {
       "RoundNo": 2,
@@ -2966,8 +2966,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPPH",
-      "Opening\nRank": 419925,
-      "Closing\nRank": 419925
+      "openingRank": 419925,
+      "closingRank": 419925
     },
     {
       "RoundNo": 2,
@@ -2977,8 +2977,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 312119,
-      "Closing\nRank": 387219
+      "openingRank": 312119,
+      "closingRank": 387219
     },
     {
       "RoundNo": 2,
@@ -2988,8 +2988,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "STNO",
-      "Opening\nRank": 821075,
-      "Closing\nRank": 821075
+      "openingRank": 821075,
+      "closingRank": 821075
     },
     {
       "RoundNo": 2,
@@ -2999,8 +2999,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 56013,
-      "Closing\nRank": 56013
+      "openingRank": 56013,
+      "closingRank": 56013
     },
     {
       "RoundNo": 2,
@@ -3010,8 +3010,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 39422,
-      "Closing\nRank": 46402
+      "openingRank": 39422,
+      "closingRank": 46402
     },
     {
       "RoundNo": 2,
@@ -3021,8 +3021,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPPH",
-      "Opening\nRank": 503669,
-      "Closing\nRank": 503669
+      "openingRank": 503669,
+      "closingRank": 503669
     },
     {
       "RoundNo": 2,
@@ -3032,8 +3032,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 184959,
-      "Closing\nRank": 216843
+      "openingRank": 184959,
+      "closingRank": 216843
     },
     {
       "RoundNo": 2,
@@ -3043,8 +3043,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 410531,
-      "Closing\nRank": 541529
+      "openingRank": 410531,
+      "closingRank": 541529
     },
     {
       "RoundNo": 2,
@@ -3054,8 +3054,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 123517,
-      "Closing\nRank": 176075
+      "openingRank": 123517,
+      "closingRank": 176075
     },
     {
       "RoundNo": 2,
@@ -3065,8 +3065,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 71014,
-      "Closing\nRank": 81838
+      "openingRank": 71014,
+      "closingRank": 81838
     },
     {
       "RoundNo": 2,
@@ -3076,8 +3076,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 392645,
-      "Closing\nRank": 415545
+      "openingRank": 392645,
+      "closingRank": 415545
     },
     {
       "RoundNo": 2,
@@ -3087,8 +3087,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 46415,
-      "Closing\nRank": 47563
+      "openingRank": 46415,
+      "closingRank": 47563
     },
     {
       "RoundNo": 2,
@@ -3098,8 +3098,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 611779,
-      "Closing\nRank": 611779
+      "openingRank": 611779,
+      "closingRank": 611779
     },
     {
       "RoundNo": 2,
@@ -3109,8 +3109,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 166231,
-      "Closing\nRank": 204834
+      "openingRank": 166231,
+      "closingRank": 204834
     },
     {
       "RoundNo": 2,
@@ -3120,8 +3120,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 16922,
-      "Closing\nRank": 95763
+      "openingRank": 16922,
+      "closingRank": 95763
     },
     {
       "RoundNo": 2,
@@ -3131,8 +3131,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 387379,
-      "Closing\nRank": 489268
+      "openingRank": 387379,
+      "closingRank": 489268
     },
     {
       "RoundNo": 2,
@@ -3142,8 +3142,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 122753,
-      "Closing\nRank": 122753
+      "openingRank": 122753,
+      "closingRank": 122753
     },
     {
       "RoundNo": 2,
@@ -3153,8 +3153,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 45249,
-      "Closing\nRank": 51667
+      "openingRank": 45249,
+      "closingRank": 51667
     },
     {
       "RoundNo": 2,
@@ -3164,8 +3164,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPPH",
-      "Opening\nRank": 1174702,
-      "Closing\nRank": 1174702
+      "openingRank": 1174702,
+      "closingRank": 1174702
     },
     {
       "RoundNo": 2,
@@ -3175,8 +3175,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 231974,
-      "Closing\nRank": 248211
+      "openingRank": 231974,
+      "closingRank": 248211
     },
     {
       "RoundNo": 2,
@@ -3186,8 +3186,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 664784,
-      "Closing\nRank": 664784
+      "openingRank": 664784,
+      "closingRank": 664784
     },
     {
       "RoundNo": 2,
@@ -3197,8 +3197,8 @@
       "Program": "CSE - AI",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 176287,
-      "Closing\nRank": 180171
+      "openingRank": 176287,
+      "closingRank": 180171
     },
     {
       "RoundNo": 2,
@@ -3208,8 +3208,8 @@
       "Program": "CSE - AI",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 17988,
-      "Closing\nRank": 85526
+      "openingRank": 17988,
+      "closingRank": 85526
     },
     {
       "RoundNo": "",
@@ -3219,8 +3219,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -3230,8 +3230,8 @@
       "Program": "CSE - AI",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 348699,
-      "Closing\nRank": 422553
+      "openingRank": 348699,
+      "closingRank": 422553
     },
     {
       "RoundNo": 2,
@@ -3241,8 +3241,8 @@
       "Program": "CSE - AI",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 42847,
-      "Closing\nRank": 50223
+      "openingRank": 42847,
+      "closingRank": 50223
     },
     {
       "RoundNo": 2,
@@ -3252,8 +3252,8 @@
       "Program": "CSE - AI",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 246532,
-      "Closing\nRank": 246532
+      "openingRank": 246532,
+      "closingRank": 246532
     },
     {
       "RoundNo": 2,
@@ -3263,8 +3263,8 @@
       "Program": "CSE - AI",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 454076,
-      "Closing\nRank": 454076
+      "openingRank": 454076,
+      "closingRank": 454076
     },
     {
       "RoundNo": 2,
@@ -3274,8 +3274,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 129813,
-      "Closing\nRank": 162479
+      "openingRank": 129813,
+      "closingRank": 162479
     },
     {
       "RoundNo": 2,
@@ -3285,8 +3285,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 57245,
-      "Closing\nRank": 81869
+      "openingRank": 57245,
+      "closingRank": 81869
     },
     {
       "RoundNo": 2,
@@ -3296,8 +3296,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 326529,
-      "Closing\nRank": 425427
+      "openingRank": 326529,
+      "closingRank": 425427
     },
     {
       "RoundNo": 2,
@@ -3307,8 +3307,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 47051,
-      "Closing\nRank": 49906
+      "openingRank": 47051,
+      "closingRank": 49906
     },
     {
       "RoundNo": 2,
@@ -3318,8 +3318,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 238703,
-      "Closing\nRank": 238703
+      "openingRank": 238703,
+      "closingRank": 238703
     },
     {
       "RoundNo": 2,
@@ -3329,8 +3329,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 443017,
-      "Closing\nRank": 443017
+      "openingRank": 443017,
+      "closingRank": 443017
     },
     {
       "RoundNo": 2,
@@ -3340,8 +3340,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 182093,
-      "Closing\nRank": 213257
+      "openingRank": 182093,
+      "closingRank": 213257
     },
     {
       "RoundNo": 2,
@@ -3351,8 +3351,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 72441,
-      "Closing\nRank": 89825
+      "openingRank": 72441,
+      "closingRank": 89825
     },
     {
       "RoundNo": 2,
@@ -3362,8 +3362,8 @@
       "Program": "CSE- DS",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 424310,
-      "Closing\nRank": 463382
+      "openingRank": 424310,
+      "closingRank": 463382
     },
     {
       "RoundNo": 2,
@@ -3373,8 +3373,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 46503,
-      "Closing\nRank": 50774
+      "openingRank": 46503,
+      "closingRank": 50774
     },
     {
       "RoundNo": 2,
@@ -3384,8 +3384,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 244263,
-      "Closing\nRank": 244263
+      "openingRank": 244263,
+      "closingRank": 244263
     },
     {
       "RoundNo": 2,
@@ -3395,8 +3395,8 @@
       "Program": "CSE- DS",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 517305,
-      "Closing\nRank": 517305
+      "openingRank": 517305,
+      "closingRank": 517305
     },
     {
       "RoundNo": 2,
@@ -3406,8 +3406,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 387389,
-      "Closing\nRank": 477020
+      "openingRank": 387389,
+      "closingRank": 477020
     },
     {
       "RoundNo": 2,
@@ -3417,8 +3417,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 106112,
-      "Closing\nRank": 178300
+      "openingRank": 106112,
+      "closingRank": 178300
     },
     {
       "RoundNo": 2,
@@ -3428,8 +3428,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 704982,
-      "Closing\nRank": 1182093
+      "openingRank": 704982,
+      "closingRank": 1182093
     },
     {
       "RoundNo": 2,
@@ -3439,8 +3439,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 65929,
-      "Closing\nRank": 72026
+      "openingRank": 65929,
+      "closingRank": 72026
     },
     {
       "RoundNo": 2,
@@ -3450,8 +3450,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 264420,
-      "Closing\nRank": 264420
+      "openingRank": 264420,
+      "closingRank": 264420
     },
     {
       "RoundNo": 2,
@@ -3461,8 +3461,8 @@
       "Program": "Electronics & Comm.- Advance Comm. Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 399089,
-      "Closing\nRank": 399089
+      "openingRank": 399089,
+      "closingRank": 399089
     },
     {
       "RoundNo": 2,
@@ -3472,8 +3472,8 @@
       "Program": "Electronics & Comm.- Advance Comm. Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 128279,
-      "Closing\nRank": 153190
+      "openingRank": 128279,
+      "closingRank": 153190
     },
     {
       "RoundNo": 2,
@@ -3483,8 +3483,8 @@
       "Program": "Electronics & Comm.- Advance Comm. Technology",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 656141,
-      "Closing\nRank": 698851
+      "openingRank": 656141,
+      "closingRank": 698851
     },
     {
       "RoundNo": 2,
@@ -3494,8 +3494,8 @@
       "Program": "Electronics & Comm.- Advance Comm.\nTechnology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 62489,
-      "Closing\nRank": 64960
+      "openingRank": 62489,
+      "closingRank": 64960
     },
     {
       "RoundNo": 2,
@@ -3505,8 +3505,8 @@
       "Program": "Electronics & Comm.- Advance Comm.\nTechnology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 246122,
-      "Closing\nRank": 246122
+      "openingRank": 246122,
+      "closingRank": 246122
     },
     {
       "RoundNo": 2,
@@ -3516,8 +3516,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 342877,
-      "Closing\nRank": 362224
+      "openingRank": 342877,
+      "closingRank": 362224
     },
     {
       "RoundNo": 2,
@@ -3527,8 +3527,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 88963,
-      "Closing\nRank": 126420
+      "openingRank": 88963,
+      "closingRank": 126420
     },
     {
       "RoundNo": 2,
@@ -3538,8 +3538,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 492879,
-      "Closing\nRank": 666028
+      "openingRank": 492879,
+      "closingRank": 666028
     },
     {
       "RoundNo": 2,
@@ -3549,8 +3549,8 @@
       "Program": "Electronics & Communication Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 51638,
-      "Closing\nRank": 60595
+      "openingRank": 51638,
+      "closingRank": 60595
     },
     {
       "RoundNo": 2,
@@ -3560,8 +3560,8 @@
       "Program": "Electronics Engg.- VLSI Design & Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 612555,
-      "Closing\nRank": 617147
+      "openingRank": 612555,
+      "closingRank": 617147
     },
     {
       "RoundNo": 2,
@@ -3571,8 +3571,8 @@
       "Program": "Electronics Engg.- VLSI Design & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 98215,
-      "Closing\nRank": 167952
+      "openingRank": 98215,
+      "closingRank": 167952
     },
     {
       "RoundNo": 2,
@@ -3582,8 +3582,8 @@
       "Program": "Electronics Engg.- VLSI Design &",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 790032,
-      "Closing\nRank": 976458
+      "openingRank": 790032,
+      "closingRank": 976458
     },
     {
       "RoundNo": "",
@@ -3593,8 +3593,8 @@
       "Program": "Technology",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -3604,8 +3604,8 @@
       "Program": "Electronics Engg.- VLSI Design & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 65331,
-      "Closing\nRank": 67324
+      "openingRank": 65331,
+      "closingRank": 67324
     },
     {
       "RoundNo": 2,
@@ -3615,8 +3615,8 @@
       "Program": "Electronics Engg.- VLSI Design & Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 264231,
-      "Closing\nRank": 264231
+      "openingRank": 264231,
+      "closingRank": 264231
     },
     {
       "RoundNo": 2,
@@ -3626,8 +3626,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 192295,
-      "Closing\nRank": 278714
+      "openingRank": 192295,
+      "closingRank": 278714
     },
     {
       "RoundNo": 2,
@@ -3637,8 +3637,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 88789,
-      "Closing\nRank": 107249
+      "openingRank": 88789,
+      "closingRank": 107249
     },
     {
       "RoundNo": 2,
@@ -3648,8 +3648,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 431048,
-      "Closing\nRank": 528778
+      "openingRank": 431048,
+      "closingRank": 528778
     },
     {
       "RoundNo": 2,
@@ -3659,8 +3659,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 163187,
-      "Closing\nRank": 163187
+      "openingRank": 163187,
+      "closingRank": 163187
     },
     {
       "RoundNo": 2,
@@ -3670,8 +3670,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 50566,
-      "Closing\nRank": 55080
+      "openingRank": 50566,
+      "closingRank": 55080
     },
     {
       "RoundNo": 2,
@@ -3681,8 +3681,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 219168,
-      "Closing\nRank": 251313
+      "openingRank": 219168,
+      "closingRank": 251313
     },
     {
       "RoundNo": 2,
@@ -3692,8 +3692,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 602382,
-      "Closing\nRank": 602382
+      "openingRank": 602382,
+      "closingRank": 602382
     },
     {
       "RoundNo": 2,
@@ -3703,8 +3703,8 @@
       "Program": "Information Technology and Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 205314,
-      "Closing\nRank": 288022
+      "openingRank": 205314,
+      "closingRank": 288022
     },
     {
       "RoundNo": 2,
@@ -3714,8 +3714,8 @@
       "Program": "Information Technology and Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 96116,
-      "Closing\nRank": 113695
+      "openingRank": 96116,
+      "closingRank": 113695
     },
     {
       "RoundNo": 2,
@@ -3725,8 +3725,8 @@
       "Program": "Information Technology and Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 540456,
-      "Closing\nRank": 597060
+      "openingRank": 540456,
+      "closingRank": 597060
     },
     {
       "RoundNo": 2,
@@ -3736,8 +3736,8 @@
       "Program": "Information Technology and Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 540829,
-      "Closing\nRank": 540829
+      "openingRank": 540829,
+      "closingRank": 540829
     },
     {
       "RoundNo": 2,
@@ -3747,8 +3747,8 @@
       "Program": "Information Technology and Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 51814,
-      "Closing\nRank": 55923
+      "openingRank": 51814,
+      "closingRank": 55923
     },
     {
       "RoundNo": 2,
@@ -3758,8 +3758,8 @@
       "Program": "Information Technology and Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 254799,
-      "Closing\nRank": 256449
+      "openingRank": 254799,
+      "closingRank": 256449
     },
     {
       "RoundNo": 2,
@@ -3769,8 +3769,8 @@
       "Program": "Information Technology and Engineering",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 685357,
-      "Closing\nRank": 685357
+      "openingRank": 685357,
+      "closingRank": 685357
     },
     {
       "RoundNo": 2,
@@ -3780,8 +3780,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 508319,
-      "Closing\nRank": 637282
+      "openingRank": 508319,
+      "closingRank": 637282
     },
     {
       "RoundNo": 2,
@@ -3791,8 +3791,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 165969,
-      "Closing\nRank": 217937
+      "openingRank": 165969,
+      "closingRank": 217937
     },
     {
       "RoundNo": 2,
@@ -3802,8 +3802,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 901257,
-      "Closing\nRank": 901257
+      "openingRank": 901257,
+      "closingRank": 901257
     },
     {
       "RoundNo": 2,
@@ -3813,8 +3813,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 72404,
-      "Closing\nRank": 86896
+      "openingRank": 72404,
+      "closingRank": 86896
     },
     {
       "RoundNo": 2,
@@ -3824,8 +3824,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 286602,
-      "Closing\nRank": 286602
+      "openingRank": 286602,
+      "closingRank": 286602
     },
     {
       "RoundNo": 2,
@@ -3835,8 +3835,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "AI",
       "Category": "NOKM",
-      "Opening\nRank": 106715,
-      "Closing\nRank": 106715
+      "openingRank": 106715,
+      "closingRank": 106715
     },
     {
       "RoundNo": 2,
@@ -3846,8 +3846,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 181967,
-      "Closing\nRank": 219543
+      "openingRank": 181967,
+      "closingRank": 219543
     },
     {
       "RoundNo": 2,
@@ -3857,8 +3857,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 75347,
-      "Closing\nRank": 106609
+      "openingRank": 75347,
+      "closingRank": 106609
     },
     {
       "RoundNo": 2,
@@ -3868,8 +3868,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "OPPH",
-      "Opening\nRank": 1221085,
-      "Closing\nRank": 1221085
+      "openingRank": 1221085,
+      "closingRank": 1221085
     },
     {
       "RoundNo": 2,
@@ -3879,8 +3879,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 388858,
-      "Closing\nRank": 484731
+      "openingRank": 388858,
+      "closingRank": 484731
     },
     {
       "RoundNo": 2,
@@ -3890,8 +3890,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 255431,
-      "Closing\nRank": 255431
+      "openingRank": 255431,
+      "closingRank": 255431
     },
     {
       "RoundNo": 2,
@@ -3901,8 +3901,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 47442,
-      "Closing\nRank": 56150
+      "openingRank": 47442,
+      "closingRank": 56150
     },
     {
       "RoundNo": 2,
@@ -3912,8 +3912,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 217428,
-      "Closing\nRank": 255200
+      "openingRank": 217428,
+      "closingRank": 255200
     },
     {
       "RoundNo": 2,
@@ -3923,8 +3923,8 @@
       "Program": "Computer Science & Engineering (Shift I)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 500799,
-      "Closing\nRank": 500799
+      "openingRank": 500799,
+      "closingRank": 500799
     },
     {
       "RoundNo": 2,
@@ -3934,8 +3934,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 228897,
-      "Closing\nRank": 236255
+      "openingRank": 228897,
+      "closingRank": 236255
     },
     {
       "RoundNo": 2,
@@ -3945,8 +3945,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 102485,
-      "Closing\nRank": 109664
+      "openingRank": 102485,
+      "closingRank": 109664
     },
     {
       "RoundNo": 2,
@@ -3956,8 +3956,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 380942,
-      "Closing\nRank": 518275
+      "openingRank": 380942,
+      "closingRank": 518275
     },
     {
       "RoundNo": 2,
@@ -3967,8 +3967,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 56151,
-      "Closing\nRank": 56879
+      "openingRank": 56151,
+      "closingRank": 56879
     },
     {
       "RoundNo": 2,
@@ -3978,8 +3978,8 @@
       "Program": "Computer Science & Engineering (Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 265077,
-      "Closing\nRank": 265077
+      "openingRank": 265077,
+      "closingRank": 265077
     },
     {
       "RoundNo": 2,
@@ -3989,8 +3989,8 @@
       "Program": "Computer Science & Engineering (Shift\nII)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 598533,
-      "Closing\nRank": 598533
+      "openingRank": 598533,
+      "closingRank": 598533
     },
     {
       "RoundNo": 2,
@@ -4000,8 +4000,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 691309,
-      "Closing\nRank": 712318
+      "openingRank": 691309,
+      "closingRank": 712318
     },
     {
       "RoundNo": 2,
@@ -4011,8 +4011,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 174477,
-      "Closing\nRank": 202837
+      "openingRank": 174477,
+      "closingRank": 202837
     },
     {
       "RoundNo": 2,
@@ -4022,8 +4022,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 752037,
-      "Closing\nRank": 847293
+      "openingRank": 752037,
+      "closingRank": 847293
     },
     {
       "RoundNo": 2,
@@ -4033,8 +4033,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 72612,
-      "Closing\nRank": 76760
+      "openingRank": 72612,
+      "closingRank": 76760
     },
     {
       "RoundNo": 2,
@@ -4044,8 +4044,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 329121,
-      "Closing\nRank": 329121
+      "openingRank": 329121,
+      "closingRank": 329121
     },
     {
       "RoundNo": 2,
@@ -4055,8 +4055,8 @@
       "Program": "Electronics & Communication\nEngineering (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 370352,
-      "Closing\nRank": 381471
+      "openingRank": 370352,
+      "closingRank": 381471
     },
     {
       "RoundNo": 2,
@@ -4066,8 +4066,8 @@
       "Program": "Electronics & Communication\nEngineering (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 109435,
-      "Closing\nRank": 162493
+      "openingRank": 109435,
+      "closingRank": 162493
     },
     {
       "RoundNo": 2,
@@ -4077,8 +4077,8 @@
       "Program": "Electronics & Communication\nEngineering (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 664675,
-      "Closing\nRank": 905052
+      "openingRank": 664675,
+      "closingRank": 905052
     },
     {
       "RoundNo": 2,
@@ -4088,8 +4088,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 446211,
-      "Closing\nRank": 446211
+      "openingRank": 446211,
+      "closingRank": 446211
     },
     {
       "RoundNo": 2,
@@ -4099,8 +4099,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 61156,
-      "Closing\nRank": 68002
+      "openingRank": 61156,
+      "closingRank": 68002
     },
     {
       "RoundNo": 2,
@@ -4110,8 +4110,8 @@
       "Program": "Electronics & Communication Engineering (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 273986,
-      "Closing\nRank": 279857
+      "openingRank": 273986,
+      "closingRank": 279857
     },
     {
       "RoundNo": 2,
@@ -4121,8 +4121,8 @@
       "Program": "Electronics & Communication Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 390670,
-      "Closing\nRank": 414513
+      "openingRank": 390670,
+      "closingRank": 414513
     },
     {
       "RoundNo": 2,
@@ -4132,8 +4132,8 @@
       "Program": "Electronics & Communication Engineering (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 137731,
-      "Closing\nRank": 169458
+      "openingRank": 137731,
+      "closingRank": 169458
     },
     {
       "RoundNo": 2,
@@ -4143,8 +4143,8 @@
       "Program": "Electronics & Communication\nEngineering (Shift II)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 976150,
-      "Closing\nRank": 1349056
+      "openingRank": 976150,
+      "closingRank": 1349056
     },
     {
       "RoundNo": 2,
@@ -4154,8 +4154,8 @@
       "Program": "Electronics & Communication\nEngineering (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 68258,
-      "Closing\nRank": 71693
+      "openingRank": 68258,
+      "closingRank": 71693
     },
     {
       "RoundNo": 2,
@@ -4165,8 +4165,8 @@
       "Program": "Electronics & Communication\nEngineering (Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 293487,
-      "Closing\nRank": 293487
+      "openingRank": 293487,
+      "closingRank": 293487
     },
     {
       "RoundNo": 2,
@@ -4176,8 +4176,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 244112,
-      "Closing\nRank": 302704
+      "openingRank": 244112,
+      "closingRank": 302704
     },
     {
       "RoundNo": 2,
@@ -4187,8 +4187,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 108177,
-      "Closing\nRank": 123189
+      "openingRank": 108177,
+      "closingRank": 123189
     },
     {
       "RoundNo": 2,
@@ -4198,8 +4198,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 496166,
-      "Closing\nRank": 612615
+      "openingRank": 496166,
+      "closingRank": 612615
     },
     {
       "RoundNo": 2,
@@ -4209,8 +4209,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 600344,
-      "Closing\nRank": 600344
+      "openingRank": 600344,
+      "closingRank": 600344
     },
     {
       "RoundNo": 2,
@@ -4220,8 +4220,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 57499,
-      "Closing\nRank": 59996
+      "openingRank": 57499,
+      "closingRank": 59996
     },
     {
       "RoundNo": 2,
@@ -4231,8 +4231,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 257943,
-      "Closing\nRank": 272327
+      "openingRank": 257943,
+      "closingRank": 272327
     },
     {
       "RoundNo": 2,
@@ -4242,8 +4242,8 @@
       "Program": "Information Technology (Shift I)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 782965,
-      "Closing\nRank": 992779
+      "openingRank": 782965,
+      "closingRank": 992779
     },
     {
       "RoundNo": 2,
@@ -4253,8 +4253,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 303416,
-      "Closing\nRank": 305361
+      "openingRank": 303416,
+      "closingRank": 305361
     },
     {
       "RoundNo": 2,
@@ -4264,8 +4264,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 123300,
-      "Closing\nRank": 127174
+      "openingRank": 123300,
+      "closingRank": 127174
     },
     {
       "RoundNo": 2,
@@ -4275,8 +4275,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 545031,
-      "Closing\nRank": 633349
+      "openingRank": 545031,
+      "closingRank": 633349
     },
     {
       "RoundNo": 2,
@@ -4286,8 +4286,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 60439,
-      "Closing\nRank": 61178
+      "openingRank": 60439,
+      "closingRank": 61178
     },
     {
       "RoundNo": 2,
@@ -4297,8 +4297,8 @@
       "Program": "Information Technology (Shift II)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 272497,
-      "Closing\nRank": 272497
+      "openingRank": 272497,
+      "closingRank": 272497
     },
     {
       "RoundNo": 2,
@@ -4308,8 +4308,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 217539,
-      "Closing\nRank": 468166
+      "openingRank": 217539,
+      "closingRank": 468166
     },
     {
       "RoundNo": 2,
@@ -4319,8 +4319,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 851414,
-      "Closing\nRank": 851414
+      "openingRank": 851414,
+      "closingRank": 851414
     },
     {
       "RoundNo": 2,
@@ -4330,8 +4330,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 123056,
-      "Closing\nRank": 135654
+      "openingRank": 123056,
+      "closingRank": 135654
     },
     {
       "RoundNo": 2,
@@ -4341,8 +4341,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 447242,
-      "Closing\nRank": 447242
+      "openingRank": 447242,
+      "closingRank": 447242
     },
     {
       "RoundNo": 2,
@@ -4352,8 +4352,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 458276,
-      "Closing\nRank": 486402
+      "openingRank": 458276,
+      "closingRank": 486402
     },
     {
       "RoundNo": 2,
@@ -4363,8 +4363,8 @@
       "Program": "Electrical & Electronics Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 113958,
-      "Closing\nRank": 113958
+      "openingRank": 113958,
+      "closingRank": 113958
     },
     {
       "RoundNo": 2,
@@ -4374,8 +4374,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 376813,
-      "Closing\nRank": 423505
+      "openingRank": 376813,
+      "closingRank": 423505
     },
     {
       "RoundNo": 2,
@@ -4385,8 +4385,8 @@
       "Program": "Electronics & Communication\nEngineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 123762,
-      "Closing\nRank": 138915
+      "openingRank": 123762,
+      "closingRank": 138915
     },
     {
       "RoundNo": 2,
@@ -4396,8 +4396,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 397918,
-      "Closing\nRank": 482803
+      "openingRank": 397918,
+      "closingRank": 482803
     },
     {
       "RoundNo": 2,
@@ -4407,8 +4407,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 136695,
-      "Closing\nRank": 137016
+      "openingRank": 136695,
+      "closingRank": 137016
     },
     {
       "RoundNo": 2,
@@ -4418,8 +4418,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 429463,
-      "Closing\nRank": 486451
+      "openingRank": 429463,
+      "closingRank": 486451
     },
     {
       "RoundNo": 2,
@@ -4429,8 +4429,8 @@
       "Program": "Mechanical Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 141651,
-      "Closing\nRank": 141668
+      "openingRank": 141651,
+      "closingRank": 141668
     },
     {
       "RoundNo": 2,
@@ -4440,8 +4440,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 537702,
-      "Closing\nRank": 537702
+      "openingRank": 537702,
+      "closingRank": 537702
     },
     {
       "RoundNo": 2,
@@ -4451,8 +4451,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 289471,
-      "Closing\nRank": 467348
+      "openingRank": 289471,
+      "closingRank": 467348
     },
     {
       "RoundNo": "",
@@ -4462,8 +4462,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -4473,8 +4473,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 128319,
-      "Closing\nRank": 135828
+      "openingRank": 128319,
+      "closingRank": 135828
     },
     {
       "RoundNo": 2,
@@ -4484,8 +4484,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 508078,
-      "Closing\nRank": 508078
+      "openingRank": 508078,
+      "closingRank": 508078
     },
     {
       "RoundNo": 2,
@@ -4495,8 +4495,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 328704,
-      "Closing\nRank": 485402
+      "openingRank": 328704,
+      "closingRank": 485402
     },
     {
       "RoundNo": 2,
@@ -4506,8 +4506,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 139154,
-      "Closing\nRank": 141323
+      "openingRank": 139154,
+      "closingRank": 141323
     },
     {
       "RoundNo": 2,
@@ -4517,8 +4517,8 @@
       "Program": "Computer Science & Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 571843,
-      "Closing\nRank": 571843
+      "openingRank": 571843,
+      "closingRank": 571843
     },
     {
       "RoundNo": 2,
@@ -4528,8 +4528,8 @@
       "Program": "CSE- AIML",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 226898,
-      "Closing\nRank": 460158
+      "openingRank": 226898,
+      "closingRank": 460158
     },
     {
       "RoundNo": 2,
@@ -4539,8 +4539,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 129982,
-      "Closing\nRank": 140238
+      "openingRank": 129982,
+      "closingRank": 140238
     },
     {
       "RoundNo": 2,
@@ -4550,8 +4550,8 @@
       "Program": "CSE- AIML",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 564182,
-      "Closing\nRank": 564182
+      "openingRank": 564182,
+      "closingRank": 564182
     },
     {
       "RoundNo": 2,
@@ -4561,8 +4561,8 @@
       "Program": "Information Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 302471,
-      "Closing\nRank": 475976
+      "openingRank": 302471,
+      "closingRank": 475976
     },
     {
       "RoundNo": 2,
@@ -4572,8 +4572,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 121114,
-      "Closing\nRank": 139506
+      "openingRank": 121114,
+      "closingRank": 139506
     },
     {
       "RoundNo": 2,
@@ -4583,8 +4583,8 @@
       "Program": "Information Technology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 579353,
-      "Closing\nRank": 579353
+      "openingRank": 579353,
+      "closingRank": 579353
     },
     {
       "RoundNo": 2,
@@ -4594,8 +4594,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "AI",
       "Category": "NOKM",
-      "Opening\nRank": 113160,
-      "Closing\nRank": 113160
+      "openingRank": 113160,
+      "closingRank": 113160
     },
     {
       "RoundNo": 2,
@@ -4605,8 +4605,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "HS",
       "Category": "BCDF",
-      "Opening\nRank": 435626,
-      "Closing\nRank": 435626
+      "openingRank": 435626,
+      "closingRank": 435626
     },
     {
       "RoundNo": 2,
@@ -4616,8 +4616,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 230030,
-      "Closing\nRank": 276022
+      "openingRank": 230030,
+      "closingRank": 276022
     },
     {
       "RoundNo": 2,
@@ -4627,8 +4627,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 110340,
-      "Closing\nRank": 135688
+      "openingRank": 110340,
+      "closingRank": 135688
     },
     {
       "RoundNo": 2,
@@ -4638,8 +4638,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 250115,
-      "Closing\nRank": 250115
+      "openingRank": 250115,
+      "closingRank": 250115
     },
     {
       "RoundNo": 2,
@@ -4649,8 +4649,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 83306,
-      "Closing\nRank": 106433
+      "openingRank": 83306,
+      "closingRank": 106433
     },
     {
       "RoundNo": 2,
@@ -4660,8 +4660,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 330550,
-      "Closing\nRank": 544411
+      "openingRank": 330550,
+      "closingRank": 544411
     },
     {
       "RoundNo": 2,
@@ -4671,8 +4671,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 64988,
-      "Closing\nRank": 66335
+      "openingRank": 64988,
+      "closingRank": 66335
     },
     {
       "RoundNo": 2,
@@ -4682,8 +4682,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 51339,
-      "Closing\nRank": 62053
+      "openingRank": 51339,
+      "closingRank": 62053
     },
     {
       "RoundNo": 2,
@@ -4693,8 +4693,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "OS",
       "Category": "OPPH",
-      "Opening\nRank": 960772,
-      "Closing\nRank": 960772
+      "openingRank": 960772,
+      "closingRank": 960772
     },
     {
       "RoundNo": 2,
@@ -4704,8 +4704,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 179695,
-      "Closing\nRank": 239764
+      "openingRank": 179695,
+      "closingRank": 239764
     },
     {
       "RoundNo": 2,
@@ -4715,8 +4715,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-DS)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 542434,
-      "Closing\nRank": 542434
+      "openingRank": 542434,
+      "closingRank": 542434
     },
     {
       "RoundNo": 2,
@@ -4726,8 +4726,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "HS",
       "Category": "BCDF",
-      "Opening\nRank": 537901,
-      "Closing\nRank": 1314446
+      "openingRank": 537901,
+      "closingRank": 1314446
     },
     {
       "RoundNo": 2,
@@ -4737,8 +4737,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 162557,
-      "Closing\nRank": 289472
+      "openingRank": 162557,
+      "closingRank": 289472
     },
     {
       "RoundNo": 2,
@@ -4748,8 +4748,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 131138,
-      "Closing\nRank": 146484
+      "openingRank": 131138,
+      "closingRank": 146484
     },
     {
       "RoundNo": 2,
@@ -4759,8 +4759,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 292543,
-      "Closing\nRank": 321781
+      "openingRank": 292543,
+      "closingRank": 321781
     },
     {
       "RoundNo": 2,
@@ -4770,8 +4770,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 81890,
-      "Closing\nRank": 114005
+      "openingRank": 81890,
+      "closingRank": 114005
     },
     {
       "RoundNo": 2,
@@ -4781,8 +4781,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 319452,
-      "Closing\nRank": 572682
+      "openingRank": 319452,
+      "closingRank": 572682
     },
     {
       "RoundNo": 2,
@@ -4792,8 +4792,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 69573,
-      "Closing\nRank": 72611
+      "openingRank": 69573,
+      "closingRank": 72611
     },
     {
       "RoundNo": 2,
@@ -4803,8 +4803,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 50302,
-      "Closing\nRank": 66821
+      "openingRank": 50302,
+      "closingRank": 66821
     },
     {
       "RoundNo": 2,
@@ -4814,8 +4814,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "OS",
       "Category": "OPPH",
-      "Opening\nRank": 659225,
-      "Closing\nRank": 659225
+      "openingRank": 659225,
+      "closingRank": 659225
     },
     {
       "RoundNo": 2,
@@ -4825,8 +4825,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 233525,
-      "Closing\nRank": 233525
+      "openingRank": 233525,
+      "closingRank": 233525
     },
     {
       "RoundNo": 2,
@@ -4836,8 +4836,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AI-ML)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 812350,
-      "Closing\nRank": 952839
+      "openingRank": 812350,
+      "closingRank": 952839
     },
     {
       "RoundNo": 2,
@@ -4847,8 +4847,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 289913,
-      "Closing\nRank": 356866
+      "openingRank": 289913,
+      "closingRank": 356866
     },
     {
       "RoundNo": 2,
@@ -4858,8 +4858,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 164518,
-      "Closing\nRank": 192618
+      "openingRank": 164518,
+      "closingRank": 192618
     },
     {
       "RoundNo": 2,
@@ -4869,8 +4869,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 457067,
-      "Closing\nRank": 508192
+      "openingRank": 457067,
+      "closingRank": 508192
     },
     {
       "RoundNo": 2,
@@ -4880,8 +4880,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 117025,
-      "Closing\nRank": 156301
+      "openingRank": 117025,
+      "closingRank": 156301
     },
     {
       "RoundNo": 2,
@@ -4891,8 +4891,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 510364,
-      "Closing\nRank": 834863
+      "openingRank": 510364,
+      "closingRank": 834863
     },
     {
       "RoundNo": 2,
@@ -4902,8 +4902,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 78474,
-      "Closing\nRank": 82926
+      "openingRank": 78474,
+      "closingRank": 82926
     },
     {
       "RoundNo": 2,
@@ -4913,8 +4913,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 89352,
-      "Closing\nRank": 89352
+      "openingRank": 89352,
+      "closingRank": 89352
     },
     {
       "RoundNo": 2,
@@ -4924,8 +4924,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 66977,
-      "Closing\nRank": 78277
+      "openingRank": 66977,
+      "closingRank": 78277
     },
     {
       "RoundNo": 2,
@@ -4935,8 +4935,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 279751,
-      "Closing\nRank": 294728
+      "openingRank": 279751,
+      "closingRank": 294728
     },
     {
       "RoundNo": 2,
@@ -4946,8 +4946,8 @@
       "Program": "B.Tech./M. Tech. (DD) (AR)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 1160943,
-      "Closing\nRank": 1160943
+      "openingRank": 1160943,
+      "closingRank": 1160943
     },
     {
       "RoundNo": 2,
@@ -4957,8 +4957,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 313474,
-      "Closing\nRank": 373321
+      "openingRank": 313474,
+      "closingRank": 373321
     },
     {
       "RoundNo": 2,
@@ -4968,8 +4968,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 194492,
-      "Closing\nRank": 231283
+      "openingRank": 194492,
+      "closingRank": 231283
     },
     {
       "RoundNo": 2,
@@ -4979,8 +4979,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 334579,
-      "Closing\nRank": 385431
+      "openingRank": 334579,
+      "closingRank": 385431
     },
     {
       "RoundNo": 2,
@@ -4990,8 +4990,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 126020,
-      "Closing\nRank": 174817
+      "openingRank": 126020,
+      "closingRank": 174817
     },
     {
       "RoundNo": 2,
@@ -5001,8 +5001,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 729125,
-      "Closing\nRank": 1076310
+      "openingRank": 729125,
+      "closingRank": 1076310
     },
     {
       "RoundNo": 2,
@@ -5012,8 +5012,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 83391,
-      "Closing\nRank": 85924
+      "openingRank": 83391,
+      "closingRank": 85924
     },
     {
       "RoundNo": 2,
@@ -5023,8 +5023,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 74495,
-      "Closing\nRank": 80816
+      "openingRank": 74495,
+      "closingRank": 80816
     },
     {
       "RoundNo": 2,
@@ -5034,8 +5034,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 323253,
-      "Closing\nRank": 331788
+      "openingRank": 323253,
+      "closingRank": 331788
     },
     {
       "RoundNo": 2,
@@ -5045,8 +5045,8 @@
       "Program": "B.Tech./M. Tech. (DD) (IIOT)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 835993,
-      "Closing\nRank": 835993
+      "openingRank": 835993,
+      "closingRank": 835993
     },
     {
       "RoundNo": 2,
@@ -5056,8 +5056,8 @@
       "Program": "B. Tech. (Energy)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 260058,
-      "Closing\nRank": 580164
+      "openingRank": 260058,
+      "closingRank": 580164
     },
     {
       "RoundNo": 2,
@@ -5067,8 +5067,8 @@
       "Program": "B. Tech. (Energy)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 465010,
-      "Closing\nRank": 527668
+      "openingRank": 465010,
+      "closingRank": 527668
     },
     {
       "RoundNo": 2,
@@ -5078,8 +5078,8 @@
       "Program": "B. Tech. (Energy)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 198192,
-      "Closing\nRank": 249128
+      "openingRank": 198192,
+      "closingRank": 249128
     },
     {
       "RoundNo": 2,
@@ -5089,8 +5089,8 @@
       "Program": "B. Tech. (Energy)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 445492,
-      "Closing\nRank": 842323
+      "openingRank": 445492,
+      "closingRank": 842323
     },
     {
       "RoundNo": 2,
@@ -5100,8 +5100,8 @@
       "Program": "B. Tech. (Energy)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 133753,
-      "Closing\nRank": 133753
+      "openingRank": 133753,
+      "closingRank": 133753
     },
     {
       "RoundNo": 2,
@@ -5111,8 +5111,8 @@
       "Program": "B. Tech. (Energy)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 111795,
-      "Closing\nRank": 113664
+      "openingRank": 111795,
+      "closingRank": 113664
     },
     {
       "RoundNo": 2,
@@ -5122,8 +5122,8 @@
       "Program": "B. Tech. (Energy)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 385958,
-      "Closing\nRank": 385958
+      "openingRank": 385958,
+      "closingRank": 385958
     },
     {
       "RoundNo": 2,
@@ -5133,8 +5133,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in\nChemical Engineering",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 284715,
-      "Closing\nRank": 564652
+      "openingRank": 284715,
+      "closingRank": 564652
     },
     {
       "RoundNo": 2,
@@ -5144,8 +5144,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in\nChemical Engineering",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 330556,
-      "Closing\nRank": 541503
+      "openingRank": 330556,
+      "closingRank": 541503
     },
     {
       "RoundNo": 2,
@@ -5155,8 +5155,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in Chemical Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 491005,
-      "Closing\nRank": 491005
+      "openingRank": 491005,
+      "closingRank": 491005
     },
     {
       "RoundNo": 2,
@@ -5166,8 +5166,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in Chemical Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 124156,
-      "Closing\nRank": 256103
+      "openingRank": 124156,
+      "closingRank": 256103
     },
     {
       "RoundNo": 2,
@@ -5177,8 +5177,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in\nChemical Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 823152,
-      "Closing\nRank": 823152
+      "openingRank": 823152,
+      "closingRank": 823152
     },
     {
       "RoundNo": 2,
@@ -5188,8 +5188,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in\nChemical Engineering",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 123403,
-      "Closing\nRank": 139262
+      "openingRank": 123403,
+      "closingRank": 139262
     },
     {
       "RoundNo": 2,
@@ -5199,8 +5199,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in Chemical Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 125665,
-      "Closing\nRank": 125665
+      "openingRank": 125665,
+      "closingRank": 125665
     },
     {
       "RoundNo": 2,
@@ -5210,8 +5210,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in Chemical Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 99430,
-      "Closing\nRank": 119768
+      "openingRank": 99430,
+      "closingRank": 119768
     },
     {
       "RoundNo": 2,
@@ -5221,8 +5221,8 @@
       "Program": "B. Tech./M. Tech. (Dual Degree in Chemical Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 335788,
-      "Closing\nRank": 390525
+      "openingRank": 335788,
+      "closingRank": 390525
     },
     {
       "RoundNo": 2,
@@ -5232,8 +5232,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "BCDF",
-      "Opening\nRank": 246075,
-      "Closing\nRank": 325851
+      "openingRank": 246075,
+      "closingRank": 325851
     },
     {
       "RoundNo": 2,
@@ -5243,8 +5243,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 67129,
-      "Closing\nRank": 168186
+      "openingRank": 67129,
+      "closingRank": 168186
     },
     {
       "RoundNo": 2,
@@ -5254,8 +5254,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 58751,
-      "Closing\nRank": 67021
+      "openingRank": 58751,
+      "closingRank": 67021
     },
     {
       "RoundNo": 2,
@@ -5265,8 +5265,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 47472,
-      "Closing\nRank": 857794
+      "openingRank": 47472,
+      "closingRank": 857794
     },
     {
       "RoundNo": 2,
@@ -5276,8 +5276,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 30607,
-      "Closing\nRank": 45046
+      "openingRank": 30607,
+      "closingRank": 45046
     },
     {
       "RoundNo": 2,
@@ -5287,8 +5287,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "OPPH",
-      "Opening\nRank": 229614,
-      "Closing\nRank": 275987
+      "openingRank": 229614,
+      "closingRank": 275987
     },
     {
       "RoundNo": 2,
@@ -5298,8 +5298,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "SCDF",
-      "Opening\nRank": 599357,
-      "Closing\nRank": 599357
+      "openingRank": 599357,
+      "closingRank": 599357
     },
     {
       "RoundNo": 2,
@@ -5309,8 +5309,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 154864,
-      "Closing\nRank": 262030
+      "openingRank": 154864,
+      "closingRank": 262030
     },
     {
       "RoundNo": 2,
@@ -5320,8 +5320,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "HS",
       "Category": "STNO",
-      "Opening\nRank": 742122,
-      "Closing\nRank": 1115442
+      "openingRank": 742122,
+      "closingRank": 1115442
     },
     {
       "RoundNo": 2,
@@ -5331,8 +5331,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 33513,
-      "Closing\nRank": 41101
+      "openingRank": 33513,
+      "closingRank": 41101
     },
     {
       "RoundNo": 2,
@@ -5342,8 +5342,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 297649,
-      "Closing\nRank": 297649
+      "openingRank": 297649,
+      "closingRank": 297649
     },
     {
       "RoundNo": 2,
@@ -5353,8 +5353,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 25386,
-      "Closing\nRank": 29566
+      "openingRank": 25386,
+      "closingRank": 29566
     },
     {
       "RoundNo": "",
@@ -5364,8 +5364,8 @@
       "Program": "",
       "Quota": "",
       "Category": "",
-      "Opening\nRank": "",
-      "Closing\nRank": ""
+      "openingRank": "",
+      "closingRank": ""
     },
     {
       "RoundNo": 2,
@@ -5375,8 +5375,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "OS",
       "Category": "OPPH",
-      "Opening\nRank": 225157,
-      "Closing\nRank": 225157
+      "openingRank": 225157,
+      "closingRank": 225157
     },
     {
       "RoundNo": 2,
@@ -5386,8 +5386,8 @@
       "Program": "B. Tech./M. Tech.(DD) (CSE)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 141438,
-      "Closing\nRank": 151112
+      "openingRank": 141438,
+      "closingRank": 151112
     },
     {
       "RoundNo": 2,
@@ -5397,8 +5397,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "HS",
       "Category": "BCDF",
-      "Opening\nRank": 288879,
-      "Closing\nRank": 288879
+      "openingRank": 288879,
+      "closingRank": 288879
     },
     {
       "RoundNo": 2,
@@ -5408,8 +5408,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 194861,
-      "Closing\nRank": 233118
+      "openingRank": 194861,
+      "closingRank": 233118
     },
     {
       "RoundNo": 2,
@@ -5419,8 +5419,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 86359,
-      "Closing\nRank": 103413
+      "openingRank": 86359,
+      "closingRank": 103413
     },
     {
       "RoundNo": 2,
@@ -5430,8 +5430,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 137598,
-      "Closing\nRank": 149382
+      "openingRank": 137598,
+      "closingRank": 149382
     },
     {
       "RoundNo": 2,
@@ -5441,8 +5441,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 54524,
-      "Closing\nRank": 69337
+      "openingRank": 54524,
+      "closingRank": 69337
     },
     {
       "RoundNo": 2,
@@ -5452,8 +5452,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "HS",
       "Category": "OPPH",
-      "Opening\nRank": 973333,
-      "Closing\nRank": 973333
+      "openingRank": 973333,
+      "closingRank": 973333
     },
     {
       "RoundNo": 2,
@@ -5463,8 +5463,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 323678,
-      "Closing\nRank": 414080
+      "openingRank": 323678,
+      "closingRank": 414080
     },
     {
       "RoundNo": 2,
@@ -5474,8 +5474,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 51349,
-      "Closing\nRank": 54328
+      "openingRank": 51349,
+      "closingRank": 54328
     },
     {
       "RoundNo": 2,
@@ -5485,8 +5485,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 305596,
-      "Closing\nRank": 305596
+      "openingRank": 305596,
+      "closingRank": 305596
     },
     {
       "RoundNo": 2,
@@ -5496,8 +5496,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 40903,
-      "Closing\nRank": 48101
+      "openingRank": 40903,
+      "closingRank": 48101
     },
     {
       "RoundNo": 2,
@@ -5507,8 +5507,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 226802,
-      "Closing\nRank": 230300
+      "openingRank": 226802,
+      "closingRank": 230300
     },
     {
       "RoundNo": 2,
@@ -5518,8 +5518,8 @@
       "Program": "B. Tech./M. Tech.(DD) (ECE)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 418467,
-      "Closing\nRank": 418467
+      "openingRank": 418467,
+      "closingRank": 418467
     },
     {
       "RoundNo": 2,
@@ -5529,8 +5529,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "HS",
       "Category": "BCDF",
-      "Opening\nRank": 770468,
-      "Closing\nRank": 770468
+      "openingRank": 770468,
+      "closingRank": 770468
     },
     {
       "RoundNo": 2,
@@ -5540,8 +5540,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 170076,
-      "Closing\nRank": 197873
+      "openingRank": 170076,
+      "closingRank": 197873
     },
     {
       "RoundNo": 2,
@@ -5551,8 +5551,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 72622,
-      "Closing\nRank": 82602
+      "openingRank": 72622,
+      "closingRank": 82602
     },
     {
       "RoundNo": 2,
@@ -5562,8 +5562,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 94993,
-      "Closing\nRank": 102654
+      "openingRank": 94993,
+      "closingRank": 102654
     },
     {
       "RoundNo": 2,
@@ -5573,8 +5573,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 46113,
-      "Closing\nRank": 56303
+      "openingRank": 46113,
+      "closingRank": 56303
     },
     {
       "RoundNo": 2,
@@ -5584,8 +5584,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "HS",
       "Category": "OPPH",
-      "Opening\nRank": 539362,
-      "Closing\nRank": 595411
+      "openingRank": 539362,
+      "closingRank": 595411
     },
     {
       "RoundNo": 2,
@@ -5595,8 +5595,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 287831,
-      "Closing\nRank": 320529
+      "openingRank": 287831,
+      "closingRank": 320529
     },
     {
       "RoundNo": 2,
@@ -5606,8 +5606,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 43051,
-      "Closing\nRank": 44331
+      "openingRank": 43051,
+      "closingRank": 44331
     },
     {
       "RoundNo": 2,
@@ -5617,8 +5617,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 404380,
-      "Closing\nRank": 404380
+      "openingRank": 404380,
+      "closingRank": 404380
     },
     {
       "RoundNo": 2,
@@ -5628,8 +5628,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 33090,
-      "Closing\nRank": 38077
+      "openingRank": 33090,
+      "closingRank": 38077
     },
     {
       "RoundNo": 2,
@@ -5639,8 +5639,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "OS",
       "Category": "OPPH",
-      "Opening\nRank": 381683,
-      "Closing\nRank": 381683
+      "openingRank": 381683,
+      "closingRank": 381683
     },
     {
       "RoundNo": 2,
@@ -5650,8 +5650,8 @@
       "Program": "B. Tech./M. Tech.(DD) (IT)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 151446,
-      "Closing\nRank": 198167
+      "openingRank": 151446,
+      "closingRank": 198167
     },
     {
       "RoundNo": 2,
@@ -5661,8 +5661,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "AI",
       "Category": "NOKM",
-      "Opening\nRank": 103276,
-      "Closing\nRank": 103276
+      "openingRank": 103276,
+      "closingRank": 103276
     },
     {
       "RoundNo": 2,
@@ -5672,8 +5672,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "BCDF",
-      "Opening\nRank": 197359,
-      "Closing\nRank": 197359
+      "openingRank": 197359,
+      "closingRank": 197359
     },
     {
       "RoundNo": 2,
@@ -5683,8 +5683,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 78316,
-      "Closing\nRank": 153188
+      "openingRank": 78316,
+      "closingRank": 153188
     },
     {
       "RoundNo": 2,
@@ -5694,8 +5694,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 53987,
-      "Closing\nRank": 68074
+      "openingRank": 53987,
+      "closingRank": 68074
     },
     {
       "RoundNo": 2,
@@ -5705,8 +5705,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 102228,
-      "Closing\nRank": 102228
+      "openingRank": 102228,
+      "closingRank": 102228
     },
     {
       "RoundNo": 2,
@@ -5716,8 +5716,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 29623,
-      "Closing\nRank": 45488
+      "openingRank": 29623,
+      "closingRank": 45488
     },
     {
       "RoundNo": 2,
@@ -5727,8 +5727,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "OPPH",
-      "Opening\nRank": 385280,
-      "Closing\nRank": 385280
+      "openingRank": 385280,
+      "closingRank": 385280
     },
     {
       "RoundNo": 2,
@@ -5738,8 +5738,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 141178,
-      "Closing\nRank": 268558
+      "openingRank": 141178,
+      "closingRank": 268558
     },
     {
       "RoundNo": 2,
@@ -5749,8 +5749,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "HS",
       "Category": "STNO",
-      "Opening\nRank": 822638,
-      "Closing\nRank": 822638
+      "openingRank": 822638,
+      "closingRank": 822638
     },
     {
       "RoundNo": 2,
@@ -5760,8 +5760,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 41183,
-      "Closing\nRank": 41183
+      "openingRank": 41183,
+      "closingRank": 41183
     },
     {
       "RoundNo": 2,
@@ -5771,8 +5771,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 26797,
-      "Closing\nRank": 32025
+      "openingRank": 26797,
+      "closingRank": 32025
     },
     {
       "RoundNo": 2,
@@ -5782,8 +5782,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-AI)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 171169,
-      "Closing\nRank": 171169
+      "openingRank": 171169,
+      "closingRank": 171169
     },
     {
       "RoundNo": 2,
@@ -5793,8 +5793,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "HS",
       "Category": "BCDF",
-      "Opening\nRank": 501552,
-      "Closing\nRank": 501552
+      "openingRank": 501552,
+      "closingRank": 501552
     },
     {
       "RoundNo": 2,
@@ -5804,8 +5804,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "HS",
       "Category": "BCNO",
-      "Opening\nRank": 132431,
-      "Closing\nRank": 174576
+      "openingRank": 132431,
+      "closingRank": 174576
     },
     {
       "RoundNo": 2,
@@ -5815,8 +5815,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "HS",
       "Category": "EWNO",
-      "Opening\nRank": 68209,
-      "Closing\nRank": 76306
+      "openingRank": 68209,
+      "closingRank": 76306
     },
     {
       "RoundNo": 2,
@@ -5826,8 +5826,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 45697,
-      "Closing\nRank": 49870
+      "openingRank": 45697,
+      "closingRank": 49870
     },
     {
       "RoundNo": 2,
@@ -5837,8 +5837,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "HS",
       "Category": "OPPH",
-      "Opening\nRank": 492106,
-      "Closing\nRank": 492106
+      "openingRank": 492106,
+      "closingRank": 492106
     },
     {
       "RoundNo": 2,
@@ -5848,8 +5848,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 222600,
-      "Closing\nRank": 305765
+      "openingRank": 222600,
+      "closingRank": 305765
     },
     {
       "RoundNo": 2,
@@ -5859,8 +5859,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "OS",
       "Category": "EWNO",
-      "Opening\nRank": 42033,
-      "Closing\nRank": 42033
+      "openingRank": 42033,
+      "closingRank": 42033
     },
     {
       "RoundNo": 2,
@@ -5870,8 +5870,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 34206,
-      "Closing\nRank": 35866
+      "openingRank": 34206,
+      "closingRank": 35866
     },
     {
       "RoundNo": 2,
@@ -5881,8 +5881,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 165548,
-      "Closing\nRank": 165548
+      "openingRank": 165548,
+      "closingRank": 165548
     },
     {
       "RoundNo": 2,
@@ -5892,8 +5892,8 @@
       "Program": "B. Tech/M. Tech.(DD) (CSE-DS)",
       "Quota": "OS",
       "Category": "STNO",
-      "Opening\nRank": 390835,
-      "Closing\nRank": 390835
+      "openingRank": 390835,
+      "closingRank": 390835
     },
     {
       "RoundNo": 2,
@@ -5903,8 +5903,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 527921,
-      "Closing\nRank": 527921
+      "openingRank": 527921,
+      "closingRank": 527921
     },
     {
       "RoundNo": 2,
@@ -5914,8 +5914,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 160059,
-      "Closing\nRank": 234830
+      "openingRank": 160059,
+      "closingRank": 234830
     },
     {
       "RoundNo": 2,
@@ -5925,8 +5925,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1023929,
-      "Closing\nRank": 1271812
+      "openingRank": 1023929,
+      "closingRank": 1271812
     },
     {
       "RoundNo": 2,
@@ -5936,8 +5936,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 125839,
-      "Closing\nRank": 125839
+      "openingRank": 125839,
+      "closingRank": 125839
     },
     {
       "RoundNo": 2,
@@ -5947,8 +5947,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 93312,
-      "Closing\nRank": 114377
+      "openingRank": 93312,
+      "closingRank": 114377
     },
     {
       "RoundNo": 2,
@@ -5958,8 +5958,8 @@
       "Program": "Artificial Intelligence & Data Science",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 451349,
-      "Closing\nRank": 457257
+      "openingRank": 451349,
+      "closingRank": 457257
     },
     {
       "RoundNo": 2,
@@ -5969,8 +5969,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 256631,
-      "Closing\nRank": 320584
+      "openingRank": 256631,
+      "closingRank": 320584
     },
     {
       "RoundNo": 2,
@@ -5980,8 +5980,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 172075,
-      "Closing\nRank": 253707
+      "openingRank": 172075,
+      "closingRank": 253707
     },
     {
       "RoundNo": 2,
@@ -5991,8 +5991,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1337252,
-      "Closing\nRank": 1337252
+      "openingRank": 1337252,
+      "closingRank": 1337252
     },
     {
       "RoundNo": 2,
@@ -6002,8 +6002,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 133248,
-      "Closing\nRank": 133248
+      "openingRank": 133248,
+      "closingRank": 133248
     },
     {
       "RoundNo": 2,
@@ -6013,8 +6013,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 98286,
-      "Closing\nRank": 118404
+      "openingRank": 98286,
+      "closingRank": 118404
     },
     {
       "RoundNo": 2,
@@ -6024,8 +6024,8 @@
       "Program": "Artificial Intelligence & Machine Learning",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 429675,
-      "Closing\nRank": 480706
+      "openingRank": 429675,
+      "closingRank": 480706
     },
     {
       "RoundNo": 2,
@@ -6035,8 +6035,8 @@
       "Program": "B. Tech. (Computer Science & Applied\nMathematics)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 289994,
-      "Closing\nRank": 408526
+      "openingRank": 289994,
+      "closingRank": 408526
     },
     {
       "RoundNo": 2,
@@ -6046,8 +6046,8 @@
       "Program": "B. Tech. (Computer Science & Applied Mathematics)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 179573,
-      "Closing\nRank": 275814
+      "openingRank": 179573,
+      "closingRank": 275814
     },
     {
       "RoundNo": 2,
@@ -6057,8 +6057,8 @@
       "Program": "B. Tech. (Computer Science & Applied Mathematics)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 918387,
-      "Closing\nRank": 918387
+      "openingRank": 918387,
+      "closingRank": 918387
     },
     {
       "RoundNo": 2,
@@ -6068,8 +6068,8 @@
       "Program": "B. Tech. (Computer Science & Applied Mathematics)",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 137243,
-      "Closing\nRank": 137243
+      "openingRank": 137243,
+      "closingRank": 137243
     },
     {
       "RoundNo": 2,
@@ -6079,8 +6079,8 @@
       "Program": "B. Tech. (Computer Science & Applied Mathematics)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 106723,
-      "Closing\nRank": 118698
+      "openingRank": 106723,
+      "closingRank": 118698
     },
     {
       "RoundNo": 2,
@@ -6090,8 +6090,8 @@
       "Program": "B. Tech. (Computer Science & Applied",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 523019,
-      "Closing\nRank": 545371
+      "openingRank": 523019,
+      "closingRank": 545371
     },
     {
       "RoundNo": 2,
@@ -6101,8 +6101,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 549045,
-      "Closing\nRank": 705039
+      "openingRank": 549045,
+      "closingRank": 705039
     },
     {
       "RoundNo": 2,
@@ -6112,8 +6112,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 124708,
-      "Closing\nRank": 194426
+      "openingRank": 124708,
+      "closingRank": 194426
     },
     {
       "RoundNo": 2,
@@ -6123,8 +6123,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 826292,
-      "Closing\nRank": 997476
+      "openingRank": 826292,
+      "closingRank": 997476
     },
     {
       "RoundNo": 2,
@@ -6134,8 +6134,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPDF",
-      "Opening\nRank": 117985,
-      "Closing\nRank": 117985
+      "openingRank": 117985,
+      "closingRank": 117985
     },
     {
       "RoundNo": 2,
@@ -6145,8 +6145,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 79457,
-      "Closing\nRank": 97583
+      "openingRank": 79457,
+      "closingRank": 97583
     },
     {
       "RoundNo": 2,
@@ -6156,8 +6156,8 @@
       "Program": "Computer Science & Engineering",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 322087,
-      "Closing\nRank": 392305
+      "openingRank": 322087,
+      "closingRank": 392305
     },
     {
       "RoundNo": 2,
@@ -6167,8 +6167,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 329540,
-      "Closing\nRank": 876625
+      "openingRank": 329540,
+      "closingRank": 876625
     },
     {
       "RoundNo": 2,
@@ -6178,8 +6178,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 176729,
-      "Closing\nRank": 240323
+      "openingRank": 176729,
+      "closingRank": 240323
     },
     {
       "RoundNo": 2,
@@ -6189,8 +6189,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "HS",
       "Category": "SCNO",
-      "Opening\nRank": 1054495,
-      "Closing\nRank": 1236038
+      "openingRank": 1054495,
+      "closingRank": 1236038
     },
     {
       "RoundNo": 2,
@@ -6200,8 +6200,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 104656,
-      "Closing\nRank": 118168
+      "openingRank": 104656,
+      "closingRank": 118168
     },
     {
       "RoundNo": 2,
@@ -6211,8 +6211,8 @@
       "Program": "CSE (Cyber Security)",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 391775,
-      "Closing\nRank": 391775
+      "openingRank": 391775,
+      "closingRank": 391775
     },
     {
       "RoundNo": 2,
@@ -6222,8 +6222,8 @@
       "Program": "Electronics Engg.- VLSI Design & Technology",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 768051,
-      "Closing\nRank": 786670
+      "openingRank": 768051,
+      "closingRank": 786670
     },
     {
       "RoundNo": 2,
@@ -6233,8 +6233,8 @@
       "Program": "Electronics Engg.- VLSI Design & Technology",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 226409,
-      "Closing\nRank": 319365
+      "openingRank": 226409,
+      "closingRank": 319365
     },
     {
       "RoundNo": 2,
@@ -6244,8 +6244,8 @@
       "Program": "Electronics Engg.- VLSI Design & Technology",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 118725,
-      "Closing\nRank": 124254
+      "openingRank": 118725,
+      "closingRank": 124254
     },
     {
       "RoundNo": 2,
@@ -6255,8 +6255,8 @@
       "Program": "Electronics Engg.- VLSI Design &\nTechnology",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 438872,
-      "Closing\nRank": 438872
+      "openingRank": 438872,
+      "closingRank": 438872
     },
     {
       "RoundNo": 2,
@@ -6266,8 +6266,8 @@
       "Program": "Industrial Internet of Things",
       "Quota": "HS",
       "Category": "OPDF",
-      "Opening\nRank": 426679,
-      "Closing\nRank": 523029
+      "openingRank": 426679,
+      "closingRank": 523029
     },
     {
       "RoundNo": 2,
@@ -6277,8 +6277,8 @@
       "Program": "Industrial Internet of Things",
       "Quota": "HS",
       "Category": "OPNO",
-      "Opening\nRank": 261105,
-      "Closing\nRank": 306486
+      "openingRank": 261105,
+      "closingRank": 306486
     },
     {
       "RoundNo": 2,
@@ -6288,8 +6288,8 @@
       "Program": "Industrial Internet of Things",
       "Quota": "OS",
       "Category": "OPNO",
-      "Opening\nRank": 118603,
-      "Closing\nRank": 120972
+      "openingRank": 118603,
+      "closingRank": 120972
     },
     {
       "RoundNo": 2,
@@ -6299,7 +6299,7 @@
       "Program": "Industrial Internet of Things",
       "Quota": "OS",
       "Category": "SCNO",
-      "Opening\nRank": 493699,
-      "Closing\nRank": 493699
+      "openingRank": 493699,
+      "closingRank": 493699
     }
   ]

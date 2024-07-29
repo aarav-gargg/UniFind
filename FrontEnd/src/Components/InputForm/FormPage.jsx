@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useState}from 'react'
 import "./FormPage.css"
 import InputLabel from '@mui/material/InputLabel';
 import { useTheme } from '@mui/material/styles';
@@ -45,30 +45,47 @@ function FormPage() {
   ];
   
   const theme = useTheme();
-  const [personName, setPersonName] = React.useState([]);
-
+  const [state, setState] = useState('');
+  const [course, setcourse] = useState('');
+  const [quota, setQuota] = useState('');
+  const [gender, setGender] = useState('');
+  const [rank,setRank]=useState(0);
+ 
+  // const [category,setCategory]=useState
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    const formData=new FormData()
+    formData.append("state",state)
+    formData.append("course",course)
+    formData.append("rank",rank)
+    formData.append("gender",gender)
+    formData.append("quota",quota)
+    for (let [key, value] of formData.entries()) {
+      console.log(key, value);
+    }
+  }
   const handleChange = (event) => {
     const {
       target: { value },
     } = event;
-    setPersonName(
+    setState(
       // On autofill we get a stringified value.
       typeof value === 'string' ? value.split(',') : value,
     );
   };
-  const [course, setcourse] = React.useState('');
+  
 
   const handlecourse = (event) => {
     setcourse(event.target.value);
   };
 
-  const [quota, setQuota] = React.useState('');
+  
 
   const handleQuota = (event) => {
     setQuota(event.target.value);
   };
 
-  const [gender, setGender] = React.useState('');
+  
 
   const handleGender = (event) => {
     setGender(event.target.value);
@@ -101,7 +118,9 @@ function FormPage() {
           </Select>
         </div>
         <span>Enter your JEE mains score/rank</span>
-        <TextField fullWidth label="Rank" id="fullWidth" type='number' className='rank' variant='filled' />
+        <TextField 
+        onChange={(e)=>{setRank(e.target.value)}}
+        fullWidth label="Rank" id="fullWidth" type='number' value={rank} className='rank' variant='filled' />
         <span>Category</span>
         <Select
           labelId="demo-simple-select-filled-label"
@@ -110,14 +129,18 @@ function FormPage() {
           onChange={handleQuota}
           className='quota'
         >
-          <MenuItem value="Gen">
-            <em>General</em>
+          <MenuItem value={"OPNO"}>
+            General
           </MenuItem>
-          <MenuItem value={"OBC"}>OBC</MenuItem>
-          <MenuItem value={"ST"}>ST</MenuItem>
-          <MenuItem value={"SC"}>SC</MenuItem>
-          <MenuItem value={"EWS"}>Economically weaker section</MenuItem>
-          <MenuItem value={"PWD"}>PWD</MenuItem>
+          <MenuItem value={"BCNO"}>OBC</MenuItem>
+          <MenuItem value={"STNO"}>ST</MenuItem>
+          <MenuItem value={"SCNO"}>SC</MenuItem>
+          <MenuItem value={"EWNO"}>EWS</MenuItem>
+          <MenuItem value={"NOPH"}>PWD</MenuItem>
+          <MenuItem value={"NODF"}>Defence</MenuItem>
+          <MenuItem value={"NOKM"}>Kashimiri migrant</MenuItem>
+          <MenuItem value={"SCDF"}>SC and Defence</MenuItem>
+          <MenuItem value={"BCDF"}>OBC and Defence</MenuItem>
         </Select>
         <span>Gender</span>
         <Select
@@ -136,7 +159,7 @@ function FormPage() {
         <Select
           labelId="demo-multiple-name-label"
           id="demo-multiple-name"
-          value={personName}
+          value={state}
           onChange={handleChange}
           input={<OutlinedInput label="Name" />}
           MenuProps={MenuProps}
@@ -146,13 +169,13 @@ function FormPage() {
             <MenuItem
               key={name}
               value={name}
-              style={getStyles(name, personName, theme)}
+              style={getStyles(name,state, theme)}
             >
               {name}
             </MenuItem>
           ))}
         </Select>
-        <Button variant='contained' sx={{backgroundColor:' rgb(109, 128, 212)' , width:'30%'
+        <Button  onClick={handleSubmit} variant='contained' sx={{backgroundColor:' rgb(109, 128, 212)' , width:'30%'
         }}>Submit</Button>
       </div>
       </div>
