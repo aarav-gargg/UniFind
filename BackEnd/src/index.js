@@ -7,7 +7,7 @@ dotenv.config({
   path: './.env',
 });
 
-app.get('/', ipuPredictor);
+// app.get('/', ipuPredictor);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {

@@ -6,15 +6,12 @@ import { readJson } from "../utils/fileReader.js";
 
 const ipuPredictor = async (req, res) => {
     try {
-        // const { state, rank, quota, gender } = req.body;
-        // if (!state || !rank || !quota || !gender) {
-        //   throw new apiError(400, "please enter all required details");
-        // }
-        let rank = 110000;
-        let category = "OPNO";
-        let state = "Delhi";
-        let quota = 'HS';
-        
+        const { state, rank, category, gender } = req.body;
+        if (!state || !rank || !category || !gender) {
+          throw new apiError(400, "please enter all required details");
+        }
+        let quota='HS';
+
         if(state !== "Delhi") {
             quota = 'OS';
         }

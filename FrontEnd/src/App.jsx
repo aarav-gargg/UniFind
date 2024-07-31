@@ -34,9 +34,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      {/* <CollegeDisplay/> */}
-      {/* <College/> */}
-      {/* <Team></Team> */}
     </>
   );
 }

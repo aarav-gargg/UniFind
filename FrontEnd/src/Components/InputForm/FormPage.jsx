@@ -47,7 +47,7 @@ function FormPage() {
   const theme = useTheme();
   const [state, setState] = useState('');
   const [course, setcourse] = useState('');
-  const [quota, setQuota] = useState('');
+  const [category, setcategory] = useState('');
   const [gender, setGender] = useState('');
   const [rank,setRank]=useState(0);
  
@@ -59,7 +59,7 @@ function FormPage() {
     formData.append("course",course)
     formData.append("rank",rank)
     formData.append("gender",gender)
-    formData.append("quota",quota)
+    formData.append("category",category)
     for (let [key, value] of formData.entries()) {
       console.log(key, value);
     }
@@ -82,7 +82,7 @@ function FormPage() {
   
 
   const handleQuota = (event) => {
-    setQuota(event.target.value);
+    setcategory(event.target.value);
   };
 
   
@@ -125,7 +125,7 @@ function FormPage() {
         <Select
           labelId="demo-simple-select-filled-label"
           id="demo-simple-select-filled"
-          value={quota}
+          value={category}
           onChange={handleQuota}
           className='quota'
         >
