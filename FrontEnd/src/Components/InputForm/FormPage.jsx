@@ -11,6 +11,7 @@ import TextField from '@mui/material/TextField';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import { Button } from '@mui/material';
 import CollegeDisplay from './CollegeDisplay';
+import { predictorIpu } from '../../api/ipuPredictor';
 
 function getStyles(name, personName, theme) {
   return {
@@ -52,18 +53,20 @@ function FormPage() {
   const [rank,setRank]=useState(0);
  
   // const [category,setCategory]=useState
-  const handleSubmit=(e)=>{
+  const handleSubmit= async (e)=>{
     e.preventDefault();
     const formData=new FormData()
     formData.append("state",state)
-    formData.append("course",course)
+    // formData.append("course",course)
     formData.append("rank",rank)
-    formData.append("gender",gender)
     formData.append("category",category)
+    formData.append("gender",gender)
     for (let [key, value] of formData.entries()) {
       console.log(key, value);
     }
-  }
+    const resp= await predictorIpu(formData);
+    console.log(resp);
+  } 
   const handleChange = (event) => {
     const {
       target: { value },
