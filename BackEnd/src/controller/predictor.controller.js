@@ -6,6 +6,7 @@ import { readJson } from "../utils/fileReader.js";
 
 const ipuPredictor = async (req, res) => {
     try {
+        console.log(req.body)
         const { state, rank, category, gender } = req.body;
         if (!state || !rank || !category || !gender) {
           throw new apiError(400, "please enter all required details");

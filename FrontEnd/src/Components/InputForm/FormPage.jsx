@@ -51,29 +51,54 @@ function FormPage() {
   const [category, setcategory] = useState('');
   const [gender, setGender] = useState('');
   const [rank,setRank]=useState(0);
+  const [colleges, setColleges]=useState([]);
+  // const [studentDetails,setStudentDetails]=useState({
+  //   state:"",
+  //   course:"",
+  //   rank:"",
+  //   category:"",
+  //   gender:""
+  // })
  
   // const [category,setCategory]=useState
   const handleSubmit= async (e)=>{
     e.preventDefault();
-    const formData=new FormData()
-    formData.append("state",state)
-    // formData.append("course",course)
-    formData.append("rank",rank)
-    formData.append("category",category)
-    formData.append("gender",gender)
-    for (let [key, value] of formData.entries()) {
-      console.log(key, value);
+    // const formData=new FormData()
+    // formData.append("state",state)
+    // // formData.append("course",course)
+    // formData.append("rank",rank)
+    // formData.append("category",category)
+    // formData.append("gender",gender)
+    // for (let [key, value] of formData.entries()) {
+    //   console.log(key, value);
+    // }
+    const studentDetails={
+      state,
+      category,
+      rank,
+      gender,
+      course
+
     }
-    const resp= await predictorIpu(formData);
-    console.log(resp);
+    console.log(studentDetails)
+    const resp= await predictorIpu(studentDetails);
+    
+    console.log(resp)
+   
+  
+   
   } 
+  const handleRankChange = (e) => {
+    const value = parseInt(e.target.value);
+    setRank(value);
+  };
   const handleChange = (event) => {
     const {
       target: { value },
     } = event;
     setState(
-      // On autofill we get a stringified value.
-      typeof value === 'string' ? value.split(',') : value,
+    
+      value
     );
   };
   
@@ -122,7 +147,7 @@ function FormPage() {
         </div>
         <span>Enter your JEE mains score/rank</span>
         <TextField 
-        onChange={(e)=>{setRank(e.target.value)}}
+        onChange={(e)=>{handleRankChange(e)}}
         fullWidth label="Rank" id="fullWidth" type='number' value={rank} className='rank' variant='filled' />
         <span>Category</span>
         <Select

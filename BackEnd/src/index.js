@@ -4,7 +4,7 @@ import { app } from './app.js';
 import { ipuPredictor } from './controller/predictor.controller.js';
 
 dotenv.config({
-  path: './.env',
+  path: '../../.env',
 });
 
 // app.get('/', ipuPredictor);
