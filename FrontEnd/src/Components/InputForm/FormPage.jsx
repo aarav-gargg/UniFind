@@ -1,4 +1,4 @@
-import React ,{useState}from 'react'
+import React, { useEffect, useState } from 'react'
 import "./FormPage.css"
 import InputLabel from '@mui/material/InputLabel';
 import { useTheme } from '@mui/material/styles';
@@ -12,6 +12,7 @@ import OutlinedInput from '@mui/material/OutlinedInput';
 import { Button } from '@mui/material';
 import CollegeDisplay from './CollegeDisplay';
 import { predictorIpu } from '../../api/ipuPredictor';
+import { useNavigate } from 'react-router-dom';
 
 function getStyles(name, personName, theme) {
   return {
@@ -44,14 +45,15 @@ function FormPage() {
     "Chandigarh", "Dadra and Nagar Haveli and Daman and Diu", "Delhi", "Lakshadweep",
     "Puducherry", "Ladakh", "Jammu and Kashmir"
   ];
-  
+
   const theme = useTheme();
   const [state, setState] = useState('');
   const [course, setcourse] = useState('');
   const [category, setcategory] = useState('');
   const [gender, setGender] = useState('');
-  const [rank,setRank]=useState(0);
-  const [colleges, setColleges]=useState([]);
+  const [rank, setRank] = useState(0);
+  const [colleges, setColleges] = useState([]);
+  const nav = useNavigate();
   // const [studentDetails,setStudentDetails]=useState({
   //   state:"",
   //   course:"",
@@ -59,9 +61,9 @@ function FormPage() {
   //   category:"",
   //   gender:""
   // })
- 
+
   // const [category,setCategory]=useState
-  const handleSubmit= async (e)=>{
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // const formData=new FormData()
     // formData.append("state",state)
@@ -72,7 +74,7 @@ function FormPage() {
     // for (let [key, value] of formData.entries()) {
     //   console.log(key, value);
     // }
-    const studentDetails={
+    const studentDetails = {
       state,
       category,
       rank,
@@ -80,14 +82,18 @@ function FormPage() {
       course
 
     }
-    console.log(studentDetails)
-    const resp= await predictorIpu(studentDetails);
-    
-    console.log(resp)
-   
+    const resp = await predictorIpu(studentDetails);
   
-   
-  } 
+    const sortedColleges = resp.sort((a, b) => a.closingRank - b.closingRank);
+    
+    const topColleges = sortedColleges.slice(0, 9);
+
+    setColleges(topColleges); // Update the state if you need it elsewhere
+
+    nav('/AllotedColleges', {
+      state: { colleges: topColleges }
+    });
+  }
   const handleRankChange = (e) => {
     const value = parseInt(e.target.value);
     setRank(value);
@@ -97,23 +103,23 @@ function FormPage() {
       target: { value },
     } = event;
     setState(
-    
+
       value
     );
   };
-  
+
 
   const handlecourse = (event) => {
     setcourse(event.target.value);
   };
 
-  
+
 
   const handleQuota = (event) => {
     setcategory(event.target.value);
   };
 
-  
+
 
   const handleGender = (event) => {
     setGender(event.target.value);
@@ -121,7 +127,7 @@ function FormPage() {
 
   return (
     <>
-      <div className='container' data-aos="fade-down"  data-aos-duration="1000">
+      <div className='container' data-aos="fade-down" data-aos-duration="1000">
         <div className="content">
           <h1>
             Get personalized college predictions tailored to you!!!
@@ -130,91 +136,89 @@ function FormPage() {
         </div>
       </div>
       <div className="circle">
-      <div className="form" data-aos="fade-down"  data-aos-duration="1000">
-        <h2>Predict your College now</h2>
-        <div className='course'>
-          <span >Select your Course</span>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            value={course}
-            label="Age"
-            onChange={handlecourse}
-            className='courseSel'
-          >
-            <MenuItem value={"be"}>B.E./B.tech</MenuItem>
-          </Select>
-        </div>
-        <span>Enter your JEE mains score/rank</span>
-        <TextField 
-        onChange={(e)=>{handleRankChange(e)}}
-        fullWidth label="Rank" id="fullWidth" type='number' value={rank} className='rank' variant='filled' />
-        <span>Category</span>
-        <Select
-          labelId="demo-simple-select-filled-label"
-          id="demo-simple-select-filled"
-          value={category}
-          onChange={handleQuota}
-          className='quota'
-        >
-          <MenuItem value={"OPNO"}>
-            General
-          </MenuItem>
-          <MenuItem value={"BCNO"}>OBC</MenuItem>
-          <MenuItem value={"STNO"}>ST</MenuItem>
-          <MenuItem value={"SCNO"}>SC</MenuItem>
-          <MenuItem value={"EWNO"}>EWS</MenuItem>
-          <MenuItem value={"NOPH"}>PWD</MenuItem>
-          <MenuItem value={"NODF"}>Defence</MenuItem>
-          <MenuItem value={"NOKM"}>Kashimiri migrant</MenuItem>
-          <MenuItem value={"SCDF"}>SC and Defence</MenuItem>
-          <MenuItem value={"BCDF"}>OBC and Defence</MenuItem>
-        </Select>
-        <span>Gender</span>
-        <Select
-          labelId="demo-simple-select-helper-label"
-          id="demo-simple-select-helper"
-          value={gender}
-          label="Gender"
-          onChange={handleGender}
-          className='gender'
-        >
-          <MenuItem value={"male"}>Male</MenuItem>
-          <MenuItem value={"Female"}>Female</MenuItem>
-          <MenuItem value={"o"}>Others</MenuItem>
-        </Select>
-        <span>Domicile State</span>
-        <Select
-          labelId="demo-multiple-name-label"
-          id="demo-multiple-name"
-          value={state}
-          onChange={handleChange}
-          input={<OutlinedInput label="Name" />}
-          MenuProps={MenuProps}
-          className='domicile'
-        >
-          {names.map((name) => (
-            <MenuItem
-              key={name}
-              value={name}
-              style={getStyles(name,state, theme)}
+        <div className="form" data-aos="fade-down" data-aos-duration="1000">
+          <h2>Predict your College now</h2>
+          <div className='course'>
+            <span >Select your Course</span>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={course}
+              label="Age"
+              onChange={handlecourse}
+              className='courseSel'
             >
-              {name}
+              <MenuItem value={"be"}>B.E./B.tech</MenuItem>
+            </Select>
+          </div>
+          <span>Enter your JEE mains score/rank</span>
+          <TextField
+            onChange={(e) => { handleRankChange(e) }}
+            fullWidth label="Rank" id="fullWidth" type='number' value={rank} className='rank' variant='filled' />
+          <span>Category</span>
+          <Select
+            labelId="demo-simple-select-filled-label"
+            id="demo-simple-select-filled"
+            value={category}
+            onChange={handleQuota}
+            className='quota'
+          >
+            <MenuItem value={"OPNO"}>
+              General
             </MenuItem>
-          ))}
-        </Select>
-        <Button  onClick={handleSubmit} variant='contained' sx={{backgroundColor:' rgb(109, 128, 212)' , width:'30%'
-        }}>Submit</Button>
+            <MenuItem value={"BCNO"}>OBC</MenuItem>
+            <MenuItem value={"STNO"}>ST</MenuItem>
+            <MenuItem value={"SCNO"}>SC</MenuItem>
+            <MenuItem value={"EWNO"}>EWS</MenuItem>
+            <MenuItem value={"NOPH"}>PWD</MenuItem>
+            <MenuItem value={"NODF"}>Defence</MenuItem>
+            <MenuItem value={"NOKM"}>Kashimiri migrant</MenuItem>
+            <MenuItem value={"SCDF"}>SC and Defence</MenuItem>
+            <MenuItem value={"BCDF"}>OBC and Defence</MenuItem>
+          </Select>
+          <span>Gender</span>
+          <Select
+            labelId="demo-simple-select-helper-label"
+            id="demo-simple-select-helper"
+            value={gender}
+            label="Gender"
+            onChange={handleGender}
+            className='gender'
+          >
+            <MenuItem value={"male"}>Male</MenuItem>
+            <MenuItem value={"Female"}>Female</MenuItem>
+            <MenuItem value={"o"}>Others</MenuItem>
+          </Select>
+          <span>Domicile State</span>
+          <Select
+            labelId="demo-multiple-name-label"
+            id="demo-multiple-name"
+            value={state}
+            onChange={handleChange}
+            input={<OutlinedInput label="Name" />}
+            MenuProps={MenuProps}
+            className='domicile'
+          >
+            {names.map((name) => (
+              <MenuItem
+                key={name}
+                value={name}
+                style={getStyles(name, state, theme)}
+              >
+                {name}
+              </MenuItem>
+            ))}
+          </Select>
+          <Button onClick={handleSubmit} variant='contained' sx={{
+            backgroundColor: ' rgb(109, 128, 212)', width: '30%'
+          }}>Submit</Button>
+        </div>
       </div>
-      </div>
-      <div className='collegeDisplay'>
-        <CollegeDisplay/>
-        <CollegeDisplay/>
-        <CollegeDisplay/>
-        <CollegeDisplay/>
-      </div>
-      
-        
+      {/* <div className='collegeDisplay'>
+    
+      </div> */}
+
+
 
     </>
 
