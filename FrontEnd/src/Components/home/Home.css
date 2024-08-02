@@ -14,7 +14,10 @@
   * {
     box-sizing: border-box;
   }
-  
+  .homeBtn a{
+    text-decoration: none;
+    color: black;
+  }
   .parallax-banner h2 {
     font-size: 48px;
     color:white;

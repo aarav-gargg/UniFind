@@ -2,6 +2,7 @@
 // import { useState , useEffect } from 'react';
 import Carousel from "./Carousel"
 import "./Home.css"
+import { Link } from 'react-router-dom';
 // import "./script"
 // import Navbar from '../navbar/Navbar';
 
@@ -22,7 +23,7 @@ const Home = () => {
       <div className="page parallax-1-page">
         <section className='parallax-banner '>
           <h2>Unifind</h2>
-          <button>Predict your College</button>
+          <button className="homeBtn"><Link to="/CollegePredictor">Predict your College</Link></button>
         </section>
         <section className="parallax-container">
           <h1>Welcome To UniFind</h1>

@@ -27,3 +27,45 @@ body {
 
   margin-top: 4vh;
 }
+
+
+.modifyBtn {
+  padding: 2vh;
+  margin: 2vh;
+  background: radial-gradient(rgb(124, 124, 220),rgb(5, 12, 47));
+  border: none; /* Optional: removes border for a cleaner look */
+  color: white; /* Optional: text color for better contrast */
+  border-radius: 8px; /* Optional: rounded corners for a modern look */
+  font-size: 1rem; /* Optional: adjust text size */
+  cursor: pointer; /* Optional: changes cursor to pointer on hover */
+  transition: border 0.1s ease; /* Optional: smooth transition for hover effects */
+}
+.allotedCollegesContainer {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.modifyBtn a{
+  color: white;
+  text-decoration: none;
+}
+.modifyBtn:hover {
+  background: linear-gradient(45deg, rgb(5, 12, 47), rgb(100, 100, 200)); /* Optional: lighter gradient on hover */
+  border: 3px solid black;
+}
+.emptyStateContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color:white;
+  background: radial-gradient(rgb(124, 124, 220), rgb(5, 12, 47));
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
