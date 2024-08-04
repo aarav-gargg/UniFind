@@ -14,7 +14,7 @@ function Navbar() {
         <Link to="/Home" className="right">UniFind </Link>
             <div className="left">
             <ul>
-                    <li><NavLink activeclassname="active" to="/Articles">Articles</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/Colleges">Colleges</NavLink></li>
                     <li><NavLink activeclassname="active" to="/CollegePredictor">College Predictor</NavLink></li>
                     <li><NavLink activeclassname="active" to="/OurTeam">Our Team</NavLink></li>
                 </ul>

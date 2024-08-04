@@ -50,7 +50,10 @@ const Home = () => {
             Join us at UniFind, and let's make your college dreams a reality!
           </p>
         </section>
+        <div className="news">
+        <h1>LATEST NEWS</h1>
         <Carousel />
+        </div>
 
       </div>
     </>

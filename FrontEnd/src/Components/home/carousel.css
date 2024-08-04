@@ -1,49 +1,71 @@
-img {
+/* img {
     width: 100%;
     height: 100%;
     display: block;
-  }
+  } */
   
   .container2 {
-    margin-top: 3vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* width: 100%; */
-    width: 100vw;
-    max-width: fit-content;
-    margin: auto;
-    height: 30vh;
-    display: flex;
-    gap: 10px;
-
-    /* margin-inline: 50px; */
-  }
-  
-  .card1 {
-    min-width: 18vw;
-    height: 100%;
-    border-radius: 25px;
-    overflow: hidden;
-  
-    display: flex;
-    /* align-items: flex-end; */
-    /* flex-grow: 1; */
-    cursor: pointer;
     position: relative;
-    /* transition: flex-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1); */
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;}
+    .cards {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .card1 {
+      min-width: 200px;
+      height: 200px;
+      background-image: url("/Articlebg.jpg");
+      background-size: cover; /* Ensures the image covers the entire card */
+      background-position: center; /* Centers the image */
+      margin: 0 10px;
+      position: relative; /* Ensure the pseudo-element is positioned correctly */
+      overflow: hidden; /* Hide overflow to ensure the overlay covers the entire card */
+      color: white; /* Set default text color to white */
+    }
+    
+    .card1::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+      z-index: 1; /* Ensure overlay is above the background image */
+    }
+    
+    .card1 h4,
+    .card1 a {
+      position: relative; /* Ensure text is above the overlay */
+      z-index: 2; /* Ensure text is above the overlay */
+      color: white; /* Set text color to white */
+      text-decoration: none; /* Remove underline from the link */
+    }
+    
+    .card1 a:hover {
+      text-decoration: underline; /* Underline on hover for better UX */
+    }
+    
+ 
   
-    --transition-timing: 0.35s;
+  .card-wrapper {
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
   }
+  /* .container2:hover {
+    animation-play-state: paused;
+  } */
   /* .card1.active {
     flex-grow: 100;
   } */
-  .card1:hover {
-    flex-grow: 7;
-  }
   
-  .card1 > .background {
+  /* .card1 > .background {
     position: absolute;
     inset: 0;
     object-fit: cover;
@@ -116,5 +138,12 @@ img {
     height: 100px;
     z-index: 0;
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
-  }
-  
+  } */
+  /* @keyframes movement {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */

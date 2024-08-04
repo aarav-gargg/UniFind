@@ -10,7 +10,9 @@ const AllotedColleges = () => {
     return (
         <>
             {colleges.length === 0 &&
-            <div>  <div className="allotedCollegesContainer">
+            <div  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">  <div className="allotedCollegesContainer">
             <div className="emptyStateContainer">
             <h1 className="zeroLength">No result for you! But don't let your guard down start hustling again.</h1>
                 <h1 className="zeroLength">Better Luck Next Time</h1>
@@ -18,13 +20,18 @@ const AllotedColleges = () => {
             <button className="modifyBtn">
                <Link to="/CollegePredictor"> Modify Form</Link></button></div>
             </div>}
-            {colleges.length !== 0 && <div>
+            {colleges.length !== 0 && <div  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
                 <h2 className='allotedHeading'>We've crunched the numbers! Based on your rank, these colleges are great options for you to consider.</h2>
                 <div className='collegeDisplay'>
                     {colleges && colleges.map((college, index) => (
                         <CollegeDisplay key={index} college={college} />
                     ))}
                 </div>
+                <div style={{display:"flex", justifyContent:"center" , alignItems:"center"}}>
+                <button className="modifyBtn">
+                <Link to="/CollegePredictor"> Modify Form</Link></button></div>
             </div>
             }
 

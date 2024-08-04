@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "./ArticleCard.css";
+import "./CollegeCard.css";
 
 
 const ArticleCard = () => {

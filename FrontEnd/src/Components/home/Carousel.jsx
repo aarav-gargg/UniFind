@@ -1,55 +1,78 @@
-import React, { useState } from 'react';
-import "./carousel.css";
+import React, { useState, useEffect, useRef } from 'react';
+import './carousel.css';
 import SchoolIcon from '@mui/icons-material/School';
-const Carousel = () => {
-  const [activeCard, setActiveCard] = useState(null);
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
+import { IconButton } from '@mui/material';
 
-  const handleCardClick = (index) => {
-    setActiveCard(index);
+const Carousel = () => {
+  const [position, setPosition] = useState(0);
+  const cardsRef = useRef(null);
+
+  useEffect(() => {
+    // Recalculate card width and total cards on mount
+    const cards = cardsRef.current;
+    const cardWidth = cards.querySelector('.card1').offsetWidth;
+    const totalCards = cards.querySelectorAll('.card1').length;
+    cards.style.width = `${cardWidth * totalCards}px`;
+  }, []);
+
+  const slideLeft = () => {
+    if (position > 0) {
+      setPosition((prevPosition) => prevPosition - 1);
+    }
   };
+
+  const slideRight = () => {
+    if (position < cardsRef.current.querySelectorAll('.card1').length - 1) {
+      setPosition((prevPosition) => prevPosition + 1);
+    }
+  };
+
+  useEffect(() => {
+    const cards = cardsRef.current;
+    const cardWidth = cards.querySelector('.card1').offsetWidth;
+    cards.style.transform = `translateX(${-position * cardWidth}px)`;
+  }, [position]);
 
   return (
     <div className="container2">
-      {[
-        { src: "public/projectPic.png", title: "GTA 6" },
-        { src: "public/projectPic.png", title: "Spider-Man PS5" },
-        { src: "public/projectPic.png", title: "God Of War" },
-        { src: "public/projectPic.png", title: "The Last of Us" },
-        { src: "public/projectPic.png", title: "Elden Ring" },
-      ].map((item, index) => (
-        <div
-          key={index}
-          className={`card1 ${activeCard === index ? 'active1' : ''}`}
-          onClick={() => handleCardClick(index)}
-          data-aos="flip-left" data-aos-duration="1000"
-        >
-          <img className="background" src={item.src} alt={item.title} />
-          <div className="card1-content">
-            <div className="profile-image">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-gamepad-2"
-              >
-                <line x1="6" x2="10" y1="11" y2="11" />
-                <line x1="8" x2="8" y1="9" y2="13" />
-                <line x1="15" x2="15.01" y1="12" y2="12" />
-                <line x1="18" x2="18.01" y1="10" y2="10" />
-                <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
-              </svg> */}
-              <SchoolIcon className="lucide lucide-gamepad-2" />
-            </div>
-            <h3 className="title">{item.title}</h3>
+      <IconButton style={{height:"200px"}} onClick={slideLeft}><KeyboardDoubleArrowLeftIcon/></IconButton>
+      <div className="card-wrapper">
+        <div className="cards" ref={cardsRef}>
+        <div className="card1" data-aos="flip-left" data-aos-duration="1000">
+           <h4> UPTAC Counselling 2024 choice filling process postponed till ..</h4>
+            <br />
+           <p> Read more at:</p>
+            <a style={{color:"black"}} href="http://timesofindia.indiatimes.com/articleshow/112152683.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst">Times of India</a>
           </div>
-          <div className="backdrop"></div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">
+           <h4> JoSAA Counselling Final seat allotment results announced ..</h4>
+            <br />
+            Read more at:
+            <a style={{color:"black"}} href="https://timesofindia.indiatimes.com/education/news/josaa-counselling-2024-final-seat-allotment-results-out-at-josaa-nic-in-check-direct-link-here/articleshow/111824345.cms">Times of India</a>
+          </div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">
+           <h4>Life in an IIT | Born to engineers, IIT-Kanpur BTech ..</h4>
+            <br />
+            Read more at:
+            <a style={{color:"black"}} href="https://indianexpress.com/article/education/life-in-an-iit-kanpur-btech-student-electrical-engineering-branch-from-hyderabad-engineer-parents-jee-main-advanced-9466139/">Times of India</a>
+          </div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">
+           <h4> JoSAA Counselling Final seat allotment results announced ..</h4>
+            <br />
+            Read more at:
+            <a style={{color:"black"}} href="https://timesofindia.indiatimes.com/education/news/josaa-counselling-2024-final-seat-allotment-results-out-at-josaa-nic-in-check-direct-link-here/articleshow/111824345.cms">Times of India</a>
+          </div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">5</div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">6</div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">7</div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">8</div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">9</div>
+          <div className="card1" data-aos="flip-left" data-aos-duration="1000">10</div>
         </div>
-      ))}
+      </div>
+      <IconButton style={{height:"200px"}} onClick={slideRight}><KeyboardDoubleArrowRightIcon/></IconButton>
     </div>
   );
 };

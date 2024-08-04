@@ -8,7 +8,7 @@ import Layout from './Layout';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Home from './Components/home/Home';
-import Articles from './Components/articles/Articles';
+import Articles from './Components/colleges/Colleges';
 import College from './Components/collegePreview/College';
 import { useEffect } from 'react';
 import CollegeDisplay from './Components/InputForm/CollegeDisplay';
@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       <Route path='' element={<Home/>}/>
       <Route path='Home' element={<Home />} />
       <Route path='CollegePredictor' element={<FormPage />} />
-      <Route path='Articles' element={<Articles />} />
+      <Route path='Colleges' element={<Articles />} />
       <Route path='OurTeam' element={<Team/>} />
       <Route path ='college' element={<College />} />
       <Route path='AllotedColleges' element={<AllotedColleges/>}/>
