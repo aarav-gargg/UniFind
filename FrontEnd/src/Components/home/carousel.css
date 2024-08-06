@@ -19,6 +19,10 @@
     .card1 {
       min-width: 200px;
       height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       background-image: url("/Articlebg.jpg");
       background-size: cover; /* Ensures the image covers the entire card */
       background-position: center; /* Centers the image */
@@ -35,7 +39,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+      background: rgba(0, 0, 0, 0.7); /* Black overlay with 50% opacity */
       z-index: 1; /* Ensure overlay is above the background image */
     }
     
@@ -147,3 +151,62 @@
       transform: translateX(-100%);
     }
   } */
+  .container2 {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card1 {
+    min-width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Articlebg.jpg");
+    background-size: cover; /* Ensures the image covers the entire card */
+    background-position: center; /* Centers the image */
+    margin: 0 10px;
+    position: relative; /* Ensure the pseudo-element is positioned correctly */
+    overflow: hidden; /* Hide overflow to ensure the overlay covers the entire card */
+    color: white; /* Set default text color to white */
+  }
+  
+  .card1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure overlay is above the background image */
+  }
+  
+  .card1 h4,
+  .card1 a {
+    position: relative; /* Ensure text is above the overlay */
+    z-index: 2; /* Ensure text is above the overlay */
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  .card1 a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  
+  .card-wrapper {
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+  }
+  
