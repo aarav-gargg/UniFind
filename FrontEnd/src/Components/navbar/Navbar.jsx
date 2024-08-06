@@ -11,7 +11,7 @@ function Navbar() {
     <>
     <header>
         <nav className="navigation ">
-        <Link to="/Home" className="right">UniFind </Link>
+        <Link to="/Home" className="right">  <img src="/Articlebg.jpg" alt="" />UniFind </Link>
             <div className="left">
             <ul>
                     <li><NavLink activeclassname="active" to="/Colleges">Colleges</NavLink></li>
