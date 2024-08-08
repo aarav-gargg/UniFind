@@ -43,8 +43,8 @@ function College() {
         </Grid>
 
         <Grid item xs={12}>
-          <Item>
-            <Typography variant="h6" className='placement'>Placement</Typography>
+          <Item className="container33">
+            <Typography variant="h6" className='placement'>Placement Records</Typography>
             <Grid container spacing={2}>
               <Grid item xs={4}>
                 <Item>Highest Package</Item>
@@ -62,18 +62,18 @@ function College() {
 
       <div className="dashboard">
         {[
-          { title: "Refunds", amount: "6k", unit: "USD" },
-          { title: "Sales", amount: "50k", unit: "USD" },
-          { title: "Profit", amount: "11k", unit: "USD" },
-          { title: "Progress", progress: 50, unit: "TASKS" },
-          { title: "Products", amount: "41k" },
-          { title: "Reviews", amount: "71%", unit: "Rating" },
+          { title: "NIRF RANKING", amount: "6k", unit: "USD" },
+          { title: "HOSTEL", amount: "50k", unit: "USD" },
+          { title: "ESTABLISHED", amount: "11k", unit: "USD" },
+          { title: "AREA", progress: 50, unit: "TASKS" },
+          { title: "CUT-OFF", amount: "41k" },
+          { title: "DISTANCE FROM NEAREST METRO", amount: "71%", unit: "Rating" },
         ].map((card, index) => (
-          <div className="card primary" key={index}>
+          <div className="card55 primary" key={index}>
             {card.title === "Progress" ? (
               <>
                 <h2>{card.title}</h2>
-                <div className="card-progress">
+                <div className="card55-progress">
                   {/* <progress value={card.progress} max="100"></progress> */}
                   <var>{card.progress}<abbr>{card.unit}</abbr></var>
                 </div>
@@ -92,12 +92,16 @@ function College() {
 
       <Grid container spacing={2} sx={{ marginTop: '20px' }}>
         <Grid item xs={12}>
-          <Item>
+          <div className="reviewsec">
+          <h1>Student Reviews</h1>
+          <button>ADD REVIEW</button>
+          </div>
+          <Item className="container33">
             <Typography variant="h6" className='review-heading'>Review</Typography>
           </Item>
         </Grid>
         <Grid item xs={12}>
-          <Item>Review</Item>
+          <Item className="container33">Review</Item>
         </Grid>
       </Grid>
     </div>

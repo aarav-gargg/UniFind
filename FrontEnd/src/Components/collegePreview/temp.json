@@ -1,0 +1,16 @@
+{
+    "pageTitle": "College Information",
+    "header": {
+        "title": "Explore Colleges",
+        "subtitle": "Find the best colleges based on your preferences"
+    },
+    "filters": {
+        "searchQuery": "",
+        "location": "",
+        "type": "",
+        "ranking": {
+            "min": 1,
+            "max": 100
+        }
+    }
+}
