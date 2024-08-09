@@ -1,131 +1,128 @@
-{
-    "colleges": [
-        {
-            "id": "IITD",
-            "name": "Indian Institute of Technology Delhi",
-            "location": "IIT Delhi Main Rd, IIT Campus, Hauz Khas, New Delhi, Delhi 110016",
-            "type": "Government",
-            "ranking": 2,
-            "description": "Indian Institute of Technology Delhi (more popularly known as IIT Delhi) is one of the most prestigious universities in India. IIT Delhi is ranked 2nd by the NIRF 2023 under the Engineering category, 1st by India Today 2023 under the Engineering category, and 1st by the India Today 2023 under the Engineering (Government) category. IIT Delhi is popular for its flagship programmes, i.e. MTech and BTech courses. IITD was established in 1961 as the College of Engineering. Later, it was declared the Institution of National Importance under the Institutes of Technology (Amendment) Act of 1963. Over the years, over 48,000 students have graduated from IIT Delhi in several disciplines including Physical Sciences, Engineering, Management, and Humanities and Social Sciences, and various other streams. Over 15,738 students have received their BTech degree from IIT Delhi over the years. Indian Institute of Technology Delhi (IIT Delhi), through various departments and schools of study, offers UG, PG, and various other courses to students. IIT Delhi is also ranked 150 internationally by the QS World University Rankings 2025. It is one of the twenty-three IITs present in India.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/fj3knh4fmed2qlgycg8y.jpg",
-            "websiteUrl": "https://home.iitd.ac.in/"
-        },
-        {
-            "id": "USICT",
-            "name": "University School of Information Communication and Technology",
-            "location": "Dwarka Sector 16-C, Delhi",
-            "type": "Public",
-            "ranking": 86,
-            "description": "The University School of Information, Communication and Technology (USICT) is a prestigious academic institution under Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi. Established in 1999, USICT has emerged as a leading center for education and research in the fields of Information Technology, Communication Technology, and Computer Science Engineering. USICT offers a range of undergraduate, postgraduate, and doctoral programs that are designed to meet the evolving demands of the tech industry. The school’s curriculum is carefully crafted to provide a balanced mix of theoretical knowledge and practical skills, ensuring that students are well-prepared for the challenges of the global technology landscape. The faculty at USICT comprises highly qualified academicians and industry professionals who are committed to delivering excellence in education. The school fosters a research-oriented environment, encouraging students to engage in innovative projects, research activities, and technical competitions that contribute to their overall intellectual growth. USICT is equipped with state-of-the-art infrastructure, including advanced laboratories, modern classrooms, and high-performance computing facilities that support the academic and research needs of students and faculty alike. The school also emphasizes interdisciplinary learning, allowing students to explore and integrate knowledge from different domains. In addition to its strong academic focus, USICT offers a vibrant campus life with numerous extracurricular activities, including tech fests, cultural events, and student clubs that cater to diverse interests. The institute’s active placement cell works closely with leading companies and organizations to provide students with excellent internship and job opportunities. USICT is renowned for its commitment to producing highly skilled professionals who are capable of leading the way in the rapidly advancing fields of information and communication technology.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/kt2xphxtryue4dada3yo.webp",
-            "websiteUrl": "http://ipu.ac.in/usict/"
-        },
-        {
-            "id": "BPIT",
-            "name": "Bhagwan Parshuram Institute Of Technology",
-            "location": "Rohini Sector 17, Delhi",
-            "type": "Semi-Government",
-            "ranking": "250-300",
-            "description": "Bhagwan Parshuram Institute of Technology (BPIT) is a leading engineering college located in New Delhi, India. Established in 2005, BPIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after the legendary sage Bhagwan Parshuram, symbolizing the blend of technical knowledge and ethical values. BPIT offers undergraduate programs in various engineering disciplines, including Computer Science Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, and Information Technology. The institute is known for its rigorous academic curriculum, modern infrastructure, and well-equipped laboratories that provide students with a strong foundation in engineering and technology. The faculty at BPIT consists of experienced and dedicated educators who are committed to imparting quality education and fostering a culture of innovation and research. The institute encourages students to engage in projects, internships, and technical competitions to enhance their practical skills and industry readiness. BPIT places a strong emphasis on overall student development, offering a wide range of extracurricular activities, including technical clubs, cultural events, and sports. The institute has a proactive placement cell that works closely with industry leaders to provide students with ample job opportunities and internships. The campus of BPIT is vibrant and student-friendly, providing an environment conducive to learning and personal growth. The institute is recognized for its commitment to producing skilled engineers who are well-prepared to contribute to the rapidly evolving field of technology.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/ajjtapnx9opygnivirgb.jpg",
-            "websiteUrl": "https://bpitindia.ac.in"
-        }
-        ,
-        {
-            "id": "MSIT",
-            "name": "Maharaja Surajmal Institute of Technology",
-            "location": "Fire Station Rd, Janakpuri, Delhi",
-            "type": "Semi-Government",
-            "ranking": "250-300",
-            "description": "Maharaja Surajmal Institute of Technology (MSIT) is a renowned engineering college located in New Delhi, India. Established in 2001, MSIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after Maharaja Surajmal, a great ruler known for his wisdom, valor, and progressive thinking, reflecting the institute's commitment to excellence in education and character building. MSIT offers undergraduate programs in key engineering disciplines such as Computer Science Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, and Information Technology. The institute is known for its strong academic curriculum, well-qualified faculty, and modern infrastructure that includes state-of-the-art laboratories, well-equipped classrooms, and a comprehensive library. The faculty at MSIT consists of experienced academicians and industry professionals who are dedicated to providing quality education and fostering a culture of innovation and research. The institute places a strong emphasis on practical learning, encouraging students to engage in projects, internships, and technical competitions to enhance their hands-on skills and industry readiness. Beyond academics, MSIT provides a vibrant campus life with a wide range of extracurricular activities, including technical clubs, cultural events, and sports. The institute’s active placement cell maintains strong connections with leading companies, ensuring that students have access to excellent job opportunities and career guidance. MSIT is recognized for its commitment to producing well-rounded engineers who are equipped with the knowledge, skills, and ethical values needed to succeed in the competitive world of technology. The institute’s focus on holistic development, combined with its strong academic foundation, makes it a preferred choice for students aspiring to build a successful career in engineering.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/crbo3ssy60irrvwtqcwv.jpg",
-            "websiteUrl": "https://www.msit.in"
-        }
-        ,
-        {
-            "id": "MAIT",
-            "name": "Maharaja Agrasen Institute of Technology",
-            "location": "Rohini, Plot No 1, CH Bhim Singh Nambardar Marg, Sector 22, PSP Area, Delhi",
-            "type": "Semi-Government",
-            "ranking": "250-300",
-            "description": "Maharaja Agrasen Institute of Technology (MAIT) is a prominent engineering college situated in New Delhi, India. Established in 1999, MAIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after the legendary king Maharaja Agrasen, reflecting its commitment to fostering leadership and academic excellence. MAIT offers a range of undergraduate programs in engineering disciplines such as Computer Science Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, Mechanical Engineering, and Information Technology. The institute is known for its robust academic curriculum, state-of-the-art infrastructure, and advanced laboratories that equip students with the technical skills needed to excel in their chosen fields. The faculty at MAIT comprises experienced academicians and industry experts who are dedicated to delivering quality education and promoting a culture of research and innovation. The institute encourages students to participate in various technical projects, hackathons, and internships to gain hands-on experience and enhance their problem-solving abilities. In addition to academics, MAIT places a strong emphasis on holistic student development. The institute offers a variety of extracurricular activities, including cultural events, sports, and technical clubs, fostering a well-rounded college experience. The active placement cell at MAIT works diligently to build strong industry connections, ensuring that students have access to excellent job opportunities and career support. MAIT's campus is vibrant and dynamic, providing students with a supportive and engaging environment for learning and personal growth. The institute is renowned for its dedication to producing skilled engineers who are prepared to meet the challenges of the global technology landscape.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/g9i0mi60vpeszmpwnol9.jpg",
-            "websiteUrl": "https://www.mait.ac.in"
-        }
-        ,
-        {
-            "id": "GTBIT",
-            "name": "Guru Tegh Bahadur Institute Of Technology",
-            "location": "G-8 Area, Press Colony, Rajouri Garden, New Delhi",
-            "type": "Semi-Government",
-            "ranking": "250-300",
-            "description": "Guru Tegh Bahadur Institute of Technology (GTBIT) is a prestigious engineering college located in New Delhi, India. Established in 1999, GTBIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after the ninth Sikh Guru, Guru Tegh Bahadur Ji, and upholds values of academic excellence and social responsibility. GTBIT offers undergraduate programs in various engineering disciplines, including Computer Science, Electronics & Communication, Information Technology, and Electrical & Electronics Engineering. The institute boasts state-of-the-art infrastructure, well-equipped laboratories, and a robust curriculum that emphasizes both theoretical knowledge and practical skills. The faculty at GTBIT consists of experienced academicians and industry professionals who are dedicated to nurturing the talents of students and preparing them for successful careers. The institute also encourages research and innovation through various student projects, technical fests, and workshops. In addition to academics, GTBIT places a strong emphasis on holistic development by offering a range of extracurricular activities, including cultural events, sports, and technical clubs. The college has an active placement cell that maintains strong ties with top companies, ensuring good placement opportunities for students. GTBIT is known for its vibrant campus life, diverse student community, and commitment to producing well-rounded engineers who are ready to take on the challenges of the modern world.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/cc4nynd5xz2jrrrmeftp.jpg",
-            "websiteUrl": "https://www.gtbit.ac.in"
-        },
-        {
-            "id": "IIITD",
-            "name": "Indraprastha Institute Of Information Technology",
-            "location": "G-8 Area, Press Colony, Rajouri Garden, New Delhi",
-            "type": "semi Government",
-            "ranking": "250-300",
-            "description": "IIIT Delhi (Indraprastha Institute of Information Technology Delhi) is a prestigious autonomous research-oriented university located in New Delhi, India. Established in 2008, it has quickly gained recognition for its strong focus on research and innovation, particularly in the fields of computer science, electronics, and information technology. The institute offers undergraduate, postgraduate, and doctoral programs, emphasizing a rigorous academic curriculum combined with practical experience. With state-of-the-art facilities, distinguished faculty, and a vibrant campus life, IIIT Delhi fosters an environment that encourages intellectual growth, creativity, and entrepreneurship, making it one of the leading institutions in India for technology education",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130900/kfkibo21chswyneqhr2p.jpg",
-            "websiteUrl": "https://iiitd.ac.in"
-        },
-        {
-            "id": "IGDTUW",
-            "name": "Indra Gandhi Technical University Of Women",
-            "location": "James Church, New Church Rd, Opp. St, Kashmere Gate, New Delhi",
-            "type": "Government",
-            "ranking": "250-300",
-            "description": "Indira Gandhi Delhi Technical University for Women (IGDTUW) is a premier technical university in India, dedicated exclusively to women. Established in 1998, the university aims to empower women through quality education in engineering, technology, and applied sciences. IGDTUW offers undergraduate, postgraduate, and doctoral programs in various technical disciplines, fostering innovation and research. The campus is equipped with modern facilities and provides a supportive environment for students to excel academically and professionally.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/rumweaibjf4mitjfdoir.jpg",
-            "websiteUrl": "https://www.igdtuw.ac.in"
-        },
-        {
-            "id": "NSUT",
-            "name": "Netaji Subhash University Of Technology",
-            "location": "Azad Hind Fauj Marg, Dwarka Sector-3, Dwarka, Delhi",
-            "type": " Government",
-            "ranking": "250-300",
-            "description": "Netaji Subhas University of Technology (NSUT), formerly known as Netaji Subhas Institute of Technology (NSIT), is a premier engineering institution in New Delhi, India. Established in 1983, it offers a range of undergraduate, postgraduate, and doctoral programs in engineering and technology. Known for its strong academic curriculum and research-oriented approach, NSUT has consistently been ranked among the top engineering colleges in India. The university became a state university in 2018, further enhancing its stature and autonomy",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/wsq4q8qfpmrg2uzsqous.jpg",
-            "websiteUrl": "http://nsut.ac.in"
-        },
-        {
-            "id": "DTU",
-            "name": "Delhi Technical University",
-            "location": "Bawana Rd, Delhi Technological University, Shahbad Daulatpur Village, Rohini, New Delhi",
-            "type": "Government",
-            "ranking": "250-300",
-            "description": "DTU stands for Delhi Technological University, formerly known as Delhi College of Engineering (DCE). It is one of the oldest engineering institutions in India, known for its excellence in technical education and research. Located in Delhi, DTU offers undergraduate, postgraduate, and doctoral programs in various branches of engineering, sciences, and management. The university is renowned for its strong emphasis on research, innovation, and industry collaboration, making it a prestigious destination for aspiring engineers and technologists in India.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723135581/x2qmzcju1zgxi4da1ead.jpg",
-            "websiteUrl": "https://www.exam.dtu.ac.in"
-        }
-        ,
-        {
-            "id": "NIT",
-            "name": "National Institute of Technology",
-            "location": "Plot No. FA7,Zone, P1, GT Karnal Rd, Delhi",
-            "type": " Government",
-            "ranking": "250-300",
-            "description": "National Institute of Technology Delhi (NIT Delhi) is one of the premier engineering institutions in India, established in 2010. It offers undergraduate, postgraduate, and doctoral programs in various engineering and technology disciplines. The institute is known for its focus on academic excellence, cutting-edge research, and industry collaborations. Located in the capital city, NIT Delhi provides students with access to numerous opportunities in both academia and industry, fostering a vibrant learning environment.",
-            "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/jtae5ttgdf6ye8satfla.jpg",
-            "websiteUrl": "https://nitdelhi.ac.in"
-        }
-    ],
-    "footer": {
-        "text": "© 2024 Your Website. All rights reserved.",
-        "links": [
-            {
-                "label": "Privacy Policy",
-                "url": "http://localhost:5173/privacy"
-            },
-            {
-                "label": "Terms of Service",
-                "url": "http://localhost:5173/terms"
-            }
-        ]
+
+[
+    {
+        "id": "IITD",
+        "name": "Indian Institute of Technology Delhi",
+        "location": "IIT Delhi Main Rd, IIT Campus, Hauz Khas, New Delhi, Delhi 110016",
+        "type": "Government",
+        "ranking": 2,
+        "preview":"Indian Institute of Technology Delhi (more popularly known as IIT Delhi) is one of the most prestigious universities in India.",
+        "description": "Indian Institute of Technology Delhi (more popularly known as IIT Delhi) is one of the most prestigious universities in India. IIT Delhi is ranked 2nd by the NIRF 2023 under the Engineering category, 1st by India Today 2023 under the Engineering category, and 1st by the India Today 2023 under the Engineering (Government) category. IIT Delhi is popular for its flagship programmes, i.e. MTech and BTech courses. IITD was established in 1961 as the College of Engineering. Later, it was declared the Institution of National Importance under the Institutes of Technology (Amendment) Act of 1963. Over the years, over 48,000 students have graduated from IIT Delhi in several disciplines including Physical Sciences, Engineering, Management, and Humanities and Social Sciences, and various other streams. Over 15,738 students have received their BTech degree from IIT Delhi over the years. Indian Institute of Technology Delhi (IIT Delhi), through various departments and schools of study, offers UG, PG, and various other courses to students. IIT Delhi is also ranked 150 internationally by the QS World University Rankings 2025. It is one of the twenty-three IITs present in India.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/fj3knh4fmed2qlgycg8y.jpg",
+        "websiteUrl": "https://home.iitd.ac.in/"
+    },
+    {
+        "id": "USICT",
+        "name": "University School of Information Communication and Technology",
+        "location": "Dwarka Sector 16-C, Delhi",
+        "type": "Public",
+        "ranking": 86,
+        "preview":"The University School of Information, Communication and Technology (USICT) is a prestigious academic institution under Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi.",
+        "description": "The University School of Information, Communication and Technology (USICT) is a prestigious academic institution under Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi. Established in 1999, USICT has emerged as a leading center for education and research in the fields of Information Technology, Communication Technology, and Computer Science Engineering. USICT offers a range of undergraduate, postgraduate, and doctoral programs that are designed to meet the evolving demands of the tech industry. The school’s curriculum is carefully crafted to provide a balanced mix of theoretical knowledge and practical skills, ensuring that students are well-prepared for the challenges of the global technology landscape. The faculty at USICT comprises highly qualified academicians and industry professionals who are committed to delivering excellence in education. The school fosters a research-oriented environment, encouraging students to engage in innovative projects, research activities, and technical competitions that contribute to their overall intellectual growth. USICT is equipped with state-of-the-art infrastructure, including advanced laboratories, modern classrooms, and high-performance computing facilities that support the academic and research needs of students and faculty alike. The school also emphasizes interdisciplinary learning, allowing students to explore and integrate knowledge from different domains. In addition to its strong academic focus, USICT offers a vibrant campus life with numerous extracurricular activities, including tech fests, cultural events, and student clubs that cater to diverse interests. The institute’s active placement cell works closely with leading companies and organizations to provide students with excellent internship and job opportunities. USICT is renowned for its commitment to producing highly skilled professionals who are capable of leading the way in the rapidly advancing fields of information and communication technology.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/kt2xphxtryue4dada3yo.webp",
+        "websiteUrl": "http://ipu.ac.in/usict/"
+    },
+    {
+        "id": "BPIT",
+        "name": "Bhagwan Parshuram Institute Of Technology",
+        "location": "Rohini Sector 17, Delhi",
+        "type": "Semi-Government",
+        "ranking": "250-300",
+        "preview":"Bhagwan Parshuram Institute of Technology (BPIT) is a leading engineering college located in New Delhi, India. Established in 2005, BPIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE).",
+        "description": "Bhagwan Parshuram Institute of Technology (BPIT) is a leading engineering college located in New Delhi, India. Established in 2005, BPIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after the legendary sage Bhagwan Parshuram, symbolizing the blend of technical knowledge and ethical values. BPIT offers undergraduate programs in various engineering disciplines, including Computer Science Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, and Information Technology. The institute is known for its rigorous academic curriculum, modern infrastructure, and well-equipped laboratories that provide students with a strong foundation in engineering and technology. The faculty at BPIT consists of experienced and dedicated educators who are committed to imparting quality education and fostering a culture of innovation and research. The institute encourages students to engage in projects, internships, and technical competitions to enhance their practical skills and industry readiness. BPIT places a strong emphasis on overall student development, offering a wide range of extracurricular activities, including technical clubs, cultural events, and sports. The institute has a proactive placement cell that works closely with industry leaders to provide students with ample job opportunities and internships. The campus of BPIT is vibrant and student-friendly, providing an environment conducive to learning and personal growth. The institute is recognized for its commitment to producing skilled engineers who are well-prepared to contribute to the rapidly evolving field of technology.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/ajjtapnx9opygnivirgb.jpg",
+        "websiteUrl": "https://bpitindia.ac.in"
     }
-}
+    ,
+    {
+        "id": "MSIT",
+        "name": "Maharaja Surajmal Institute of Technology",
+        "location": "Fire Station Rd, Janakpuri, Delhi",
+        "type": "Semi-Government",
+        "ranking": "250-300",
+        "preview":"Maharaja Surajmal Institute of Technology (MSIT) is a renowned engineering college located in New Delhi, India. Established in 2001, MSIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). ",
+        "description": "Maharaja Surajmal Institute of Technology (MSIT) is a renowned engineering college located in New Delhi, India. Established in 2001, MSIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after Maharaja Surajmal, a great ruler known for his wisdom, valor, and progressive thinking, reflecting the institute's commitment to excellence in education and character building. MSIT offers undergraduate programs in key engineering disciplines such as Computer Science Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, and Information Technology. The institute is known for its strong academic curriculum, well-qualified faculty, and modern infrastructure that includes state-of-the-art laboratories, well-equipped classrooms, and a comprehensive library. The faculty at MSIT consists of experienced academicians and industry professionals who are dedicated to providing quality education and fostering a culture of innovation and research. The institute places a strong emphasis on practical learning, encouraging students to engage in projects, internships, and technical competitions to enhance their hands-on skills and industry readiness. Beyond academics, MSIT provides a vibrant campus life with a wide range of extracurricular activities, including technical clubs, cultural events, and sports. The institute’s active placement cell maintains strong connections with leading companies, ensuring that students have access to excellent job opportunities and career guidance. MSIT is recognized for its commitment to producing well-rounded engineers who are equipped with the knowledge, skills, and ethical values needed to succeed in the competitive world of technology. The institute’s focus on holistic development, combined with its strong academic foundation, makes it a preferred choice for students aspiring to build a successful career in engineering.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/crbo3ssy60irrvwtqcwv.jpg",
+        "websiteUrl": "https://www.msit.in"
+    }
+    ,
+    {
+        "id": "MAIT",
+        "name": "Maharaja Agrasen Institute of Technology",
+        "location": "Rohini, Plot No 1, CH Bhim Singh Nambardar Marg, Sector 22, PSP Area, Delhi",
+        "type": "Semi-Government",
+        "ranking": "250-300",
+        "preview":"Maharaja Agrasen Institute of Technology (MAIT) is a prominent engineering college situated in New Delhi, India. Established in 1999, MAIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE).",
+        "description": "Maharaja Agrasen Institute of Technology (MAIT) is a prominent engineering college situated in New Delhi, India. Established in 1999, MAIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after the legendary king Maharaja Agrasen, reflecting its commitment to fostering leadership and academic excellence. MAIT offers a range of undergraduate programs in engineering disciplines such as Computer Science Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, Mechanical Engineering, and Information Technology. The institute is known for its robust academic curriculum, state-of-the-art infrastructure, and advanced laboratories that equip students with the technical skills needed to excel in their chosen fields. The faculty at MAIT comprises experienced academicians and industry experts who are dedicated to delivering quality education and promoting a culture of research and innovation. The institute encourages students to participate in various technical projects, hackathons, and internships to gain hands-on experience and enhance their problem-solving abilities. In addition to academics, MAIT places a strong emphasis on holistic student development. The institute offers a variety of extracurricular activities, including cultural events, sports, and technical clubs, fostering a well-rounded college experience. The active placement cell at MAIT works diligently to build strong industry connections, ensuring that students have access to excellent job opportunities and career support. MAIT's campus is vibrant and dynamic, providing students with a supportive and engaging environment for learning and personal growth. The institute is renowned for its dedication to producing skilled engineers who are prepared to meet the challenges of the global technology landscape.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/g9i0mi60vpeszmpwnol9.jpg",
+        "websiteUrl": "https://www.mait.ac.in"
+    }
+    ,
+    {
+        "id": "GTBIT",
+        "name": "Guru Tegh Bahadur Institute Of Technology",
+        "location": "G-8 Area, Press Colony, Rajouri Garden, New Delhi",
+        "type": "Semi-Government",
+        "ranking": "250-300",
+        "preview":"Guru Tegh Bahadur Institute of Technology (GTBIT) is a prestigious engineering college located in New Delhi, India. Established in 1999, GTBIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE).",
+        "description": "Guru Tegh Bahadur Institute of Technology (GTBIT) is a prestigious engineering college located in New Delhi, India. Established in 1999, GTBIT is affiliated with Guru Gobind Singh Indraprastha University (GGSIPU) and is approved by the All India Council for Technical Education (AICTE). The institute is named after the ninth Sikh Guru, Guru Tegh Bahadur Ji, and upholds values of academic excellence and social responsibility. GTBIT offers undergraduate programs in various engineering disciplines, including Computer Science, Electronics & Communication, Information Technology, and Electrical & Electronics Engineering. The institute boasts state-of-the-art infrastructure, well-equipped laboratories, and a robust curriculum that emphasizes both theoretical knowledge and practical skills. The faculty at GTBIT consists of experienced academicians and industry professionals who are dedicated to nurturing the talents of students and preparing them for successful careers. The institute also encourages research and innovation through various student projects, technical fests, and workshops. In addition to academics, GTBIT places a strong emphasis on holistic development by offering a range of extracurricular activities, including cultural events, sports, and technical clubs. The college has an active placement cell that maintains strong ties with top companies, ensuring good placement opportunities for students. GTBIT is known for its vibrant campus life, diverse student community, and commitment to producing well-rounded engineers who are ready to take on the challenges of the modern world.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/cc4nynd5xz2jrrrmeftp.jpg",
+        "websiteUrl": "https://www.gtbit.ac.in"
+    },
+    {
+        "id": "IIITD",
+        "name": "Indraprastha Institute Of Information Technology",
+        "location": "G-8 Area, Press Colony, Rajouri Garden, New Delhi",
+        "type": "semi Government",
+        "ranking": "250-300",
+        "preview":"IIIT Delhi (Indraprastha Institute of Information Technology Delhi) is a prestigious autonomous research-oriented university located in New Delhi, India. Established in 2008, it has quickly gained recognition for its strong focus on research and innovation, particularly in the fields of computer science, electronics, and information technology.",
+        "description": "IIIT Delhi (Indraprastha Institute of Information Technology Delhi) is a prestigious autonomous research-oriented university located in New Delhi, India. Established in 2008, it has quickly gained recognition for its strong focus on research and innovation, particularly in the fields of computer science, electronics, and information technology. The institute offers undergraduate, postgraduate, and doctoral programs, emphasizing a rigorous academic curriculum combined with practical experience. With state-of-the-art facilities, distinguished faculty, and a vibrant campus life, IIIT Delhi fosters an environment that encourages intellectual growth, creativity, and entrepreneurship, making it one of the leading institutions in India for technology education",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130900/kfkibo21chswyneqhr2p.jpg",
+        "websiteUrl": "https://iiitd.ac.in"
+    },
+    {
+        "id": "IGDTUW",
+        "name": "Indra Gandhi Technical University Of Women",
+        "location": "James Church, New Church Rd, Opp. St, Kashmere Gate, New Delhi",
+        "type": "Government",
+        "ranking": "250-300",
+        "preview":"Indira Gandhi Delhi Technical University for Women (IGDTUW) is a premier technical university in India, dedicated exclusively to women. Established in 1998, the university aims to empower women through quality education in engineering, technology, and applied sciences.",
+        "description": "Indira Gandhi Delhi Technical University for Women (IGDTUW) is a premier technical university in India, dedicated exclusively to women. Established in 1998, the university aims to empower women through quality education in engineering, technology, and applied sciences. IGDTUW offers undergraduate, postgraduate, and doctoral programs in various technical disciplines, fostering innovation and research. The campus is equipped with modern facilities and provides a supportive environment for students to excel academically and professionally.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/rumweaibjf4mitjfdoir.jpg",
+        "websiteUrl": "https://www.igdtuw.ac.in"
+    },
+    {
+        "id": "NSUT",
+        "name": "Netaji Subhash University Of Technology",
+        "location": "Azad Hind Fauj Marg, Dwarka Sector-3, Dwarka, Delhi",
+        "type": " Government",
+        "ranking": "250-300",
+        "preview":"Netaji Subhas University of Technology (NSUT), formerly known as Netaji Subhas Institute of Technology (NSIT), is a premier engineering institution in New Delhi, India. Established in 1983, it offers a range of undergraduate, postgraduate, and doctoral programs in engineering and technology.",
+        "description": "Netaji Subhas University of Technology (NSUT), formerly known as Netaji Subhas Institute of Technology (NSIT), is a premier engineering institution in New Delhi, India. Established in 1983, it offers a range of undergraduate, postgraduate, and doctoral programs in engineering and technology. Known for its strong academic curriculum and research-oriented approach, NSUT has consistently been ranked among the top engineering colleges in India. The university became a state university in 2018, further enhancing its stature and autonomy",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/wsq4q8qfpmrg2uzsqous.jpg",
+        "websiteUrl": "http://nsut.ac.in"
+    },
+    {
+        "id": "DTU",
+        "name": "Delhi Technical University",
+        "location": "Bawana Rd, Delhi Technological University, Shahbad Daulatpur Village, Rohini, New Delhi",
+        "type": "Government",
+        "ranking": "250-300",
+        "preview":"DTU stands for Delhi Technological University, formerly known as Delhi College of Engineering (DCE). It is one of the oldest engineering institutions in India, known for its excellence in technical education and research.",
+        "description": "DTU stands for Delhi Technological University, formerly known as Delhi College of Engineering (DCE). It is one of the oldest engineering institutions in India, known for its excellence in technical education and research. Located in Delhi, DTU offers undergraduate, postgraduate, and doctoral programs in various branches of engineering, sciences, and management. The university is renowned for its strong emphasis on research, innovation, and industry collaboration, making it a prestigious destination for aspiring engineers and technologists in India.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723135581/x2qmzcju1zgxi4da1ead.jpg",
+        "websiteUrl": "https://www.exam.dtu.ac.in"
+    }
+    ,
+    {
+        "id": "NIT",
+        "name": "National Institute of Technology",
+        "location": "Plot No. FA7,Zone, P1, GT Karnal Rd, Delhi",
+        "type": " Government",
+        "ranking": "250-300",
+        "preview":"National Institute of Technology Delhi (NIT Delhi) is one of the premier engineering institutions in India, established in 2010. It offers undergraduate, postgraduate, and doctoral programs in various engineering and technology disciplines.",
+        "description": "National Institute of Technology Delhi (NIT Delhi) is one of the premier engineering institutions in India, established in 2010. It offers undergraduate, postgraduate, and doctoral programs in various engineering and technology disciplines. The institute is known for its focus on academic excellence, cutting-edge research, and industry collaborations. Located in the capital city, NIT Delhi provides students with access to numerous opportunities in both academia and industry, fostering a vibrant learning environment.",
+        "imageUrl": "https://res.cloudinary.com/dxgzuir9s/image/upload/v1723130901/jtae5ttgdf6ye8satfla.jpg",
+        "websiteUrl": "https://nitdelhi.ac.in"
+    }
+]
