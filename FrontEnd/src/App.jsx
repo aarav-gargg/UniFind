@@ -23,8 +23,9 @@ const router = createBrowserRouter(
       <Route path='CollegePredictor' element={<FormPage />} />
       <Route path='Colleges' element={<Articles />} />
       <Route path='OurTeam' element={<Team/>} />
-      <Route path ='college' element={<College />} />
+      {/* <Route path ='college' element={<College />} /> */}
       <Route path='AllotedColleges' element={<AllotedColleges/>}/>
+      <Route path='College/:collegeId' element={<College/>} />
     </Route>
   )
 );

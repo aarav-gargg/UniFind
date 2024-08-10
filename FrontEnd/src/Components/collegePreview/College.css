@@ -12,15 +12,13 @@
 
 .container101 {
   height: 60vh;
-  background: url("/projectPic.png");
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
   position: relative;
-  font-family: "DM Mono", monospace;
+  font-family: "poppins", monospace;
   font-weight: 300;
   font-style: normal;
 }
@@ -33,7 +31,7 @@
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 body {
@@ -167,7 +165,13 @@ h3 {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.container101 .content{
+  color: white;
+  filter: brightness(1.15);
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
 .fee,
 .additional-info {
   height: 15vh;
