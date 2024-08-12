@@ -52,7 +52,7 @@ const ArticleCard = () => {
              <div className="collegeArticleImg">
                  <img src={college.imageUrl} alt="" />
              </div>
-             <div class="collegeArticleContent">
+             <div className="collegeArticleContent">
                  <Link to={`/College/${college.id}`}>
                      <h3>{college.name}</h3>
                  </Link>

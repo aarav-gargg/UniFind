@@ -1,5 +1,8 @@
 import { Grid, styled, Typography } from "@mui/material";
 import './College.css';
+import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import data from './data.json'
 
 const Item = styled('div')(({ theme }) => ({
   padding: theme.spacing(2),
@@ -15,20 +18,31 @@ const Item = styled('div')(({ theme }) => ({
 }));
 
 function College() {
+  const {collegeId}=useParams()
+  const [college, setCollege] = useState({});
+  useEffect(()=>{
+    const fetchCollegeDetails=(id)=>{
+      const response=data.find(obj=>obj.id===id)
+      setCollege(response)
+      console.log(response)
+    }
+    fetchCollegeDetails(collegeId);
+  },[collegeId])
   return (
     <div className='container1'>
       <Grid container spacing={4}>
         <Grid item xs={12} className='image'>
-          <div className='container101' data-aos="fade-down" data-aos-duration="1000">
+          <div className='container101' data-aos="fade-down" data-aos-duration="1000" style={{background: `url(${college.imageUrl})` ,backgroundPosition: "center",
+  backgroundSize: "cover",backgroundRepeat: "no-repeat" }}>
             <div className="content">
-              <h1 className="headingTop">College Name</h1>
+              <h1 className="headingTop">{college.name}</h1>
             </div>
           </div>
         </Grid>
 
         <Grid item xs={12}>
           <Typography variant="body1" className='description'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vero tenetur, dolore exercitationem magni accusamus adipisci aliquam molestiae. Obcaecati magnam ipsam voluptatem facere corporis vel eligendi eius nobis omnis ratione iure id, quasi recusandae aliquid quae animi maiores numquam quam accusamus! Voluptatum neque soluta nisi officiis, facere alias vel illum.
+            {college.description}
           </Typography>
         </Grid>
 
@@ -38,7 +52,7 @@ function College() {
 
         <Grid item xs={6}>
           <Typography variant="body1" className='additional-info'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nemo ratione. Esse dolor ratione doloremque repellat ab iusto quaerat maxime.
+            {college.location}
           </Typography>
         </Grid>
 
@@ -62,30 +76,33 @@ function College() {
 
       <div className="dashboard">
         {[
-          { title: "NIRF RANKING", amount: "6k", unit: "USD" },
+          { title: "NIRF RANKING", amount: `${college.ranking}`, },
           { title: "HOSTEL", amount: "50k", unit: "USD" },
           { title: "ESTABLISHED", amount: "11k", unit: "USD" },
-          { title: "AREA", progress: 50, unit: "TASKS" },
+          { title: "WEBSITE", amount: "click here", unit: "TASKS" },
           { title: "CUT-OFF", amount: "41k" },
-          { title: "DISTANCE FROM NEAREST METRO", amount: "71%", unit: "Rating" },
+          { title: "TYPE", amount: `${college.type}`, unit: "Rating" },
         ].map((card, index) => (
           <div className="card55 primary" key={index}>
-            {card.title === "Progress" ? (
+            {card.title==="WEBSITE" ? (
               <>
-                <h2>{card.title}</h2>
-                <div className="card55-progress">
-                  {/* <progress value={card.progress} max="100"></progress> */}
-                  <var>{card.progress}<abbr>{card.unit}</abbr></var>
-                </div>
+               <h2>{card.title}</h2>
+               
+              <a href={college.websiteUrl} target="_blank"> <var >{card.amount}</var></a>
               </>
-            ) : (
+            ):(
               <>
-                <img src="more.svg" className="more" alt="More" />
-                <h2>{card.title}</h2>
-                <h3>This month</h3>
-                <var>{card.amount}<abbr>{card.unit}</abbr></var>
+              <h2>{card.title}</h2>
+               
+                <var>{card.amount}</var>
               </>
             )}
+              
+           
+              
+                
+             
+            
           </div>
         ))}
       </div>
