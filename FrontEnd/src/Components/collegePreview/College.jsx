@@ -47,11 +47,14 @@ function College() {
         </Grid>
 
         <Grid item xs={6}>
-          <Typography variant="h6" className='fee'>330k/year</Typography>
+          <Typography variant="h6" className='fee'>
+          <h4>College Fees For complete B.tech</h4>
+            {college.fees}</Typography>
         </Grid>
 
         <Grid item xs={6}>
           <Typography variant="body1" className='additional-info'>
+            <h4>College Location</h4>
             {college.location}
           </Typography>
         </Grid>
@@ -61,13 +64,15 @@ function College() {
             <Typography variant="h6" className='placement'>Placement Records</Typography>
             <Grid container spacing={2}>
               <Grid item xs={4}>
-                <Item>Highest Package</Item>
+                <Item>
+                  <h4>Highest Package</h4>
+                  {college.Highest}</Item>
               </Grid>
               <Grid item xs={4}>
-                <Item>Average Package</Item>
+                <Item><h4>Average Package</h4> {college.Average}</Item>
               </Grid>
               <Grid item xs={4}>
-                <Item>Median Package</Item>
+                <Item><h4>Median Package</h4>{college.Median}</Item>
               </Grid>
             </Grid>
           </Item>
@@ -77,10 +82,10 @@ function College() {
       <div className="dashboard">
         {[
           { title: "NIRF RANKING", amount: `${college.ranking}`, },
-          { title: "HOSTEL", amount: "50k", unit: "USD" },
-          { title: "ESTABLISHED", amount: "11k", unit: "USD" },
+          { title: "HOSTEL", amount: `${college.Hostel}`, unit: "USD" },
+          { title: "ESTABLISHED", amount: `${college.Established}`, unit: "USD" },
           { title: "WEBSITE", amount: "click here", unit: "TASKS" },
-          { title: "CUT-OFF", amount: "41k" },
+          { title: "CUT-OFF", amount: `${college.Cutoff}` },
           { title: "TYPE", amount: `${college.type}`, unit: "Rating" },
         ].map((card, index) => (
           <div className="card55 primary" key={index}>

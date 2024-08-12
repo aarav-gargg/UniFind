@@ -181,6 +181,9 @@ h3 {
   border: 2px solid black;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  text-decoration: solid;
+  font-weight: bolder;
 }
 
 .review-heading {
@@ -225,4 +228,5 @@ h3 {
   font-size: larger;
   font-weight: 900;
 }
+
 
