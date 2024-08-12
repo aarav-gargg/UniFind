@@ -26,7 +26,7 @@ const Team = () => {
                                         </div>
                                         <div className="team-card-content">
                                             <p className="team-text-blk team-name">
-                                                Aarav Garg
+                                                AARAV GARG
                                             </p>
                                             <p className="team-text-blk team-position">
                                                 Full Stack Developer
@@ -110,8 +110,8 @@ const Team = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="team-swiper-pagination team-container-block">
-                            </div>
+                            {/* <div className="team-swiper-pagination team-container-block">
+                            </div> */}
                         </div>
                     </div>
                 </div>

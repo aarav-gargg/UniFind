@@ -89,6 +89,10 @@ function College() {
           </div>
         ))}
       </div>
+      <div className="alert">
+        <h4>Important Note:</h4>
+        The data displayed here is sourced from various external resources so the actual outcome may vary.
+      </div>
 
       <Grid container spacing={2} sx={{ marginTop: '20px' }}>
         <Grid item xs={12}>

@@ -1,15 +1,17 @@
-.team-text-blk {
+/* .team-text-blk {
   line-height: 25px;
   margin: 0;
-}
+} */
 
 .team-responsive-container-block {
-  min-height: 75px;
+  /* min-height: 75px; */
   height: fit-content;
+  overflow: hidden;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  color:black;
   justify-content: flex-start;
 }
 
@@ -33,7 +35,7 @@
 }
 
 .team-section-subhead-text {
-  color: rgb(72, 72, 72);
+  color: black;
   font-size: 20px;
   line-height: 27px;
   max-width: 670px;
@@ -46,15 +48,18 @@
   margin-top: 1.5vh;
 }
 
+
+
 .team-card {
   width: 340px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px 25px 40px 25px;
-  box-shadow: 10px 10px 30px 10px rgb(114, 113, 113);
+  /* box-shadow: 10px 5px 20px 10px rgb(221, 221, 221); */
   border-radius: 6px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(119, 254, 236);
+  color:white;
   cursor: pointer;
 }
 
@@ -73,13 +78,13 @@
 
 .team-position {
   line-height: 26px;
-  color: rgb(0, 166, 127);
+  color: rgb(43, 189, 155);
   font-weight: 700;
   margin: 0 0 20px 0;
 }
 
 .team-testimonial {
-  color: rgb(122, 122, 122);
+  color: black;
   font-size: 18px;
   line-height: 27px;
 }
@@ -89,12 +94,12 @@
 }
 
 .team-c-color {
-  background-color: aqua;
+  background-color: rgb(1, 68, 70);
 }
 
 .team-container-block {
   min-height: 75px;
-  height: fit-content;
+  /* height: fit-content; */
   width: 100%;
   padding: 10px;
   display: block;
@@ -103,18 +108,19 @@
 .team-swiper {
   max-width: 100%;
   width: 100%;
-  height: fit-content;
+  /* height: fit-content; */
 }
 
 .team-swiper-slide {
   display: flex;
+  padding:2vh;
   justify-content: flex-start;
-  height: auto;
+  /* height: auto; */
   margin: auto;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
 }
 
-.team-swiper-pagination {
+/* .team-swiper-pagination {
   position: relative;
   top: 0;
   margin-top: 36px;
@@ -125,14 +131,14 @@
   height: 12px;
   width: 12px;
   background-color: rgb(0, 166, 127);
-}
+} */
 
 .team-swiper-wrapper {
   position: relative;
   top: 0;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .team-swiper-slide {
       justify-content: center;
   }
@@ -142,4 +148,4 @@
   .team-outer-container {
       padding: 0 20px;
   }
-}
+} */

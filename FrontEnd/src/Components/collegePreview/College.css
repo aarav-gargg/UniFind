@@ -207,4 +207,18 @@ h3 {
   cursor: pointer;
   transform: scale(1.05);
 }
+.alert{
+  background-color: rgb(74, 178, 155);
+  border-radius: 5vh;
+  padding:5vh;
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family:cursive;
+  font-size: larger;
+  font-weight: 900;
+}
 
