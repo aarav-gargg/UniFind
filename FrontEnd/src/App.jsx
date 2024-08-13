@@ -13,7 +13,9 @@ import College from './Components/collegePreview/College';
 import { useEffect } from 'react';
 import CollegeDisplay from './Components/InputForm/CollegeDisplay';
 import Team from './Components/Team/Team';
+import Login from './Components/login/Login';
 import AllotedColleges from './Components/InputForm/AllotedColleges';
+import Signup from './Components/signup/Signup';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +28,8 @@ const router = createBrowserRouter(
       {/* <Route path ='college' element={<College />} /> */}
       <Route path='AllotedColleges' element={<AllotedColleges/>}/>
       <Route path='College/:collegeId' element={<College/>} />
+      <Route path='Login' element={<Login/>} />
+      <Route path='Signup' element={<Signup/>} />
     </Route>
   )
 );

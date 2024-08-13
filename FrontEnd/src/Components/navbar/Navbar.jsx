@@ -19,6 +19,10 @@ function Navbar() {
                     <li><NavLink activeclassname="active" to="/OurTeam">Our Team</NavLink></li>
                 </ul>
             </div>
+
+            <div className="ultraLeft">
+           <button><NavLink to="/Login">Login/SignUp</NavLink></button>
+            </div>
         </nav>
     </header>
     </>

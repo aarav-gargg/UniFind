@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import Ipurouter from "./routes/predictor.routes.js";
+import userRouter from "./routes/user.routes.js";
 // import cookieParser from "cookie-parser"
 
 const app = express();
@@ -17,6 +18,7 @@ app.use(express.urlencoded({ extended: 'true', limit: "16kb" }));
 
 // Routes
 app.use('/api', Ipurouter);
+app.use('/auth',userRouter);
 
 // app.use(express.static("public")) // Uncomment if you serve static files
 

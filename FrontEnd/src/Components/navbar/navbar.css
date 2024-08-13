@@ -99,10 +99,32 @@ header {
 }
 
 .active{
-    border-bottom: 4px solid #04003e;
     padding-bottom: 2px; 
     font-weight: bolder; 
     color: #010007; 
     transition: border-bottom 0.3s ease;
 }
-/* Ensuring the nav is slightly uplifted */
+.ultraLeft button {
+    padding: 8px 16px;
+    background-color: rgb(47, 150, 105);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ultraLeft button:hover {
+    background-color: rgb(12, 227, 166);
+    transform: scale(1.05);
+}
+
+.ultraLeft button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* .ultraLeft button a.active {
+    color: #ffffff;
+} */
