@@ -2,10 +2,22 @@ import dotenv from 'dotenv';
 // import connectDB from "./db/index.js";
 import { app } from './app.js';
 import { ipuPredictor } from './controller/predictor.controller.js';
+import mongoose from "mongoose"
+import cookieParser from "cookie-parser"
 
 dotenv.config({
   path: '../../.env',
 });
+
+const mongo = process.env.MONGO_URL;
+
+mongoose.connect(mongo)
+  .then(() => {
+    console.log("Connected to MongoDB");
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
 // app.get('/', ipuPredictor);
 

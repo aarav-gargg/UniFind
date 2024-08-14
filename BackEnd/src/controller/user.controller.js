@@ -1,56 +1,75 @@
-import userModel from "../models/userModel";
-import { apiError } from "../utils/apiError";
-import { apiResponse } from "../utils/apiResponse";
-import bcrypt from "bcrypt"
+import userModel from "../models/userModel.js";
+import { apiError } from "../utils/apiError.js";
+import { apiResponse } from "../utils/apiResponse.js";
+import { asyncHandler } from "../utils/AsyncHandler.js";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
 
-export const postLogin = asyncHandler(async(req,res)=>{
+export const postLogin = asyncHandler(async (req, res) => {
+    const data = req.body;
     try {
-        const data = req.body;
-         const user=await userModel.findOne({email:data.email});
-         if(user){
-            const isValidPassword = await bcrypt.compare(data.password,user.password);
-            if(isValidPassword){
-                let uid=user._id;
-                const options={
-                    httpOnly:true,
-                    secure:true
-                }
-                const loggedInUser=await userModel.findById(uid).select("-password ")
-                const token = jwt.sign(uid,process.env.SECRET_KEY,{ expiresIn: process.env.EXPIRY });
+        const user = await userModel.findOne({ email: data.email });
+        if (user) {
+            const isValidPassword = await bcrypt.compare(data.password, user.password);
+            if (isValidPassword) {
+                const uid = user._id;
+                const token = jwt.sign({ uid }, process.env.SECRET_KEY, { expiresIn: process.env.EXPIRY });
+                
+                const options = {
+                    httpOnly: true
+                };
+
+                const loggedInUser = await userModel.findById(uid).select("-password");
                 res.status(201)
-                .cookie("token" , token,options)
-                .json(201,loggedInUser,"user fetched successfully");
+                    .cookie("token", token, options)
+                    .json(new apiResponse(201, loggedInUser, "User fetched successfully"));
+                console.log(res);
+            } else {
+                res.status(404).json({
+                    message:"INCORRECT PASSWORD PLEASE TRY AGAIN"
+                });
             }
-            else{
-                throw new apiError(404, "password is incorrect")
-            }
-         }
-         else{
-            res.status(200).json(new apiResponse(400, {},"user does not exists"))
-         }
+        } else {
+            res.status(400).json({
+                message:"USER DOES NOT EXIST"
+            });
+        }
     } catch (error) {
-        throw new apiError(404,"unable to login")
+        throw new apiError(500, "Unable to login");
     }
-})
+});
 
-export const postSignup=asyncHandler(async(req,res)=>{
-    
+export const postSignup = asyncHandler(async (req, res) => {
+    const { name, email, password } = req.body;
+
+    if (!name || !email || !password) {
+        return res.status(400).json({
+            message:"PLEASE FILL ALL THE DETAILS"
+        });
+    }
+
     try {
-        const {name ,email,password}=req.body
-        if(!name || !email || !password){
-            throw new apiError(404,"please enter all the required fields");
-        }
-        const user=await userModel.findOne({email});
-        if(user){
-            throw new apiError(404,"account with the same email already exists");
-        }
-        else{
-            const hashedPassword=await bcrypt.hash(password,10)
-            const newUser=await userModel.create({name,email,password:hashedPassword})
-            res.status(201).json(new apiResponse(201,newUser,"user created successfully"))
-
+        const user = await userModel.findOne({ email });
+        if (user) {
+            return res.status(400).json({
+                message:"USER WITH THIS EMAIL ALREADY EXISTS"
+            });
+        } else {
+            const hashedPassword = await bcrypt.hash(password, 10);
+            const newUser = await userModel.create({ name, email, password: hashedPassword });
+            res.status(201).json(new apiResponse(201, newUser, "User created successfully"));
         }
     } catch (error) {
-        throw new apiError(500,"error registering user");
+        throw new apiError(500, "Error registering user");
+    }
+});
+
+export const getCurrentUser=asyncHandler(async(req,res)=>{
+    try {
+        return res.status(200)
+        .json(new apiResponse(200,req.user,"user fetched successfully"))
+    } catch (error) {
+        throw new apiError(404,"cannot get details")
     }
 })
+

@@ -2,10 +2,12 @@ import express from "express";
 import cors from "cors";
 import Ipurouter from "./routes/predictor.routes.js";
 import userRouter from "./routes/user.routes.js";
-// import cookieParser from "cookie-parser"
+import cookieParser from "cookie-parser"
 
 const app = express();
 
+
+app.use(cookieParser());
 // Set up CORS before defining routes
 app.use(cors({
     origin: process.env.CORS_ORIGIN , // Default to '*' if CORS_ORIGIN is not set

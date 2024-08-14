@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import axios from "axios";
+import { signUpUser , loginUser } from '../../api/userService';
 import "./signup.css"
 
 function Signup() {
@@ -15,15 +15,21 @@ function Signup() {
 
         const handleSubmit = async (e) => {
             e.preventDefault();
-            // try {
-            //     const response = await axios.post("http://localhost:3000/api/auth/Register", SignupData);
-            //     if (response.status === 200) {
-            //         alert("SIGNUP SUCCESSFUL..LOGIN AND CONTINUE");
-            //         navigate("/Login");
-            //     }
-            // } catch (error) {
-            //     console.log(error);
-            // }
+            try {
+                const resp=await signUpUser(SignupData);
+                console.log(resp);
+                if(resp.status==201){
+                    const respo=await loginUser(SignupData.email,SignupData.password); 
+                    console.log(respo);
+                    if(respo.status==201){
+                        navigate('/');
+                    }
+                    alert("User created successfully");
+                    navigate('/login');
+                }
+            } catch (error) {
+                console.log(error);
+            }  
         };
 
         const handleChange = (e) => {

@@ -1,12 +1,24 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "./login.css"
+import { loginUser } from '../../api/userService';
 
 function Login() {
     const[email,setEmail]=useState('');
     const[password,setPassword]=useState('');
-    function handleSubmit(e){
+    const navigate=useNavigate();
+    async function handleSubmit(e){
         e.preventDefault();
+        try {
+            const resp= await loginUser(email,password);
+            console.log(resp);
+            if(resp.status==201){
+                alert("YOU'VE BEEN LOGGED IN");
+                navigate('/');
+            }
+        } catch (error) {
+            console.log(error);
+        }
     }
       return (
         <div className='Login-Container'>
