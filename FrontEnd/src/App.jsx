@@ -16,6 +16,7 @@ import Team from './Components/Team/Team';
 import Login from './Components/login/Login';
 import AllotedColleges from './Components/InputForm/AllotedColleges';
 import Signup from './Components/signup/Signup';
+import { checkUserStatus } from './api/userService';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -35,6 +36,17 @@ const router = createBrowserRouter(
 );
 
 function App() {
+  useEffect(()=>{
+    const fetchUser=async()=>{
+     try {
+       const response=await checkUserStatus();
+       console.log(response)
+     } catch (error) {
+      console.log(error)
+     }
+    }
+    fetchUser()
+  },[])
   useEffect(() => {
     AOS.init();
   }, [])

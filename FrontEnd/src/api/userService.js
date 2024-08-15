@@ -4,7 +4,7 @@ import axios from "./axios";
 export const loginUser=async(email,password)=>{
     try {
         const response=await axios.post("/auth/login",{email,password})
-        return response;
+        return response.data.data;
     } catch (error) {
         console.log(error);
     }
@@ -13,9 +13,18 @@ export const loginUser=async(email,password)=>{
 export const signUpUser=async(data)=>{
     try {
         const response=await axios.post("/auth/signup",data);
-        return response;
+        return response.data.data;
     } catch (error) {
         console.log(error);
+    }
+}
+
+export const checkUserStatus=async()=>{
+    try {
+        const response=await axios.get("/auth/jwt")
+        return response.data.data;
+    } catch (error) {
+       return error
     }
 }
 
