@@ -10,14 +10,15 @@ import 'aos/dist/aos.css';
 import Home from './Components/home/Home';
 import Articles from './Components/colleges/Colleges';
 import College from './Components/collegePreview/College';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import CollegeDisplay from './Components/InputForm/CollegeDisplay';
 import Team from './Components/Team/Team';
 import Login from './Components/login/Login';
 import AllotedColleges from './Components/InputForm/AllotedColleges';
 import Signup from './Components/signup/Signup';
 import { checkUserStatus } from './api/userService';
-
+import { useContext } from 'react';
+import { userContext } from './Components/context';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
@@ -36,11 +37,15 @@ const router = createBrowserRouter(
 );
 
 function App() {
+  const [user,setUser]=useState(false)
   useEffect(()=>{
     const fetchUser=async()=>{
      try {
        const response=await checkUserStatus();
-       console.log(response)
+       console.log(response);
+       if(response){
+        setUser(true);
+       }
      } catch (error) {
       console.log(error)
      }
@@ -52,7 +57,9 @@ function App() {
   }, [])
   return (
     <>
+     <userContext.Provider value={user}>
       <RouterProvider router={router} />
+     </userContext.Provider>
     </>
   );
 }

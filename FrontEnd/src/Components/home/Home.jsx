@@ -4,12 +4,19 @@ import Carousel from "./Carousel"
 import "./Home.css"
 import { Link } from 'react-router-dom';
 // import "./script"
+import { useContext, useEffect } from "react";
+import {userContext} from "../context"
 // import Navbar from '../navbar/Navbar';
 
 const Home = () => {
   // const [scrollPosition, setScrollPosition] = useState(0);
 
   // const handleScroll = () => setScrollPosition(window.scrollY);
+  const user = useContext(userContext);
+
+  useEffect(()=>{
+    console.log(user);
+  })
 
   // useEffect(() => {
   //   window.addEventListener("scroll", handleScroll, { passive: true });
@@ -18,9 +25,10 @@ const Home = () => {
   //     window.removeEventListener("scroll", handleScroll);
   //   };
   // }, []);
+  
   return (
     <>
-      <div className="page parallax-1-page">
+     <div className="page parallax-1-page">
         <section className='parallax-banner '>
           <h2>Unifind</h2>
           <button className="homeBtn"><Link to="/CollegePredictor">Predict your College</Link></button>
@@ -56,7 +64,8 @@ const Home = () => {
         </div>
 
       </div>
-    </>
+    
+        </>
   )
 }
 
