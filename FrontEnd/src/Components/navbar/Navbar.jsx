@@ -1,4 +1,5 @@
 // import * as React from 'react';
+import LogoutButtom from "../LogoutButton/LogoutButtom";
 import "./navbar.css"
 import { NavLink , Link } from 'react-router-dom';
 // import { Paper } from '@mui/material';
@@ -22,6 +23,7 @@ function Navbar() {
 
             <div className="ultraLeft">
            <button><NavLink to="/Login">Login/SignUp</NavLink></button>
+           <LogoutButtom/>
             </div>
         </nav>
     </header>

@@ -22,9 +22,19 @@ export const signUpUser=async(data)=>{
 export const checkUserStatus=async()=>{
     try {
         const response=await axios.get("/auth/jwt")
-        return response.data.data;
+        return response.data;
     } catch (error) {
        return error
+    }
+}
+
+
+export const logoutCurrentUser=async()=>{
+    try {
+        const response=await axios.get('/auth/logout')
+        return response
+    } catch (error) {
+        return error
     }
 }
 

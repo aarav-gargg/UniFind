@@ -73,3 +73,20 @@ export const getCurrentUser=asyncHandler(async(req,res)=>{
     }
 })
 
+
+export const logoutUser=asyncHandler(async(req,res)=>{
+    try{
+        
+        const options={
+            httpOnly:true,
+            secure:true
+        }
+        return res.status(200)
+        .clearCookie("token",options)
+
+        .json(new apiResponse(200,{},"User logged out"))
+    }
+    catch(error){
+        throw new apiError(500,"error logging out user")
+    }
+})

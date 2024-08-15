@@ -1,5 +1,5 @@
 import express from "express"
-import {getCurrentUser, postLogin , postSignup} from "../controller/user.controller.js"
+import {getCurrentUser, logoutUser, postLogin , postSignup} from "../controller/user.controller.js"
 import { verifyJWT } from "../middleware/auth.middleware.js";
 
 
@@ -13,6 +13,9 @@ userRouter.route("/signup")
 
 userRouter.route('/jwt')
 .get(verifyJWT,getCurrentUser);
+
+userRouter.route('/logout')
+.get(verifyJWT,logoutUser)
 
 
 
