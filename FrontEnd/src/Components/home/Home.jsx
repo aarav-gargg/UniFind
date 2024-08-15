@@ -6,17 +6,15 @@ import { Link } from 'react-router-dom';
 // import "./script"
 import { useContext, useEffect } from "react";
 import {userContext} from "../context"
+import { logoutCurrentUser } from "../../api/userService";
 // import Navbar from '../navbar/Navbar';
 
 const Home = () => {
   // const [scrollPosition, setScrollPosition] = useState(0);
 
   // const handleScroll = () => setScrollPosition(window.scrollY);
-  const user = useContext(userContext);
+  // const user = useContext(userContext);
 
-  useEffect(()=>{
-    console.log(user);
-  })
 
   // useEffect(() => {
   //   window.addEventListener("scroll", handleScroll, { passive: true });

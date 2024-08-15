@@ -4,7 +4,7 @@ import axios from "./axios";
 export const loginUser=async(email,password)=>{
     try {
         const response=await axios.post("/auth/login",{email,password})
-        return response.data.data;
+        return response;
     } catch (error) {
         console.log(error);
     }
@@ -13,7 +13,7 @@ export const loginUser=async(email,password)=>{
 export const signUpUser=async(data)=>{
     try {
         const response=await axios.post("/auth/signup",data);
-        return response.data.data;
+        return response;
     } catch (error) {
         console.log(error);
     }

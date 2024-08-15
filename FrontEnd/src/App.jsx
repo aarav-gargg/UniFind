@@ -43,7 +43,7 @@ function App() {
      try {
        const response=await checkUserStatus();
        console.log(response);
-       if(response){
+       if(response.statusCode==200){
         setUser(true);
        }
      } catch (error) {

@@ -83,7 +83,6 @@ export const logoutUser=asyncHandler(async(req,res)=>{
         }
         return res.status(200)
         .clearCookie("token",options)
-
         .json(new apiResponse(200,{},"User logged out"))
     }
     catch(error){
