@@ -5,13 +5,13 @@ import "./Home.css"
 import { Link } from 'react-router-dom';
 // import "./script"
 import { useContext, useEffect } from "react";
+import { currentUserContext } from "../context";
 import {userContext} from "../context"
 import { logoutCurrentUser } from "../../api/userService";
 // import Navbar from '../navbar/Navbar';
 
 const Home = () => {
   // const [scrollPosition, setScrollPosition] = useState(0);
-
   // const handleScroll = () => setScrollPosition(window.scrollY);
   // const user = useContext(userContext);
 

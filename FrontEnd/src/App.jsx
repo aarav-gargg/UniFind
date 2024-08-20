@@ -18,7 +18,7 @@ import AllotedColleges from './Components/InputForm/AllotedColleges';
 import Signup from './Components/signup/Signup';
 import { checkUserStatus } from './api/userService';
 import { useContext } from 'react';
-import { userContext } from './Components/context';
+import { userContext , currentUserContext} from './Components/context';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
@@ -37,7 +37,8 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  const [user,setUser]=useState(false)
+  const [user,setUser]=useState(false);
+  const [currentUser,setCurrentUser]=useState(null);
   useEffect(()=>{
     const fetchUser=async()=>{
      try {
@@ -45,21 +46,27 @@ function App() {
        console.log(response);
        if(response.statusCode==200){
         setUser(true);
+        setCurrentUser(response.data);
        }
      } catch (error) {
       console.log(error)
      }
     }
     fetchUser()
-  },[])
+},[])
+// useEffect(()=>{
+//   console.log(user , currentUser)
+// },[user,currentUser])
   useEffect(() => {
     AOS.init();
   }, [])
   return (
     <>
-     <userContext.Provider value={user}>
+    <currentUserContext.Provider value={[currentUser , setCurrentUser]}>
+     <userContext.Provider value={[user , setUser]}>
       <RouterProvider router={router} />
      </userContext.Provider>
+     </currentUserContext.Provider>
     </>
   );
 }

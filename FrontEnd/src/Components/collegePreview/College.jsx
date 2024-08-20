@@ -28,6 +28,9 @@ function College() {
     }
     fetchCollegeDetails(collegeId);
   },[collegeId])
+  function reviewButton(){
+    
+  }
   return (
     <div className='container1'>
       <Grid container spacing={4}>
@@ -120,7 +123,7 @@ function College() {
         <Grid item xs={12}>
           <div className="reviewsec">
           <h1>Student Reviews</h1>
-          <button>ADD REVIEW</button>
+          <button onClick={reviewButton}>ADD REVIEW</button>
           </div>
           <Item className="container33">
             <Typography variant="h6" className='review-heading'>Review</Typography>

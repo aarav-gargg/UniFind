@@ -125,6 +125,15 @@ function FormPage() {
     setGender(event.target.value);
   };
 
+  const isDisabled = !(
+   state &&
+   category &&
+   rank &&
+   gender &&
+  course
+  );
+
+
   return (
     <>
       <div className='container' data-aos="fade-down" data-aos-duration="1000">
@@ -211,7 +220,7 @@ function FormPage() {
           </Select>
           <Button onClick={handleSubmit} variant='contained' sx={{
             backgroundColor: ' rgb(109, 128, 212)', width: '30%'
-          }}>Submit</Button>
+          }} disabled={isDisabled}>Submit</Button>
         </div>
       </div>
       {/* <div className='collegeDisplay'>

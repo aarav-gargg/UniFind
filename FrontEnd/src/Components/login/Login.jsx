@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState , useContext} from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import "./login.css"
 import { loginUser } from '../../api/userService';
+import { userContext , currentUserContext } from '../context';
 
 function Login() {
+    const [user, setUser] = useContext(userContext);
+    const [currentUser, setCurrentUser] = useContext(currentUserContext);
     const[email,setEmail]=useState('');
     const[password,setPassword]=useState('');
     const navigate=useNavigate();
@@ -15,6 +18,8 @@ function Login() {
             if(resp.status==201){
                 alert("YOU'VE BEEN LOGGED IN");
                 navigate('/');
+                setUser(true);
+                setCurrentUser(resp.data.data);
             }
         } catch (error) {
             console.log(error);
