@@ -6,7 +6,7 @@ export const loginUser=async(email,password)=>{
         const response=await axios.post("/auth/login",{email,password})
         return response;
     } catch (error) {
-        console.log(error);
+        return error;
     }
 };
 
@@ -15,7 +15,7 @@ export const signUpUser=async(data)=>{
         const response=await axios.post("/auth/signup",data);
         return response;
     } catch (error) {
-        console.log(error);
+         return error;
     }
 }
 
@@ -24,7 +24,7 @@ export const checkUserStatus=async()=>{
         const response=await axios.get("/auth/jwt")
         return response.data;
     } catch (error) {
-       return error
+       return error;
     }
 }
 

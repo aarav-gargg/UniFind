@@ -21,6 +21,9 @@ function Login() {
                 setUser(true);
                 setCurrentUser(resp.data.data);
             }
+            else{
+                alert("Invalid Email or Password");
+            }
         } catch (error) {
             console.log(error);
         }

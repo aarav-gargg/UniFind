@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
+import { userContext, currentUserContext } from '../context';
 import { Link, useNavigate } from 'react-router-dom';
-import { signUpUser , loginUser } from '../../api/userService';
+import { signUpUser, loginUser } from '../../api/userService';
 import "./signup.css"
 
 function Signup() {
+    const [user, setUser] = useContext(userContext);
+    const [currentUser, setCurrentUser] = useContext(currentUserContext);
     const SignUp = () => {
         const [SignupData, setSignupData] = useState({
             name: "",
@@ -16,20 +19,25 @@ function Signup() {
         const handleSubmit = async (e) => {
             e.preventDefault();
             try {
-                const resp=await signUpUser(SignupData);
+                const resp = await signUpUser(SignupData);
                 console.log(resp);
-                if(resp.status==201){
-                    const respo=await loginUser(SignupData.email,SignupData.password); 
+                if (resp.status == 201) {
+                    const respo = await loginUser(SignupData.email, SignupData.password);
                     console.log(respo);
-                    if(respo.status==201){
+                    if (respo.status == 201) {
+                        setUser(true);
+                        setCurrentUser(respo.data.data);
                         navigate('/');
                     }
                     alert("User created successfully");
-                    navigate('/login');
+                }
+                else {
+                    alert("User already exists");
+                    navigate("/login");
                 }
             } catch (error) {
                 console.log(error);
-            }  
+            }
         };
 
         const handleChange = (e) => {
@@ -95,7 +103,8 @@ function Signup() {
                                     Your Passwords do not match
                                 </p>
                             }
-                            <button onClick={handleSubmit} disabled={!passwordMatch} className='signup-button'>
+                            <button onClick={handleSubmit} disabled={!passwordMatch || SignupData.name==="" || SignupData.email==="" || SignupData.password==="" || SignupData.conpassword===""}
+                                className='signup-button'>
                                 Sign Up
                             </button>
                         </div>
