@@ -210,10 +210,10 @@ h3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   transition: transform var(--transition-duration) ease;
 }
-.reviewsec button:hover{
+/* .reviewsec button:hover{
   cursor: pointer;
   transform: scale(1.05);
-}
+} */
 .alert{
   background-color: rgb(74, 178, 155);
   border-radius: 5vh;

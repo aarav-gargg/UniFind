@@ -1,25 +1,30 @@
-import { Grid, styled, Typography } from "@mui/material";
+import { Button, Grid, styled, Typography } from "@mui/material";
 import './College.css';
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import data from './data.json'
+import ReviewComponent from "../Review/ReviewComponent";
+import { currentUserContext, userContext } from "../context";
 
 const Item = styled('div')(({ theme }) => ({
   padding: theme.spacing(2),
   borderRadius: '8px',
   textAlign: 'center',
-  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-  backgroundColor: 'whitesmoke',
+  // boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+  // backgroundColor: 'whitesmoke',
   color: 'black',
-  transition: 'transform 0.3s ease',
-  '&:hover': {
-    transform: 'scale(1.05)',
-  },
+  // transition: 'transform 0.3s ease',
+  // '&:hover': {
+  //   transform: 'scale(1.05)',
+  // },
 }));
 
 function College() {
   const {collegeId}=useParams()
+  const [user, setUser] = useContext(userContext);
+ 
   const [college, setCollege] = useState({});
+  const [newReview , setNewReview]=useState(false);
   useEffect(()=>{
     const fetchCollegeDetails=(id)=>{
       const response=data.find(obj=>obj.id===id)
@@ -28,9 +33,13 @@ function College() {
     }
     fetchCollegeDetails(collegeId);
   },[collegeId])
-  function reviewButton(){
+  // function reviewButton(){
     
-  }
+  // }
+  const handleReviewSubmit = (review) => {
+    console.log('Review submitted:', review);
+    // Here, you can send the review data to your backend or handle it as needed
+  };
   return (
     <div className='container1'>
       <Grid container spacing={4}>
@@ -123,14 +132,18 @@ function College() {
         <Grid item xs={12}>
           <div className="reviewsec">
           <h1>Student Reviews</h1>
-          <button onClick={reviewButton}>ADD REVIEW</button>
+         
           </div>
-          <Item className="container33">
+          {/* <Item className="container33">
             <Typography variant="h6" className='review-heading'>Review</Typography>
-          </Item>
+          </Item> */}
+          <Item><Button variant="contained" sx={{}} onClick={()=>setNewReview(!newReview)} disabled={!user}>Add Review </Button></Item>
+          {newReview===true &&
+            <ReviewComponent onSubmit={handleReviewSubmit}/>}
+          
         </Grid>
         <Grid item xs={12}>
-          <Item className="container33">Review</Item>
+          <Item className="container33">Reviews</Item>
         </Grid>
       </Grid>
     </div>

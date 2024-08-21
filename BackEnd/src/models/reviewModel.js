@@ -1,7 +1,12 @@
 import mongoose from "mongoose"
 
 const reviewSchema=mongoose.Schema({
-    subject:{
+    owner:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"User",
+        required:true
+    },
+    content:{
         type:String,
         required:[true,"PLEASE PROVIDE A SUBJECT FOR YOUR REVIEW"],
     },

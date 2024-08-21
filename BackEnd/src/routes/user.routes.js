@@ -1,6 +1,7 @@
 import express from "express"
 import {getCurrentUser, logoutUser, postLogin , postSignup} from "../controller/user.controller.js"
 import { verifyJWT } from "../middleware/auth.middleware.js";
+import { AddNewReview } from "../controller/reviewController.js";
 
 
 const userRouter=express.Router();
@@ -16,6 +17,9 @@ userRouter.route('/jwt')
 
 userRouter.route('/logout')
 .get(verifyJWT,logoutUser)
+
+userRouter.route('/review/new-review')
+.post(verifyJWT,AddNewReview)
 
 
 
