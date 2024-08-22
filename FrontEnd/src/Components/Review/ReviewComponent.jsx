@@ -1,40 +1,49 @@
 import React, { useContext, useState } from 'react';
 import { Box, Button, TextField, Typography, Rating } from '@mui/material';
 import { currentUserContext } from '../context';
+import { addReview } from '../../api/userService';
 
-function ReviewComponent({ onSubmit }) {
-    const [currentUser, setCurrentUser] = useContext(currentUserContext);
+function ReviewComponent({ onSubmit, collegeId }) {
+  const [currentUser, setCurrentUser] = useContext(currentUserContext);
   const [rating, setRating] = useState(0);
   const [content, setContent] = useState('');
   const [studentId, setStudentId] = useState('');
   const [errors, setErrors] = useState({});
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     // Validate form fields
-    const errors = {};
-    if (!rating) errors.rating = 'Rating is required';
-    if (!content) errors.content = 'Content is required';
-    if (!studentId) errors.studentId = 'Student ID is required';
+    try {
+      const errors = {};
+      if (!rating) errors.rating = 'Rating is required';
+      if (!content) errors.content = 'Content is required';
+      if (rating && content) {
+        const reviewData = { rating, content, collegeId }
+        const response = await addReview(reviewData);
+        console.log(response)
+      }
 
-    if (Object.keys(errors).length > 0) {
-      setErrors(errors);
-      return;
+      if (Object.keys(errors).length > 0) {
+        setErrors(errors);
+        return;
+      }
+
+      // Clear errors and submit form
+      setErrors({});
+      onSubmit({ rating, content });
+    } catch (error) {
+      alert(error.message);
     }
-
-    // Clear errors and submit form
-    setErrors({});
-    onSubmit({ rating, content, studentId });
   };
 
   return (
     <Box
       component="form"
-     
+
       sx={{ width: '100%', mx: 'auto', p: 1, border: '1px solid #ccc', borderRadius: 2 }}
     >
-      
+
 
       <Box sx={{ mb: 1 }}>
         <Typography component="legend">Rating</Typography>
@@ -59,7 +68,7 @@ function ReviewComponent({ onSubmit }) {
         sx={{ mb: 1 }}
       />
 
-      
+
 
       <Button variant="contained" color="primary" onClick={handleSubmit}>
         Submit Review

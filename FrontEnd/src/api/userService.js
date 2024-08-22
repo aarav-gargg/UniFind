@@ -32,9 +32,27 @@ export const checkUserStatus=async()=>{
 export const logoutCurrentUser=async()=>{
     try {
         const response=await axios.get('/auth/logout')
-        return response
+        return response;
     } catch (error) {
         return error
+    }
+}
+
+export const addReview=async(reviewData)=>{
+    try {
+        const  response=await axios.post("/auth//review/new-review",reviewData);
+        return response;
+    } catch (error) {
+        return error;
+    }
+}
+
+export const fetchReviews=async(collegeId)=>{
+    try {
+        const response = await axios.get("/auth/collegeReview",collegeId);
+        return response;
+    } catch (error) {
+        return error;
     }
 }
 
