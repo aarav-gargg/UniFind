@@ -22,7 +22,7 @@ const Team = () => {
                                 <div className="team-swiper-slide">
                                     <div className="team-card team-c-color" data-aos="zoom-in" data-aos-duration="1000">
                                         <div className="team-img-wrapper">
-                                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw40.png" alt="Aarav Garg" />
+                                            <img src="./aarav.jpg" alt="Aarav Garg" />
                                         </div>
                                         <div className="team-card-content">
                                             <p className="team-text-blk team-name">
@@ -52,7 +52,7 @@ const Team = () => {
                                 <div className="team-swiper-slide">
                                     <div className="team-card team-c-color" data-aos="zoom-in" data-aos-duration="1000">
                                         <div className="team-img-wrapper">
-                                            <img src="/pic2.jpg" alt="Amitoj Singh Bakshi" />
+                                            <img src="./pic2.jpg" alt="Amitoj Singh Bakshi" />
                                         </div>
                                         <div className="team-card-content">
                                             <p className="team-text-blk team-name">
