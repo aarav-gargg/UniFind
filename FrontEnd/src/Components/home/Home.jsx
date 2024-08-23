@@ -27,10 +27,12 @@ const Home = () => {
   return (
     <>
      <div className="page parallax-1-page">
-        <section className='parallax-banner '>
+        <div className='parallax-banner'>
+          <div className="contentHome">
           <h2>Unifind</h2>
           <button className="homeBtn"><Link to="/CollegePredictor">Predict your College</Link></button>
-        </section>
+          </div>
+        </div>
         <section className="parallax-container">
           <h1>Welcome To UniFind</h1>
           <p>

@@ -1,61 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yusei+Magic&display=swap');
+
 .parallax-banner {
-    margin-top: 0;
-    height: 60vh;
-    background: url("https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  .homeBtn a{
-    text-decoration: none;
-    color: black;
-  }
-  .parallax-banner h2 {
-    font-size: 48px;
-    color:white;
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  
-  .parallax-banner button {
-    border: 0;
-    background: #ffffff;
-    color: #222222;
-    padding: 10px 24px;
-    border-radius: 30px;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 600;
-  }
-  
-  .parallax-container {
-    padding: 2% 10%;
-    color:black;
-  }
-  
-  .parallax-banner h2 {
-    margin-top: 0;
-    margin-bottom: 40px;
-    padding-top: 60px;
-  }
-  .news{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+  margin-top: 0;
+  height: 60vh;
+  background: url("/projectPic.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.parallax-banner::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.40;
+}
+.parallax-banner .contentHome{
+  color: #fff;
+  padding: 0 1vh;
+  text-align: center;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.homeBtn a {
+  text-decoration: none;
+  color: black;
+}
+
+.parallax-banner h2 {
+  font-size: 48px;
+  color: rgb(255, 211, 117);
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.parallax-banner button {
+  border: 0;
+  background: #ffffff;
+  color: #222222;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.parallax-container {
+  padding: 2% 10%;
+  color: black;
+}
+
+.parallax-banner h2 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding-top: 60px;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
