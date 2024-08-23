@@ -18,7 +18,7 @@ import AllotedColleges from './Components/InputForm/AllotedColleges';
 import Signup from './Components/signup/Signup';
 import { checkUserStatus } from './api/userService';
 import { useContext } from 'react';
-import { userContext , currentUserContext} from './Components/context';
+import { userContext , currentUserContext,reviewContext} from './Components/context';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
@@ -39,6 +39,7 @@ const router = createBrowserRouter(
 function App() {
   const [user,setUser]=useState(false);
   const [currentUser,setCurrentUser]=useState(null);
+  const [newReview,setNewReview]=useState(false);
   useEffect(()=>{
     const fetchUser=async()=>{
      try {
@@ -64,7 +65,9 @@ function App() {
     <>
     <currentUserContext.Provider value={[currentUser , setCurrentUser]}>
      <userContext.Provider value={[user , setUser]}>
+      <reviewContext.Provider value={[newReview,setNewReview]}>
       <RouterProvider router={router} />
+      </reviewContext.Provider> 
      </userContext.Provider>
      </currentUserContext.Provider>
     </>

@@ -40,7 +40,7 @@ export const logoutCurrentUser=async()=>{
 
 export const addReview=async(reviewData)=>{
     try {
-        const  response=await axios.post("/auth//review/new-review",reviewData);
+        const  response=await axios.post("/auth/review/new-review",reviewData);
         return response;
     } catch (error) {
         return error;
@@ -49,7 +49,9 @@ export const addReview=async(reviewData)=>{
 
 export const fetchReviews=async(collegeId)=>{
     try {
-        const response = await axios.get("/auth/collegeReview",collegeId);
+        console.log(collegeId)
+        const response = await axios.post("/auth/collegeReview",{collegeId});
+        console.log(response)
         return response;
     } catch (error) {
         return error;

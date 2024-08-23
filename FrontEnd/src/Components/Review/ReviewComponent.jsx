@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react';
 import { Box, Button, TextField, Typography, Rating } from '@mui/material';
-import { currentUserContext } from '../context';
+import { currentUserContext, reviewContext } from '../context';
 import { addReview } from '../../api/userService';
+import { useNavigate } from 'react-router-dom';
 
 function ReviewComponent({ onSubmit, collegeId }) {
   const [currentUser, setCurrentUser] = useContext(currentUserContext);
@@ -9,10 +10,19 @@ function ReviewComponent({ onSubmit, collegeId }) {
   const [content, setContent] = useState('');
   const [studentId, setStudentId] = useState('');
   const [errors, setErrors] = useState({});
-
+  const [newReview,setNewReview]=useContext(reviewContext)
+  const navigate=useNavigate()
   const handleSubmit = async (event) => {
     event.preventDefault();
-
+    const fetchReviews = async (collegeId) => {
+      try {
+        const response=await fetchReviews(collegeId)
+        console.log(response)
+       
+      } catch (error) {
+       console.log(error)
+      }
+    }
     // Validate form fields
     try {
       const errors = {};
@@ -28,12 +38,18 @@ function ReviewComponent({ onSubmit, collegeId }) {
         setErrors(errors);
         return;
       }
-
+      
+    
+      fetchReviews(collegeId)
       // Clear errors and submit form
       setErrors({});
       onSubmit({ rating, content });
+      setRating(0);
+      setContent("")
+      setNewReview(true)
+      window.location.reload()
     } catch (error) {
-      alert(error.message);
+      alert(error);
     }
   };
 
@@ -73,6 +89,7 @@ function ReviewComponent({ onSubmit, collegeId }) {
       <Button variant="contained" color="primary" onClick={handleSubmit}>
         Submit Review
       </Button>
+
     </Box>
   );
 }

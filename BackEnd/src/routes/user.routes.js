@@ -22,7 +22,7 @@ userRouter.route('/review/new-review')
 .post(verifyJWT,AddNewReview)
 
 userRouter.route("/collegeReview")
-.get(fecthReview);
+.post(fecthReview);
 
 
 
