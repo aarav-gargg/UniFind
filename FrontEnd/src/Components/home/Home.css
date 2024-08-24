@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yusei+Magic&display=swap');
 
+/* Base styles */
 .parallax-banner {
   margin-top: 0;
   height: 60vh;
@@ -8,12 +9,12 @@
   align-items: center;
   justify-content: center;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover; /* Adjust background size */
   background-repeat: no-repeat;
   position: relative;
 }
 
-.parallax-banner::before{
+.parallax-banner::before {
   content: "";
   position: absolute;
   left: 0;
@@ -23,7 +24,8 @@
   background-color: black;
   opacity: 0.40;
 }
-.parallax-banner .contentHome{
+
+.parallax-banner .contentHome {
   color: #fff;
   padding: 0 1vh;
   text-align: center;
@@ -63,12 +65,6 @@
   color: black;
 }
 
-.parallax-banner h2 {
-  margin-top: 0;
-  margin-bottom: 40px;
-  padding-top: 60px;
-}
-
 .news {
   display: flex;
   justify-content: center;
@@ -78,4 +74,93 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .parallax-banner {
+    height: 50vh;
+  }
+
+  .parallax-banner h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .parallax-banner button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .parallax-container {
+    padding: 4% 8%;
+  }
+}
+
+@media (max-width: 992px) {
+  .parallax-banner {
+    height: 40vh;
+  }
+
+  .parallax-banner h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .parallax-banner button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .parallax-container {
+    padding: 6% 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-banner {
+    height: 35vh;
+  }
+
+  .parallax-banner h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .parallax-banner button {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+  .parallax-container {
+    padding: 8% 4%;
+  }
+
+  .news {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .parallax-banner {
+    height: 30vh;
+  }
+
+  .parallax-banner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .parallax-banner button {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+
+  .parallax-container {
+    padding: 10% 3%;
+  }
+
+  .news {
+    font-size: 14px;
+  }
 }

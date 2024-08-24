@@ -141,7 +141,7 @@ function FormPage() {
           <h1>
             Get personalized college predictions tailored to you!!!
           </h1>
-          <p>Unlock Your Future with Our College Predictor! Discover your dream college effortlessly with our state-of-the-art AI-powered tool. Just enter your details, and let our smart algorithm match you with the best colleges based on your preferences and scores. Say goodbye to uncertainty and hello to a brighter future—your perfect college is just a click away.</p>
+          <p>Unlock Your Future with Our College Predictor! Discover your dream college effortlessly with our state-of-the-art tool. Just enter your details, and let our smart algorithm match you with the best colleges based on your preferences and scores. Say goodbye to uncertainty and hello to a brighter future—your perfect college is just a click away.</p>
         </div>
       </div>
       <div className="alert" style={{ marginTop:"10px"}}>

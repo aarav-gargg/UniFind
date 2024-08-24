@@ -163,6 +163,7 @@
   .cards {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    margin-top: 15px;
   }
   
   .card1 {
@@ -179,6 +180,9 @@
     position: relative; /* Ensure the pseudo-element is positioned correctly */
     overflow: hidden; /* Hide overflow to ensure the overlay covers the entire card */
     color: white; /* Set default text color to white */
+    border: 5px solid black;
+    padding:10px;
+    border-radius: 5%;
   }
   
   .card1::before {

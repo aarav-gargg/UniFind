@@ -48,8 +48,6 @@
   margin-top: 1.5vh;
 }
 
-
-
 .team-card {
   width: 340px;
   display: flex;
@@ -85,13 +83,13 @@
 
 .team-position {
   line-height: 26px;
-  color: rgb(43, 189, 155);
+  color: white;
   font-weight: 700;
   margin: 0 0 20px 0;
 }
 
 .team-testimonial {
-  color: black;
+  color: rgb(192, 255, 229);
   font-size: 18px;
   line-height: 27px;
 }

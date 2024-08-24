@@ -8,19 +8,21 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>About Us</h3>
-          <p>We are a team of passionate developers making awesome web applications.</p>
+          <p>
+We are a team of passionate developers dedicated to crafting exceptional web applications that push the boundaries of innovation.</p>
         </div>
         <div className="footer-section">
           <h3>Contact</h3>
-          <p>Email: support@example.com</p>
-          <p>Phone: +123 456 7890</p>
+          <p>Aarav Garg: <a href="mailto:aaravgarg975@gmail.com">aaravgarg975@gmail.com</a></p>
+          <p>Amitoj Singh: <a href="mailto:amitoj0605@gmail.com">amitoj0605@gmail.com</a> </p>
+          <p>Chinmay Singh: <a href="mailto:singh.chinmay345@gmail.com">singh.chinmay345@gmail.com</a></p>
         </div>
         <div className="footer-section">
-          <h3>Follow Us</h3>
+          <h3>LinedIn Handles</h3>
           <ul>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href='https://www.linkedin.com/in/aarav-garg-5b1715273' target="_blank" rel="noopener noreferrer">Aarav Garg</a></li>
+            <li><a href='https://www.linkedin.com/in/chinmay-singh-4092b0253' target="_blank" rel="noopener noreferrer">Chinmay Singh</a></li>
+            <li><a href='https://www.linkedin.com/in/amitoj-singh-51a058247' target="_blank" rel="noopener noreferrer">Amitoj Singh Bakshi</a></li>
           </ul>
         </div>
       </div>
