@@ -185,7 +185,10 @@ h3 {
   text-decoration: solid;
   font-weight: bolder;
 }
-
+.review-item{
+  background: var(--revgradient);
+  margin:10px;
+}
 .review-heading {
   padding: 16px;
 }

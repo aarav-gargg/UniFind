@@ -50,23 +50,23 @@
 //     fetchCollegeDetails(collegeId);
 //   }, [collegeId])
 //   // function reviewButton(){
-    
-    
+
+
 //   // useEffect(() => {
 //   //   const fetchReviews = async (collegeId) => {
 //   //     try {
 //   //       const response=await fetchReviews(collegeId)
 //   //       console.log(response)
-       
+
 //   //     } catch (error) {
 //   //      console.log(error)
 //   //     }
-    
+
 //   //     fetchReviews(collegeId)
-      
-    
+
+
 //   // },[])
- 
+
 //   // }
 
 //   const handleReviewSubmit = (review) => {
@@ -74,94 +74,94 @@
 //     // Here, you can send the review data to your backend or handle it as needed
 //   };
 //   return (
-    // <div className='container1'>
-    //   <Grid container spacing={4}>
-    //     <Grid item xs={12} className='image'>
-    //       <div className='container101' data-aos="fade-down" data-aos-duration="1000" style={{
-    //         background: `url(${college.imageUrl})`, backgroundPosition: "center",
-    //         backgroundSize: "cover", backgroundRepeat: "no-repeat"
-    //       }}>
-    //         <div className="content">
-    //           <h1 className="headingTop">{college.name}</h1>
-    //         </div>
-    //       </div>
-    //     </Grid>
+// <div className='container1'>
+//   <Grid container spacing={4}>
+//     <Grid item xs={12} className='image'>
+//       <div className='container101' data-aos="fade-down" data-aos-duration="1000" style={{
+//         background: `url(${college.imageUrl})`, backgroundPosition: "center",
+//         backgroundSize: "cover", backgroundRepeat: "no-repeat"
+//       }}>
+//         <div className="content">
+//           <h1 className="headingTop">{college.name}</h1>
+//         </div>
+//       </div>
+//     </Grid>
 
-    //     <Grid item xs={12}>
-    //       <Typography variant="body1" className='description'>
-    //         {college.description}
-    //       </Typography>
-    //     </Grid>
+//     <Grid item xs={12}>
+//       <Typography variant="body1" className='description'>
+//         {college.description}
+//       </Typography>
+//     </Grid>
 
-    //     <Grid item xs={6}>
-    //       <Typography variant="h6" className='fee'>
-    //         <h4>College Fees For complete B.tech</h4>
-    //         {college.fees}</Typography>
-    //     </Grid>
+//     <Grid item xs={6}>
+//       <Typography variant="h6" className='fee'>
+//         <h4>College Fees For complete B.tech</h4>
+//         {college.fees}</Typography>
+//     </Grid>
 
-    //     <Grid item xs={6}>
-    //       <Typography variant="body1" className='additional-info'>
-    //         <h4>College Location</h4>
-    //         {college.location}
-    //       </Typography>
-    //     </Grid>
+//     <Grid item xs={6}>
+//       <Typography variant="body1" className='additional-info'>
+//         <h4>College Location</h4>
+//         {college.location}
+//       </Typography>
+//     </Grid>
 
-    //     <Grid item xs={12}>
-    //       <Item className="container33">
-    //         <Typography variant="h6" className='placement'>Placement Records</Typography>
-    //         <Grid container spacing={2}>
-    //           <Grid item xs={4}>
-    //             <Item>
-    //               <h4>Highest Package</h4>
-    //               {college.Highest}</Item>
-    //           </Grid>
-    //           <Grid item xs={4}>
-    //             <Item><h4>Average Package</h4> {college.Average}</Item>
-    //           </Grid>
-    //           <Grid item xs={4}>
-    //             <Item><h4>Median Package</h4>{college.Median}</Item>
-    //           </Grid>
-    //         </Grid>
-    //       </Item>
-    //     </Grid>
-    //   </Grid>
+//     <Grid item xs={12}>
+//       <Item className="container33">
+//         <Typography variant="h6" className='placement'>Placement Records</Typography>
+//         <Grid container spacing={2}>
+//           <Grid item xs={4}>
+//             <Item>
+//               <h4>Highest Package</h4>
+//               {college.Highest}</Item>
+//           </Grid>
+//           <Grid item xs={4}>
+//             <Item><h4>Average Package</h4> {college.Average}</Item>
+//           </Grid>
+//           <Grid item xs={4}>
+//             <Item><h4>Median Package</h4>{college.Median}</Item>
+//           </Grid>
+//         </Grid>
+//       </Item>
+//     </Grid>
+//   </Grid>
 
-    //   <div className="dashboard">
-    //     {[
-    //       { title: "NIRF RANKING", amount: `${college.ranking}`, },
-    //       { title: "HOSTEL", amount: `${college.Hostel}`, unit: "USD" },
-    //       { title: "ESTABLISHED", amount: `${college.Established}`, unit: "USD" },
-    //       { title: "WEBSITE", amount: "click here", unit: "TASKS" },
-    //       { title: "CUT-OFF", amount: `${college.Cutoff}` },
-    //       { title: "TYPE", amount: `${college.type}`, unit: "Rating" },
-    //     ].map((card, index) => (
-    //       <div className="card55 primary" key={index}>
-    //         {card.title === "WEBSITE" ? (
-    //           <>
-    //             <h2>{card.title}</h2>
+//   <div className="dashboard">
+//     {[
+//       { title: "NIRF RANKING", amount: `${college.ranking}`, },
+//       { title: "HOSTEL", amount: `${college.Hostel}`, unit: "USD" },
+//       { title: "ESTABLISHED", amount: `${college.Established}`, unit: "USD" },
+//       { title: "WEBSITE", amount: "click here", unit: "TASKS" },
+//       { title: "CUT-OFF", amount: `${college.Cutoff}` },
+//       { title: "TYPE", amount: `${college.type}`, unit: "Rating" },
+//     ].map((card, index) => (
+//       <div className="card55 primary" key={index}>
+//         {card.title === "WEBSITE" ? (
+//           <>
+//             <h2>{card.title}</h2>
 
-    //             <a href={college.websiteUrl} target="_blank"> <var >{card.amount}</var></a>
-    //           </>
-    //         ) : (
-    //           <>
-    //             <h2>{card.title}</h2>
+//             <a href={college.websiteUrl} target="_blank"> <var >{card.amount}</var></a>
+//           </>
+//         ) : (
+//           <>
+//             <h2>{card.title}</h2>
 
-    //             <var>{card.amount}</var>
-    //           </>
-    //         )}
-
-
+//             <var>{card.amount}</var>
+//           </>
+//         )}
 
 
 
 
-    //       </div>
-    //     ))}
-    //   </div>
-    //   <div className="alert">
-    //     <h4>Important Note:</h4>
-    //     The data displayed here is sourced from various external resources so the actual outcome may vary.
-    //   </div>
+
+
+//       </div>
+//     ))}
+//   </div>
+//   <div className="alert">
+//     <h4>Important Note:</h4>
+//     The data displayed here is sourced from various external resources so the actual outcome may vary.
+//   </div>
 
 //       <Grid container spacing={2} sx={{ marginTop: '20px' }}>
 //         <Grid item xs={12}>
@@ -267,8 +267,8 @@ function College() {
   };
 
   return (
-    
-      <div className='container1'>
+
+    <div className='container1'>
       <Grid container spacing={4}>
         <Grid item xs={12} className='image'>
           <div className='container101' data-aos="fade-down" data-aos-duration="1000" style={{
@@ -344,11 +344,6 @@ function College() {
               </>
             )}
 
-
-
-
-
-
           </div>
         ))}
       </div>
@@ -356,37 +351,53 @@ function College() {
         <h4>Important Note:</h4>
         The data displayed here is sourced from various external resources so the actual outcome may vary.
       </div>
-      
-      
+
+
       <Grid container spacing={2} sx={{ marginTop: '20px' }}>
         <Grid item xs={12}>
           <div className="reviewsec">
             <h1>Student Reviews</h1>
           </div>
-          {user && <Item><Button variant="contained" onClick={() => setReview(true)}>Add Review</Button></Item>}
-          {!user && <HtmlTooltip title="YOU NEED TO LOGIN TO ADD REVIEW" placement="top"><Item><Button variant="contained">Add Review</Button></Item></HtmlTooltip>}
-          {review &&
-            <ReviewComponent onSubmit={handleReviewSubmit} collegeId={collegeId} />}
+          {user && (
+            <Item>
+              <Button variant="contained" onClick={() => setReview(true)}>
+                Add Review
+              </Button>
+            </Item>
+          )}
+          {!user && (
+            <HtmlTooltip title="YOU NEED TO LOGIN TO ADD REVIEW" placement="top">
+              <Item>
+                <Button variant="contained">Add Review</Button>
+              </Item>
+            </HtmlTooltip>
+          )}
+          {review && <ReviewComponent onSubmit={handleReviewSubmit} collegeId={collegeId} />}
         </Grid>
         <Grid item xs={12}>
-          <Item className="container33">
-            <Typography variant="h6" className='review-heading'>Reviews</Typography>
+          {/* <Item className="container33"> */}
+            {/* <Typography variant="h6" className="review-heading">
+              Reviews
+            </Typography> */}
             {fetchedReviews?.length > 0 ? (
               fetchedReviews?.map((review, index) => (
-                <div key={index} className="review-item">
-                  <Typography variant="body2" className='review-author'>
+                <Item key={index} className="review-item">
+                  <Typography variant="body2" className="review-author">
                     <strong>{review.owner.name}</strong> says:
                   </Typography>
-                  <Typography variant="body1" className='review-text'>
+                  <Typography variant="body1" className="review-text">
                     {review.content}
                   </Typography>
-                </div>
+                </Item>
               ))
             ) : (
-              <Typography variant="body1">No reviews available for this college yet.</Typography>
+              <Typography variant="body1">
+                No reviews available for this college yet.
+              </Typography>
             )}
-          </Item>
+          {/* </Item> */}
         </Grid>
+
       </Grid>
     </div>
   );
