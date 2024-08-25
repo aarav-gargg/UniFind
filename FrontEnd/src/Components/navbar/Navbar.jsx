@@ -138,10 +138,10 @@ function Navbar() {
         </div>
 
         {/* Navigation Links */}
-        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><NavLink activeclassname="active" to="/Colleges">Colleges</NavLink></li>
-          <li><NavLink activeclassname="active" to="/CollegePredictor">College Predictor</NavLink></li>
-          <li><NavLink activeclassname="active" to="/OurTeam">Our Team</NavLink></li>
+        <ul className={`nav-links ${menuOpen ? 'open' : ''} ui-container`}>
+          <li><NavLink activeclassname="active" to="/Colleges" className="ui">Colleges</NavLink></li>
+          <li><NavLink activeclassname="active" to="/CollegePredictor" className="ui">College Predictor</NavLink></li>
+          <li><NavLink activeclassname="active" to="/OurTeam" className="ui">Our Team</NavLink></li>
         </ul>
 
         {/* Login/SignUp Button */}
@@ -155,6 +155,7 @@ function Navbar() {
             <>
               <Avatar onClick={() => setOpen(true)} src="/userProfile.avif" />
               <Menu
+              className="nav-menu"
                 id="demo-positioned-menu"
                 aria-labelledby="demo-positioned-button"
                 open={open}

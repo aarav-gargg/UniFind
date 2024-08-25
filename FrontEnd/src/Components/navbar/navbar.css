@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -7,6 +8,8 @@
     position: relative;
     z-index: 1000;
     width: 100%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
 }
 
 .logo-container {
@@ -14,12 +17,16 @@
     align-items: center;
     margin-left: 10px;
 }
-
+.nav-menu{
+    width: 30vw;
+    height: fit-content;
+}
 .logo-link {
     display: flex;
     align-items: center;
     color: black;
     text-decoration: none;
+    font-size: x-large;
 }
 
 .logo-link img {
@@ -37,16 +44,38 @@
     color: black;
     margin-right: 10px;
 }
+.ui-container{
+    display: flex;
+    gap:3vw;
+    list-style: none;
+    font-size: larger;
+    color:black
+}
 
 .nav-links {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
+.ui{
+    text-decoration: none;
+    color:black;
+    padding: 1vh;
+    border-radius: 30px;
+    transition: all ease-in-out .15s;
+}
 
+.ui:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.949);
+}
+
+.active{
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.949);
+}
 
 
 .ultraLeft {
@@ -74,21 +103,27 @@
 @media (max-width: 900px) {
     .hamburger {
         display: block;
+        z-index: 1100;
     }
 
     .nav-links {
         display: none;
     }
 
-    .nav-links .open {
+    .nav-links.open {
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: white;
+        font-weight:bolder;
+        /* background-color: rgba(255, 255, 255, 0.8); Slightly transparent background */
+        backdrop-filter: blur(10px); /* Apply blur effect */
         width: 100%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        padding: 10px; /* Optional: Add padding to avoid content touching edges */
+        border-radius: 8px; /* Optional: Rounded corners for a softer look */
     }
 
     .nav-links li {
