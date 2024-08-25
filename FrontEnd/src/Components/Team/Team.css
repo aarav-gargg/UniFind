@@ -25,6 +25,7 @@
 
 .team-swiper-wrapper {
   display: flex;
+  flex-direction: row;
 }
 
 .team-section-head-text {
@@ -154,3 +155,8 @@
       padding: 0 20px;
   }
 } */
+ @media (max-width : 1220px){
+  .team-swiper-wrapper{
+    flex-direction: column;
+  }
+ }

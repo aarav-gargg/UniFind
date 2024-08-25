@@ -32,18 +32,18 @@ const Team = () => {
                                                 Full Stack Developer
                                             </p>
                                             <p className="team-text-blk team-testimonial">
-                                            Aarav is a software developer and the creative mind behind UniFind. With expertise in web development and problem-solving.
+                                                Aarav is a software developer and the creative mind behind UniFind. With expertise in web development and problem-solving.
                                             </p>
                                         </div>
                                         <div className="team-icon-buttons">
                                             <IconButton>
-                                                <a href='https://www.linkedin.com/in/aarav-garg-5b1715273' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35}/></a>
+                                                <a href='https://www.linkedin.com/in/aarav-garg-5b1715273' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35} /></a>
                                             </IconButton>
-                                            <IconButton  aria-label="github">
-                                                <a href='https://github.com/aarav-gargg' target='_blank' rel="noreferrer"><FaGithub color='white' size={35}/></a>
+                                            <IconButton aria-label="github">
+                                                <a href='https://github.com/aarav-gargg' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} /></a>
                                             </IconButton>
-                                            <IconButton  aria-label="pdf">
-                                                <FaRegFilePdf  color='white' size={35}/>
+                                            <IconButton aria-label="pdf">
+                                                <FaRegFilePdf color='white' size={35} />
                                             </IconButton>
                                         </div>
                                     </div>
@@ -61,18 +61,18 @@ const Team = () => {
                                                 Full Stack Developer
                                             </p>
                                             <p className="team-text-blk team-testimonial">
-                                            Amitoj, a skilled software and web developer, excels in crafting robust digital solutions. With expertise in frontend and backend technologies.
+                                                Amitoj, a skilled software and web developer, excels in crafting robust digital solutions. With expertise in frontend and backend technologies.
                                             </p>
                                         </div>
                                         <div className="team-icon-buttons">
                                             <IconButton>
-                                                <a href='https://www.linkedin.com/in/amitoj-singh-51a058247' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35}/></a>
+                                                <a href='https://www.linkedin.com/in/amitoj-singh-51a058247' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35} /></a>
                                             </IconButton>
                                             <IconButton >
-                                                <a href='https://github.com/amitoj0605' target='_blank' rel="noreferrer"><FaGithub color='white' size={35}/></a>
+                                                <a href='https://github.com/amitoj0605' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} /></a>
                                             </IconButton>
                                             <IconButton aria-label="pdf">
-                                            <FaRegFilePdf  color='white' size={35}/>
+                                                <FaRegFilePdf color='white' size={35} />
                                             </IconButton>
                                         </div>
                                     </div>
@@ -90,17 +90,17 @@ const Team = () => {
                                                 Full Stack Developer
                                             </p>
                                             <p className="team-text-blk team-testimonial">
-                                            Chinmay is a skilled full-stack software developer and a integral part of UniFind.Currently he is pursuing B.tech in CSE.</p>
+                                                Chinmay is a skilled full-stack software developer and a integral part of UniFind.Currently he is pursuing B.tech in CSE.</p>
                                         </div>
                                         <div className="team-icon-buttons">
                                             <IconButton>
-                                                <a href='https://www.linkedin.com/in/chinmay-singh-4092b0253' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35}/></a>
+                                                <a href='https://www.linkedin.com/in/chinmay-singh-4092b0253' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35} /></a>
                                             </IconButton>
                                             <IconButton aria-label="github">
-                                                <a href='https://github.com/Chinmay67' target='_blank' rel="noreferrer"><FaGithub color='white' size={35}/></a>
+                                                <a href='https://github.com/Chinmay67' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} /></a>
                                             </IconButton>
-                                            <IconButton  aria-label="pdf">
-                                            <FaRegFilePdf  color='white' size={35}/>
+                                            <IconButton aria-label="pdf">
+                                                <FaRegFilePdf color='white' size={35} />
                                             </IconButton>
                                         </div>
                                     </div>
