@@ -103,4 +103,49 @@
 .button71{
   color: rgb(109, 128, 212);
 }
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 1.8em;
+  }
+
+  .content p {
+    font-size: 1em;
+  }
+
+  .circle {
+    padding: 15px;
+  }
+
+  .form {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h1 {
+    font-size: 1.5em;
+  }
+
+  .content p {
+    font-size: 0.9em;
+  }
+
+  .circle {
+    padding: 10px;
+  }
+
+  .form {
+    padding: 5px;
+  }
+
+  .courseSel, .quota, .gender, .domicile, .rank {
+    font-size: 0.9em;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1em;
+    padding: 12px;
+  }
+}
  

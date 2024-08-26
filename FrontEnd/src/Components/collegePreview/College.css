@@ -231,5 +231,57 @@ h3 {
   font-size: larger;
   font-weight: 900;
 }
+@media (max-width: 1200px) {
+  .headingTop {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .image {
+    height: 250px;
+  }
+
+  .headingTop {
+    font-size: 1.8rem;
+  }
+
+  .container101 {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headingTop {
+    font-size: 1.5rem;
+  }
+
+  .fee, .additional-info {
+    font-size: 0.9rem;
+  }
+
+  .card55 {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .headingTop {
+    font-size: 1.2rem;
+  }
+
+  .description, .fee, .additional-info {
+    font-size: 0.8rem;
+  }
+
+  .dashboard {
+    margin-top: 20px;
+  }
+
+  .card55 {
+    font-size: 0.7rem;
+  }
+}
 
 

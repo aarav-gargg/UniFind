@@ -16,7 +16,7 @@
 
 .collegeArticle {
     display: flex;
-    width: 75vw;
+    width: 70vw;
     height: 25vh;
     margin: 3vh;
     flex-direction: row;
@@ -59,4 +59,56 @@
     margin:8px;
     border: transparent;
 }
+@media (max-width: 768px) {
+    .collegeArticle {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  
+    .collegeArticleContent p {
+      display: none; /* Hide the description on tablets and phones */
+    }
+  
+    .collegeArticleContent h3 {
+      font-size: 1.2em; /* Adjust font size */
+    }
+  
+    .collegeArticleContent button {
+      width: 100%;
+      padding: 8px 0; /* Make button full width */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .CollgesList {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .collegeArticle {
+      max-width: 90%;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+  
+    .collegeArticleImg img {
+      height: 150px; /* Smaller image height for mobile */
+    }
+  
+    .collegeArticleContent {
+      padding: 10px;
+    }
+  
+    .collegeArticleContent h3 {
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+  
+    .collegeArticleContent button {
+      padding: 10px;
+      font-size: 1em;
+      width: 100%; /* Full width button */
+    }
+  }
 

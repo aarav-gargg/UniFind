@@ -117,7 +117,7 @@ function Navbar() {
   }
 
   return (
-    <header>
+    <header className="nav-header">
       <nav className="navigation">
         <div className="ultraLeft">
           {/* Hamburger Button */}
@@ -153,7 +153,7 @@ function Navbar() {
           )}
           {user && (
             <>
-              <Avatar onClick={() => setOpen(true)} src="/userProfile.avif" />
+              <Avatar onClick={() => setOpen(true)} src="/userProfile.avif" className="navbar-profile"/>
               <Menu
               className="nav-menu"
                 id="demo-positioned-menu"

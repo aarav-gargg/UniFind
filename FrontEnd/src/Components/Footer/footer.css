@@ -50,3 +50,38 @@
   .footer-section a{
     color:aqua;
   }
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+      padding: 15px 0;
+      flex-basis: 100%;
+    }
+  
+    .footer-bottom {
+      margin-top: 30px;
+    }
+  }
+  
+  /* For mobile devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .footer-section h3 {
+      font-size: 18px;
+    }
+  
+    .footer-section p, .footer-section ul {
+      font-size: 14px;
+    }
+  
+    .footer-bottom p {
+      font-size: 14px;
+    }
+  }

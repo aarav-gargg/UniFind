@@ -45,12 +45,13 @@
 
 .team-icon-buttons {
   display: flex;
-  margin: auto;
-  margin-top: 1.5vh;
+  margin: 1.5vh 3vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-card {
-  width: 340px;
+  width: 22vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,6 +95,10 @@
   font-size: 18px;
   line-height: 27px;
 }
+/* .team-iconButton{
+  gap: 10px;
+  padding: 10px;
+} */
 
 .team-outer-container {
   padding: 0 50px;
@@ -143,6 +148,9 @@
   position: relative;
   top: 0;
 }
+.text-txt-small{
+  display: none;
+}
 
 /* @media (max-width: 1024px) {
   .team-swiper-slide {
@@ -159,4 +167,69 @@
   .team-swiper-wrapper{
     flex-direction: column;
   }
+  .team-card{
+    width:60vw;
+  }
+  .team-img-wrapper {
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50% at 50% 50%);
+  }
  }
+ 
+ @media(max-width : 580px){
+  .team-testimonial{
+    display: none;
+  } 
+  .team-icon-buttons{
+    margin: 1.5vh 10px;
+  }
+  .text-txt-small {
+    display: block; /* Make visible on smaller screens */
+}
+ }
+
+ @media (max-width: 480px) {
+  .team-section-head-text {
+      font-size: 1.5em;
+  }
+
+  .team-section-subhead-text {
+      font-size: 0.9em;
+  }
+
+  .team-card {
+      padding: 5px;
+      flex-direction: column;
+  }
+
+  .team-img-wrapper img {
+      max-width: 80px;
+  }
+
+  .team-name {
+      font-size: 1em;
+  }
+
+  .team-position {
+      font-size: 0.8em;
+  }
+
+  .team-testimonial {
+      font-size: 0.7em;
+  }
+
+  /* Adjust Icon Buttons for Mobile */
+  .team-icon-buttons {
+      /* flex-direction: column; Stack buttons vertically */
+      align-items: center; /* Center buttons horizontally */
+      gap: 0px;
+      margin:1.5vh 0px;
+    /* Reduce space between buttons */
+  }
+  .team-icon-logo{
+    size: 20px;
+    height: 20px;
+    width:20px;
+  }
+}
