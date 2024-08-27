@@ -5,7 +5,7 @@
 // import data from './data.json'
 // import ReviewComponent from "../Review/ReviewComponent";
 // import { currentUserContext, reviewContext, userContext } from "../context";
-// import { fetchReviews } from "../../api/userService";
+
 
 // const Item = styled('div')(({ theme }) => ({
 //   padding: theme.spacing(2),
@@ -52,20 +52,7 @@
 //   // function reviewButton(){
 
 
-//   // useEffect(() => {
-//   //   const fetchReviews = async (collegeId) => {
-//   //     try {
-//   //       const response=await fetchReviews(collegeId)
-//   //       console.log(response)
 
-//   //     } catch (error) {
-//   //      console.log(error)
-//   //     }
-
-//   //     fetchReviews(collegeId)
-
-
-//   // },[])
 
 //   // }
 
@@ -177,25 +164,6 @@
 //           {newReview === true &&
 //             <ReviewComponent onSubmit={handleReviewSubmit} collegeId={collegeId} />}
 //         </Grid>
-//         <Grid item xs={12}>
-//           <Item className="container33">
-//             <Typography variant="h6" className='review-heading'>Reviews</Typography>
-//             {fetchedReviews.length > 0 ? (
-//               fetchedReviews.map((review, index) => (
-//                 <div key={index} className="review-item">
-//                   <Typography variant="body2" className='review-author'>
-//                     <strong>{review.owner}</strong> says:
-//                   </Typography>
-//                   <Typography variant="body1" className='review-text'>
-//                     {review.content}
-//                   </Typography>
-//                 </div>
-//               ))
-//             ) : (
-//               <Typography variant="body1">No reviews available for this college yet.</Typography>
-//             )}
-//           </Item>
-//         </Grid>
 //       </Grid>
 //     </div>
 //   );
@@ -234,7 +202,7 @@ function College() {
   const { collegeId } = useParams();
   const [user, setUser] = useContext(userContext);
   const [fetchedReviews, setFetchedReviews] = useState([]);
-  const [review, setReview] = useContext(reviewContext);
+  // const [review, setReview] = useContext(reviewContext);
 
   const [college, setCollege] = useState({});
   const [newReview, setNewReview] = useState(false);
@@ -246,6 +214,21 @@ function College() {
     };
     fetchCollegeDetails(collegeId);
   }, [collegeId]);
+
+    useEffect(() => {
+    const fetchCollegeReviews = async (collegeId) => {
+      try {
+        const response=await fetchReviews(collegeId)
+        console.log(response)
+        setFetchedReviews(response.data.data)
+        console.log(fetchedReviews)
+
+      } catch (error) {
+       console.log(error)
+      }
+    }
+    fetchCollegeReviews(collegeId)
+  },[])
 
   const handleReviewSubmit = (review) => {
     console.log('Review submitted:', review);
@@ -355,6 +338,25 @@ function College() {
           )}
         </Grid>
       </Grid>
+      <Grid item xs={12}>
+          <Item className="container33">
+            <Typography variant="h6" className='review-heading'>Reviews</Typography>
+            {fetchedReviews.length > 0 ? (
+              fetchedReviews.map((review, index) => (
+                <div key={index} className="review-item">
+                  <Typography variant="body2" className='review-author'>
+                    <strong>{review.owner.name}</strong> says:
+                  </Typography>
+                  <Typography variant="body1" className='review-text'>
+                    {review.content}
+                  </Typography>
+                </div>
+              ))
+            ) : (
+              <Typography variant="body1">No reviews available for this college yet.</Typography>
+            )}
+          </Item>
+        </Grid>
     </div>
   );
 }

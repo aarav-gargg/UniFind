@@ -111,10 +111,22 @@ const Carousel = () => {
       cards.removeEventListener('transitionend', handleTransitionEnd);
     };
   }, [position]);
+  useEffect(() => {
+    const handleResize = () => {
+      // Recalculate card width and set positions when the screen is resized
+      const cards = cardsRef.current;
+      const cardWidth = cards.querySelector('.card1').offsetWidth;
+      cards.style.width = `${cardWidth * cardData.length * 3}px`;
+      cards.style.transform = `translateX(-${position * cardWidth}px)`;
+    };
+  
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [position]);
 
   return (
     <div className="container2">
-      <IconButton style={{ height: "200px" }} onClick={slideLeft}><KeyboardDoubleArrowLeftIcon /></IconButton>
+      <IconButton style={{ height: "200px" }} onClick={slideLeft} className="side-carousel"><KeyboardDoubleArrowLeftIcon /></IconButton>
       <div className="card-wrapper">
         <div className="cards" ref={cardsRef}>
           {Array(3).fill(cardData).flat().map((card, index) => (
@@ -126,7 +138,7 @@ const Carousel = () => {
           ))}
         </div>
       </div>
-      <IconButton style={{ height: "200px" }} onClick={slideRight}><KeyboardDoubleArrowRightIcon /></IconButton>
+      <IconButton style={{ height: "200px" }} onClick={slideRight} className="side-carousel"><KeyboardDoubleArrowRightIcon /></IconButton>
     </div>
   );
 };

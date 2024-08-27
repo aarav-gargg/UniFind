@@ -46,7 +46,7 @@ const Team = () => {
                                                 <a href='https://github.com/aarav-gargg' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo'/></a>
                                             </IconButton>
                                             <IconButton>
-                                                <FaRegFilePdf color='white' size={35} className='team-icon-logo'/>
+                                            <a target='_blank' href="https://drive.google.com/file/d/1GejmHSw5fJBzwMAtOyRPw0E0PjsJ938A/view?usp=drive_link"><FaRegFilePdf color='white' size={35} className='team-icon-logo'/></a>
                                             </IconButton>
                                         </div>
                                     </div>
@@ -78,7 +78,7 @@ const Team = () => {
                                                 <a href='https://github.com/amitoj0605' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo'/></a>
                                             </IconButton>
                                             <IconButton aria-label="pdf">
-                                                <FaRegFilePdf color='white' size={35} className='team-icon-logo'/>
+                                                <a target='_blank' href="https://drive.google.com/file/d/1ZIftfysZCcI5tWZEc-ODw0xFONbQRmxv/view?usp=drivesdk"><FaRegFilePdf color='white' size={35} className='team-icon-logo'/></a>
                                             </IconButton>
                                         </div>
                                     </div>
@@ -109,7 +109,7 @@ const Team = () => {
                                                 <a href='https://github.com/Chinmay67' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                             <IconButton aria-label="pdf">
-                                                <FaRegFilePdf color='white' size={35} className='team-icon-logo'/>
+                                            <a target='_blank' href=""><FaRegFilePdf color='white' size={35} className='team-icon-logo'/></a>
                                             </IconButton>
                                         </div>
                                     </div>

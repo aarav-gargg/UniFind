@@ -95,3 +95,8 @@
 .my-7 {
     margin: 1.75rem 0; /* Equivalent to my-7 */
 }
+@media (max-width:480px){
+   .Login-Form{
+    width:70vw;
+   }
+  }

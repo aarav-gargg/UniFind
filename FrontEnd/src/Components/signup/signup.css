@@ -103,3 +103,18 @@
 .signup-login{
     color:grey;
 }
+
+@media (max-width:1000px){
+    .signup-left{
+        display: none;
+    }
+    .signup-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup-right{
+        width:70vw;
+    }
+  }
+    

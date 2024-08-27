@@ -70,3 +70,39 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+@media (max-width: 768px) {
+  .allotedHeading {
+      font-size: 1.5rem;
+  }
+
+  .modifyBtn {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+  }
+
+  .zeroLength {
+      font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .allotedHeading {
+      font-size: 1.25rem;
+      margin: 15px 0;
+  }
+
+  .modifyBtn {
+      padding: 6px 10px;
+      font-size: 0.8rem;
+  }
+
+  .zeroLength {
+      font-size: 1.1rem;
+  }
+
+  .collegeDisplay {
+      grid-template-columns: 1fr;
+      gap: 15px;
+      padding: 0 10px;
+  }
+}
