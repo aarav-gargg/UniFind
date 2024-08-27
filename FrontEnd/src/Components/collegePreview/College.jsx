@@ -202,14 +202,14 @@
 // }
 
 // export default College;
+import React, { useContext, useEffect, useState } from "react";
 import { Button, Grid, styled, Typography, Tooltip, tooltipClasses } from "@mui/material";
-import './College.css';
 import { useParams } from "react-router-dom";
-import { useContext, useEffect, useState } from "react";
 import data from './data.json';
 import ReviewComponent from "../Review/ReviewComponent";
 import { currentUserContext, reviewContext, userContext } from "../context";
-import { fetchReviews } from "../../api/userService"; // Import your fetchReviews function
+import { fetchReviews } from "../../api/userService";
+import './College.css';
 
 const Item = styled('div')(({ theme }) => ({
   padding: theme.spacing(2),
@@ -232,42 +232,27 @@ const HtmlTooltip = styled(({ className, ...props }) => (
 
 function College() {
   const { collegeId } = useParams();
-  const [user] = useContext(userContext);
+  const [user, setUser] = useContext(userContext);
   const [fetchedReviews, setFetchedReviews] = useState([]);
-  const [newReview] = useContext(reviewContext);
-  const [college, setCollege] = useState({});
   const [review, setReview] = useContext(reviewContext);
 
-  // Fetch college details on mount
+  const [college, setCollege] = useState({});
+  const [newReview, setNewReview] = useState(false);
+
   useEffect(() => {
     const fetchCollegeDetails = (id) => {
       const response = data.find(obj => obj.id === id);
       setCollege(response);
-      console.log(response);
     };
     fetchCollegeDetails(collegeId);
   }, [collegeId]);
 
-  // Fetch reviews on mount and when a new review is added
-  useEffect(() => {
-    const fetchReviewsData = async () => {
-      try {
-        const response = await fetchReviews(collegeId);
-        setFetchedReviews(response.data.data); // Assuming the API response contains a `reviews` field
-      } catch (error) {
-        console.error("Failed to fetch reviews:", error);
-      }
-    };
-    fetchReviewsData();
-  }, [collegeId, newReview]); // Run this effect whenever collegeId or newReview changes
-
   const handleReviewSubmit = (review) => {
     console.log('Review submitted:', review);
-    // Here, you can send the review data to your backend or handle it as needed
+    // Handle review submission
   };
 
   return (
-
     <div className='container1'>
       <Grid container spacing={4}>
         <Grid item xs={12} className='image'>
@@ -290,7 +275,8 @@ function College() {
         <Grid item xs={6}>
           <Typography variant="h6" className='fee'>
             <h4>College Fees For complete B.tech</h4>
-            {college.fees}</Typography>
+            {college.fees}
+          </Typography>
         </Grid>
 
         <Grid item xs={6}>
@@ -307,7 +293,8 @@ function College() {
               <Grid item xs={4}>
                 <Item>
                   <h4>Highest Package</h4>
-                  {college.Highest}</Item>
+                  {college.Highest}
+                </Item>
               </Grid>
               <Grid item xs={4}>
                 <Item><h4>Average Package</h4> {college.Average}</Item>
@@ -322,7 +309,7 @@ function College() {
 
       <div className="dashboard">
         {[
-          { title: "NIRF RANKING", amount: `${college.ranking}`, },
+          { title: "NIRF RANKING", amount: `${college.ranking}` },
           { title: "HOSTEL", amount: `${college.Hostel}`, unit: "USD" },
           { title: "ESTABLISHED", amount: `${college.Established}`, unit: "USD" },
           { title: "WEBSITE", amount: "click here", unit: "TASKS" },
@@ -333,75 +320,45 @@ function College() {
             {card.title === "WEBSITE" ? (
               <>
                 <h2>{card.title}</h2>
-
-                <a href={college.websiteUrl} target="_blank"> <var >{card.amount}</var></a>
+                <a href={college.websiteUrl} target="_blank" rel="noopener noreferrer">
+                  <var>{card.amount}</var>
+                </a>
               </>
             ) : (
               <>
                 <h2>{card.title}</h2>
-
                 <var>{card.amount}</var>
               </>
             )}
-
           </div>
         ))}
       </div>
+
       <div className="alert">
         <h4>Important Note:</h4>
         The data displayed here is sourced from various external resources so the actual outcome may vary.
       </div>
-
 
       <Grid container spacing={2} sx={{ marginTop: '20px' }}>
         <Grid item xs={12}>
           <div className="reviewsec">
             <h1>Student Reviews</h1>
           </div>
-          {user && (
-            <Item>
-              <Button variant="contained" onClick={() => setReview(true)}>
-                Add Review
-              </Button>
-            </Item>
-          )}
+          {user && <Item><Button variant="contained" onClick={() => setNewReview(!newReview)}>Add Review</Button></Item>}
           {!user && (
             <HtmlTooltip title="YOU NEED TO LOGIN TO ADD REVIEW" placement="top">
-              <Item>
-                <Button variant="contained">Add Review</Button>
-              </Item>
+              <Item><Button variant="contained">Add Review</Button></Item>
             </HtmlTooltip>
           )}
-          {review && <ReviewComponent onSubmit={handleReviewSubmit} collegeId={collegeId} />}
+          {newReview && (
+            <ReviewComponent onSubmit={handleReviewSubmit} collegeId={collegeId} />
+          )}
         </Grid>
-        <Grid item xs={12}>
-          {/* <Item className="container33"> */}
-            {/* <Typography variant="h6" className="review-heading">
-              Reviews
-            </Typography> */}
-            {fetchedReviews?.length > 0 ? (
-              fetchedReviews?.map((review, index) => (
-                <Item key={index} className="review-item">
-                  <Typography variant="body2" className="review-author">
-                    <strong>{review.owner.name}</strong> says:
-                  </Typography>
-                  <Typography variant="body1" className="review-text">
-                    {review.content}
-                  </Typography>
-                </Item>
-              ))
-            ) : (
-              <Typography variant="body1">
-                No reviews available for this college yet.
-              </Typography>
-            )}
-          {/* </Item> */}
-        </Grid>
-
       </Grid>
     </div>
   );
 }
 
 export default College;
+
 

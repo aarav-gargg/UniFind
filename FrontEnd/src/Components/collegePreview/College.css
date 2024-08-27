@@ -61,10 +61,10 @@ h3 {
 
 .dashboard {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 180px);
-  gap: 3vw;
+  display: grid; 
+   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 180px); 
+   gap: 3vw;
   margin: 5vh 0;
 }
 
@@ -104,7 +104,7 @@ h3 {
   margin-bottom: 16px;
 }
 
-.card55 var {
+ .card55 var {
   font-style: normal;
   font-size: 38px;
 }
@@ -169,8 +169,8 @@ h3 {
   color: white;
   filter: brightness(1.15);
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 .fee,
 .additional-info {
@@ -280,7 +280,230 @@ h3 {
   }
 
   .card55 {
+    font-size: 0.5rem;
+  }
+}
+:root {
+  --color-bg: linear-gradient(60deg, #b9fff5d1, #ffffff, #bffeff);
+  --color-text: #000000;
+  --gradient: linear-gradient(45deg, #64e9d3, #10cfaf, #aafcf6);
+  --revgradient: linear-gradient(45deg, #b6c2e5, #d2e7ff, #97c1ff);
+  --hover-scale: 1.05;
+  --transition-duration: 0.3s;
+}
+
+.container101 {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "poppins", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container101::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-text);
+}
+
+.headingTop {
+  font-size: 3.1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container1 {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  max-height: fit-content;
+}
+
+h2, h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.dashboard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 180px);
+  gap: 3vw;
+  margin: 5vh 0;
+}
+
+@media (min-width: 620px) {
+  .dashboard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card55 {
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--color-bg);
+  transition: transform var(--transition-duration) ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card55:hover {
+  transform: scale(var(--hover-scale));
+}
+
+.card55 h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.card55 var {
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card55.primary {
+  background: var(--gradient);
+}
+
+.description {
+  border: 2px solid black;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.fee, .additional-info {
+  height: auto;
+  padding: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bolder;
+}
+
+.container33 {
+  background: var(--revgradient);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.reviewsec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.reviewsec button {
+  background: var(--gradient);
+  padding: 10px;
+  height: 40px;
+  border: 4px solid rgb(0, 47, 50);
+  border-radius: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: transform var(--transition-duration) ease;
+}
+
+.alert {
+  background-color: rgb(74, 178, 155);
+  border-radius: 20px;
+  padding: 5vh;
+  margin: 5vh auto;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+  font-size: larger;
+  font-weight: 900;
+}
+
+@media (max-width: 1200px) {
+  .headingTop {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .image {
+    height: 250px;
+  }
+
+  .headingTop {
+    font-size: 2rem;
+  }
+
+  .container101 {
+    height: 200px;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .card55 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .headingTop {
+    font-size: 1.5rem;
+  }
+
+  .fee, .additional-info {
+    font-size: 0.9rem;
+  }
+
+  .card55 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headingTop {
+    font-size: 1.2rem;
+  }
+
+  .description, .fee, .additional-info {
+    font-size: 0.8rem;
+  }
+
+  .dashboard {
+    margin-top: 20px;
+  }
+
+  .card55 {
     font-size: 0.7rem;
+  }
+
+  .alert {
+    padding: 10px;
+    font-size: medium;
   }
 }
 
