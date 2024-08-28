@@ -5,9 +5,17 @@ import { ipuPredictor } from './controller/predictor.controller.js';
 import mongoose from "mongoose"
 import cookieParser from "cookie-parser"
 
-dotenv.config({
-  path: '../../.env',
-});
+// dotenv.config({
+//   path: '../../.env',
+// });
+
+process.env.NODE_ENV = process.env.NODE_ENV || 'production';
+
+if (process.env.NODE_ENV !== 'production') {
+  import('dotenv').then((dotenv) => dotenv.config({
+    path: '../../.env',
+  }));
+}
 
 const mongo = process.env.MONGO_URL;
 
