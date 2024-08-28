@@ -182,13 +182,13 @@ h3 {
 .review-item{
   background: var(--revgradient);
   margin:10px;
+  padding:10px;
+  border-radius: 30px;
 }
 .review-heading {
   padding: 16px;
 }
-.container33{
-  background: var(--revgradient);
-}
+
 .reviewsec{
   display: flex;
   align-items: center;
@@ -391,7 +391,6 @@ h2, h3 {
 }
 
 .container33 {
-  background: var(--revgradient);
   padding: 20px;
   border-radius: 8px;
 }
