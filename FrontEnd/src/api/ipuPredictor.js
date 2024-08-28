@@ -5,7 +5,7 @@ export const predictorIpu = async (formData) => {
         const resp=await axios.post('/api/ipu-predictor',formData);
         return resp.data;
     } catch (error) {
-        console.log(error);
+       return error;
         
     }
 }

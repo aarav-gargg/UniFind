@@ -53,19 +53,19 @@ function College() {
     const fetchCollegeReviews = async (collegeId) => {
       try {
         const response = await fetchReviews(collegeId)
-        console.log(response)
+        // console.log(response)
         setFetchedReviews(response.data.data)
-        console.log(fetchedReviews)
+        // console.log(fetchedReviews)
 
       } catch (error) {
-        console.log(error)
+        console.log(error);
       }
     }
     fetchCollegeReviews(collegeId)
   }, [])
 
   const handleReviewSubmit = (review) => {
-    console.log('Review submitted:', review);
+    // console.log('Review submitted:', review);
     // Handle review submission
   };
 

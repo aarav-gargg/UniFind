@@ -17,7 +17,7 @@ function ReviewComponent({ onSubmit, collegeId }) {
     const fetchReviews = async (collegeId) => {
       try {
         const response=await fetchReviews(collegeId)
-        console.log(response)
+        // console.log(response)
        
       } catch (error) {
        console.log(error)
@@ -31,7 +31,7 @@ function ReviewComponent({ onSubmit, collegeId }) {
       if (rating && content) {
         const reviewData = { rating, content, collegeId }
         const response = await addReview(reviewData);
-        console.log(response)
+        // console.log(response)
       }
 
       if (Object.keys(errors).length > 0) {

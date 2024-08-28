@@ -28,7 +28,7 @@ export const AddNewReview = asyncHandler(async (req, res) => {
 export const fecthReview = asyncHandler(async (req, res) => {
     try {
         const { collegeId } = req.body;
-        console.log(" fetch reviews apis hit ")
+        // console.log(" fetch reviews apis hit ")
         const reviews = await reviewModel.find({ collegeId: collegeId })
         .populate("owner","name");
         res.status(200).json(

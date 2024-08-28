@@ -103,7 +103,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    console.log('User or user details changed', user, currentUser);
+    // console.log('User or user details changed', user, currentUser);
   }, [user, currentUser]);
 
   async function logout() {

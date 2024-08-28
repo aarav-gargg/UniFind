@@ -6,7 +6,7 @@ import { readJson } from "../utils/fileReader.js";
 
 const ipuPredictor = async (req, res) => {
     try {
-        console.log(req.body)
+        // console.log(req.body)
         const { state, rank, category, gender } = req.body;
         if (!state || !rank || !category || !gender) {
           throw new apiError(400, "please enter all required details");
@@ -29,10 +29,10 @@ const ipuPredictor = async (req, res) => {
             rank <= college.closingRank
         );
 
-        console.log('Matching Colleges:', matchingColleges); // Log the matching colleges
+        // console.log('Matching Colleges:', matchingColleges); // Log the matching colleges
         res.json(matchingColleges); // Respond with the matching colleges
     } catch (err) {
-        console.error('Error in ipuPredictor:', err);
+        // console.error('Error in ipuPredictor:', err);
         res.status(500).send('Error processing request');
     }
 };

@@ -49,9 +49,9 @@ export const addReview=async(reviewData)=>{
 
 export const fetchReviews=async(collegeId)=>{
     try {
-        console.log(collegeId)
+        // console.log(collegeId)
         const response = await axios.post("/auth/collegeReview",{collegeId});
-        console.log(response)
+        // console.log(response)
         return response;
     } catch (error) {
         return error;

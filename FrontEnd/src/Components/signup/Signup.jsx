@@ -20,10 +20,10 @@ function Signup() {
             e.preventDefault();
             try {
                 const resp = await signUpUser(SignupData);
-                console.log(resp);
+                // console.log(resp);
                 if (resp.status == 201) {
                     const respo = await loginUser(SignupData.email, SignupData.password);
-                    console.log(respo);
+                    // console.log(respo);
                     if (respo.status == 201) {
                         setUser(true);
                         setCurrentUser(respo.data.data);

@@ -23,7 +23,7 @@ export const postLogin = asyncHandler(async (req, res) => {
                 res.status(201)
                     .cookie("token", token, options)
                     .json(new apiResponse(201, loggedInUser, "User fetched successfully"));
-                console.log(res);
+                // console.log(res);
             } else {
                 res.status(404).json({
                     message:"INCORRECT PASSWORD PLEASE TRY AGAIN"

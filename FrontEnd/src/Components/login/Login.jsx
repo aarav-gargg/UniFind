@@ -14,7 +14,7 @@ function Login() {
         e.preventDefault();
         try {
             const resp= await loginUser(email,password);
-            console.log(resp);
+            // console.log(resp);
             if(resp.status==201){
                 alert("YOU'VE BEEN LOGGED IN");
                 navigate('/');

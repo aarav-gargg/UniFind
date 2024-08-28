@@ -44,7 +44,7 @@ function App() {
     const fetchUser=async()=>{
      try {
        const response=await checkUserStatus();
-       console.log(response);
+      //  console.log(response);
        if(response.statusCode==200){
         setUser(true);
         setCurrentUser(response.data);
