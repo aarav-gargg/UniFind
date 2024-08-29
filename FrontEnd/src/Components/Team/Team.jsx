@@ -35,18 +35,18 @@ const Team = () => {
                                                 Aarav is a software developer and the creative mind behind UniFind. With expertise in web development and problem-solving.
                                             </p>
                                             <p className="text-txt-small">
-                                            Aarav is a software developer and the creative mind behind UniFind.
+                                                Aarav is a software developer and the creative mind behind UniFind.
                                             </p>
                                         </div>
                                         <div className="team-icon-buttons">
                                             <IconButton >
-                                                <a href='https://www.linkedin.com/in/aarav-garg-5b1715273' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35} className='team-icon-logo'/></a>
+                                                <a href='https://www.linkedin.com/in/aarav-garg-5b1715273' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                             <IconButton >
-                                                <a href='https://github.com/aarav-gargg' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo'/></a>
+                                                <a href='https://github.com/aarav-gargg' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                             <IconButton>
-                                            <a target='_blank' href="https://drive.google.com/file/d/1GejmHSw5fJBzwMAtOyRPw0E0PjsJ938A/view?usp=drive_link"><FaRegFilePdf color='white' size={35} className='team-icon-logo'/></a>
+                                                <a target='_blank' href="https://drive.google.com/file/d/1GejmHSw5fJBzwMAtOyRPw0E0PjsJ938A/view?usp=drive_link"><FaRegFilePdf color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                         </div>
                                     </div>
@@ -67,18 +67,18 @@ const Team = () => {
                                                 Amitoj, a skilled software and web developer, excels in crafting robust digital solutions. With expertise in frontend and backend technologies.
                                             </p>
                                             <p className="text-txt-small">
-                                            Amitoj, a skilled software and web developer, excels in crafting robust digital solutions.
+                                                Amitoj, a skilled software and web developer, excels in crafting robust digital solutions.
                                             </p>
                                         </div>
                                         <div className="team-icon-buttons">
                                             <IconButton>
-                                                <a href='https://www.linkedin.com/in/amitoj-singh-51a058247' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35} className='team-icon-logo'/></a>
+                                                <a href='https://www.linkedin.com/in/amitoj-singh-51a058247' target='_blank' rel="noreferrer"><FaLinkedin color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                             <IconButton >
-                                                <a href='https://github.com/amitoj0605' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo'/></a>
+                                                <a href='https://github.com/amitoj0605' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                             <IconButton aria-label="pdf">
-                                                <a target='_blank' href="https://drive.google.com/file/d/1ZIftfysZCcI5tWZEc-ODw0xFONbQRmxv/view?usp=drivesdk"><FaRegFilePdf color='white' size={35} className='team-icon-logo'/></a>
+                                                <a target='_blank' href="https://drive.google.com/file/d/1ZIftfysZCcI5tWZEc-ODw0xFONbQRmxv/view?usp=drivesdk"><FaRegFilePdf color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                         </div>
                                     </div>
@@ -86,7 +86,10 @@ const Team = () => {
                                 <div className="team-swiper-slide">
                                     <div className="team-card team-c-color" data-aos="zoom-in" data-aos-duration="1000">
                                         <div className="team-img-wrapper">
-                                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw42.png" alt="Chinmay Singh" />
+                                            <img
+                                                src="./chinmay.jpeg"
+                                                alt="Chinmay Singh"
+                                            />
                                         </div>
                                         <div className="team-card-content">
                                             <p className="team-text-blk team-name">
@@ -97,9 +100,9 @@ const Team = () => {
                                             </p>
                                             <p className="team-text-blk team-testimonial">
                                                 Chinmay is a skilled full-stack software developer and a integral part of UniFind.Currently he is pursuing B.tech in CSE.</p>
-                                                <p className="text-txt-small"> 
+                                            <p className="text-txt-small">
                                                 Chinmay is a skilled full-stack software developer and a integral part of UniFind.
-                                                </p>
+                                            </p>
                                         </div>
                                         <div className="team-icon-buttons">
                                             <IconButton>
@@ -109,7 +112,7 @@ const Team = () => {
                                                 <a href='https://github.com/Chinmay67' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                             <IconButton aria-label="pdf">
-                                            <a target='_blank' href=""><FaRegFilePdf color='white' size={35} className='team-icon-logo'/></a>
+                                                <a target='_blank' href=""><FaRegFilePdf color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                         </div>
                                     </div>
