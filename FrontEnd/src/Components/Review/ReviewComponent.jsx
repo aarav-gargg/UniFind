@@ -47,7 +47,7 @@ function ReviewComponent({ onSubmit, collegeId }) {
       setRating(0);
       setContent("")
       setNewReview(true)
-      window.location.reload()
+      // window.location.reload()
     } catch (error) {
       alert(error);
     }
