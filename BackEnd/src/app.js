@@ -10,8 +10,8 @@ const app = express();
 app.use(cookieParser());
 // Set up CORS before defining routes
 app.use(cors({
-    origin: process.env.CORS_ORIGIN , // Default to '*' if CORS_ORIGIN is not set
-    credentials: true
+    origin: process.env.CORS_ORIGIN || '*' , // Default to '*' if CORS_ORIGIN is not set
+    credentials: true,
 }));
 
 // Parse incoming requests with JSON payloads

@@ -16,7 +16,10 @@ export const postLogin = asyncHandler(async (req, res) => {
                 const token = jwt.sign({ uid }, process.env.SECRET_KEY, { expiresIn: process.env.EXPIRY });
                 
                 const options = {
-                    httpOnly: true
+                    httpOnly: true,
+                    secure: process.env.NODE_ENV === 'production',
+                    sameSite: 'None',
+                    maxAge: 24 * 60 * 60 * 1000,
                 };
 
                 const loggedInUser = await userModel.findById(uid).select("-password");
