@@ -18,7 +18,7 @@ We are a team of passionate developers dedicated to crafting exceptional web app
           <p>Chinmay Singh: <a href="mailto:singh.chinmay345@gmail.com">singh.chinmay345@gmail.com</a></p>
         </div>
         <div className="footer-section">
-          <h3>LinedIn Handles</h3>
+          <h3>LinkedIn Handles</h3>
           <ul>
             <li><a href='https://www.linkedin.com/in/aarav-garg-5b1715273' target="_blank" rel="noopener noreferrer">Aarav Garg</a></li>
             <li><a href='https://www.linkedin.com/in/chinmay-singh-4092b0253' target="_blank" rel="noopener noreferrer">Chinmay Singh</a></li>
