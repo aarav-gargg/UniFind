@@ -1,6 +1,5 @@
 import React from 'react';
-import './footer.css'; // Import the CSS file for styling
-
+import './footer.css'; 
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>About Us</h3>
           <p>
-We are a team of passionate developers dedicated to crafting exceptional web applications that push the boundaries of innovation.</p>
+            We are a team of passionate developers dedicated to crafting exceptional web applications that push the boundaries of innovation.</p>
         </div>
         <div className="footer-section">
           <h3>Contact</h3>
