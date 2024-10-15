@@ -46,7 +46,7 @@ const Team = () => {
                                                 <a href='https://github.com/aarav-gargg' target='_blank' rel="noreferrer"><FaGithub color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                             <IconButton>
-                                                <a target='_blank' href="https://drive.google.com/file/d/1Aoy2Y_LyzZxHiRINOWbPtSP609X8MYtY/view?usp=sharing"><FaRegFilePdf color='white' size={35} className='team-icon-logo' /></a>
+                                                <a target='_blank' href="hhttps://drive.google.com/file/d/1Rh0-zsCskZkg1ILe-xAiqWMiG8GuZjeG/view?usp=sharing"><FaRegFilePdf color='white' size={35} className='team-icon-logo' /></a>
                                             </IconButton>
                                         </div>
                                     </div>
