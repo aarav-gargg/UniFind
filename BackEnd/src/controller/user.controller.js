@@ -76,7 +76,6 @@ export const getCurrentUser=asyncHandler(async(req,res)=>{
     }
 })
 
-
 export const logoutUser=asyncHandler(async(req,res)=>{
     try{
         
@@ -89,6 +88,16 @@ export const logoutUser=asyncHandler(async(req,res)=>{
         .json(new apiResponse(200,{},"User logged out"))
     }
     catch(error){
+        throw new apiError(500,"error logging out user")
+    }
+})
+
+export const hitApi = asyncHandler(async(req,res) => {
+    try {
+        return res.status(200).json({
+            message: "API HIT",
+        })
+    } catch (error) {
         throw new apiError(500,"error logging out user")
     }
 })

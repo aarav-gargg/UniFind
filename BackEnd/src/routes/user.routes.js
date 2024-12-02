@@ -1,5 +1,5 @@
 import express from "express"
-import {getCurrentUser, logoutUser, postLogin , postSignup} from "../controller/user.controller.js"
+import {getCurrentUser, hitApi, logoutUser, postLogin , postSignup} from "../controller/user.controller.js"
 import { verifyJWT } from "../middleware/auth.middleware.js";
 import { AddNewReview  , fecthReview} from "../controller/reviewController.js";
 
@@ -23,6 +23,9 @@ userRouter.route('/review/new-review')
 
 userRouter.route("/collegeReview")
 .post(fecthReview);
+
+userRouter.route("/api")
+.get(hitApi)
 
 
 
